@@ -1,0 +1,127 @@
+.HA-content {
+    flex: 1;
+    z-index: 1; /* Ensure the content is above the background image */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; /* White text for readability on the image */
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%); /* Center the content horizontally */
+  }
+  
+  .HA-paragraph1, .HA-nav-heading{
+    width: 100%;
+    max-width: 490px; /* Adjust as needed for your layout */
+   text-align: left;
+   margin-top: -10px; /* Remove top margin to align with heading */
+  
+  }
+  .HA-nav-heading {
+
+    color:   #FFFAFA;
+font-size: 66px;
+font-family: Poppins;
+font-weight: 700;
+line-height: 83px;
+word-wrap: break-word
+  
+  }
+  .HA-paragraph1{
+    color: #FEFEFF; /* Ensure paragraph text color matches heading */
+    margin-top: 30px; /* Remove top margin to align with heading */
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+  }
+  .HCA-grid{
+    margin-top: -100px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .HA-overlay-content {
+    position: relative;
+  padding: 20px;
+  z-index: 1; /* Ensures the content is above the background image */
+  bottom: 160px;
+
+  }
+  .HA-heading3, .HA-paragraph2, .HA-paragraph3 {
+    margin: 0 0 20px 0; /* Adjust margin to control spacing */
+  }
+  .HA-heading-part11, .HA-heading-part22 {
+    display: block;
+  }
+  
+  .HA-heading-part11 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .HA-heading-part22 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  .HA-heading3 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  
+  
+  }
+  .HA-heading-part11 {
+    color: #070707; /* First color */
+    font-weight: 700;
+  }
+  
+  .HA-heading-part22 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+  }
+  .HA-paragraph2{
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .HA-paragraph3{
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 5px 0;
+    font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   
+  }
+  .HA-image-container2{
+    width: 100vw;
+    position: relative;
+    padding-top: 170px; /* Adjust this value to increase the space at the top */
+margin-left: 20px;  }
+  .HA-my-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image stays in the background */
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+   .HA-image-container2{
+    margin-left: 200px;
+   }
+    
+    }

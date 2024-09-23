@@ -1,0 +1,266 @@
+/* .P-content {
+    flex: 1;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  
+  .P-paragraph1, .P-nav-heading {
+    width: 100%;
+    max-width: 490px;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .P-nav-heading {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word
+  }
+  
+  .P-paragraph1 {
+    color:   #FEFEFF;
+    margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space:nowrap;
+  } */
+  .P-image-container2{
+    width: 100vw;
+    height: 140vh;
+    position: relative;
+    padding-top: 170px; /* Adjust this value to increase the space at the top */
+    margin-bottom: -290px;
+    margin-top: 50px;
+  }
+  .P-my-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image stays in the background */
+  }.P-overlay-content {
+    position: relative;
+  padding: 20px;
+  z-index: 1; /* Ensures the content is above the background image */
+  bottom: 15vh;
+  text-align: center;
+  
+  }
+  .P-heading3 {
+    margin: 0 0 20px 0; /* Adjust margin to control spacing */
+    font-size: 3em; /* Adjust the font size as needed */
+    display: inline-block; /* Keep the heading inline */
+    white-space: nowrap; /* Prevent line break */
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 55px;
+    word-wrap: break-word
+  }
+  .P-heading-part11, .P-heading-part22 {
+    display: inline; /* Ensure the spans are inline */
+  }
+  
+  .P-heading-part11 {
+    color: #070707;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  
+  .P-heading-part22 {
+    color: #2a4ef0;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .pricing-section {
+    max-width: 985px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+/*   
+  .toggle-buttons {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 1px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  bottom: 20vh;
+  }
+  
+  .toggle-btn {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  .toggle-btn.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+   */
+  .pricing-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    position: relative;
+    bottom: 15vh;
+  }
+  
+  .pricing-card {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    text-align: left;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+    background-color: #007bff;
+    color: white;
+  }
+  .pricing-card:hover ul li {
+    color: white;
+}
+  .featured h2, .featured h3, .featured p, .featured ul, .featured button {
+    color: white;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: #fff;
+    color: #007bff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  
+  .pricing-card h2 {
+    margin-top: 0;
+    font-size: 2em;
+    margin-bottom: 40px;
+   color: #231D4F;
+font-size: 36px;
+font-family: Avenir;
+font-weight: 900;
+line-height: 46px;
+word-wrap: break-word
+  }
+  
+  .pricing-card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color:#231D4F;
+font-size: 28px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  
+  .pricing-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    color:#848199;
+font-size: 15px;
+font-family: Avenir, sans-serif;
+font-weight: 500;
+word-wrap: break-word
+  }
+  
+  .pricing-card ul li {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .pricing-card ul li::before {
+    content: "✔";
+    width: 30.35px;
+    height: 30.35px;
+    background: rgba(82, 67, 194, 0.10);
+    position: absolute;
+    left:0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5243C2; /* The color of the tick mark */
+    border-radius: 50px; /* Makes the container circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  /* Hover effect on the pricing card */
+.pricing-card:hover ul li::before {
+  background: white; /* White fill on hover */
+  color: #0d0d0d; /* Primary blue for the tick mark on hover */
+}
+  
+  .choose-btn {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .choose-btn.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .choose-btn:hover {
+    background-color: #ffffff;
+    color: #007bff;
+    border-color: white; /* White border on hover */
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .P-image-container2{
+      margin-bottom: 3px
+    }
+  }
+  
+  

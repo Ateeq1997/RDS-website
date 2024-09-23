@@ -1,0 +1,20 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-park-solid:market-analysis">
+<g id="Mask group">
+<mask id="mask0_11_178" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="1" y="5" width="43" height="35">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M41.25 10.3125C41.25 9.56658 40.9537 8.85121 40.4262 8.32376C39.8988 7.79632 39.1834 7.5 38.4375 7.5H6.5625C5.81658 7.5 5.10121 7.79632 4.57376 8.32376C4.04632 8.85121 3.75 9.56658 3.75 10.3125V18.75H41.25V10.3125Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3.85547 36.5906L15.2705 25.0594L21.4392 30.9656L28.9786 24.375L33.1786 28.47" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M41.25 16.875V34.6875C41.25 35.4334 40.9537 36.1488 40.4262 36.6762C39.8988 37.2037 39.1834 37.5 38.4375 37.5H11.25" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M17.9179 13.125H34.7929M10.416 13.125H12.291" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M3.75 16.875V25.3125" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_11_178)">
+<path id="Vector_6" d="M0 0H45V45H0V0Z" fill="white"/>
+</g>
+</g>
+</g>
+</svg>

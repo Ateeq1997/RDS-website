@@ -1,0 +1,270 @@
+html, body {
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-y: auto; /* Only scroll vertically if necessary */
+}
+.D-content {
+    flex: 1;
+     z-index: 1;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     position: absolute;
+     top: 22%;
+     left: 20%;
+     transform: translateX(-50%);
+   }
+   
+   .D-nav-heading,
+   .D-paragraph1{
+     width: 100%;
+     max-width: 490px;
+     text-align: left;
+     margin-top: 10px;
+   }
+   
+   .D-nav-heading {
+     color: #FFFAFA;
+     font-size: 66px;
+     font-family: Poppins;
+     font-weight: 700;
+     line-height: 83px;
+     word-wrap: break-word
+   }
+   
+   .D-paragraph1{
+     color:     #FEFEFF;
+     margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+   }
+   
+   .D-heading44 {
+     margin-bottom: 10px;
+     text-align: center;
+     position: relative;
+     top: 10vh;
+     white-space: nowrap;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+word-wrap: break-word
+   }
+   .D-heading-part11, .D-heading-part22 {
+   
+     white-space: nowrap;
+   }
+   
+   .D-heading-part11 {
+     color: #070707;
+     font-weight: 700;
+     white-space: nowrap;
+   }
+   
+   .D-heading-part22 {
+     color: #2a4ef0;
+     font-weight: 700;
+   
+   }
+   .D-overlay-content1 {
+    position: relative; /* Ensure this container is positioned for absolute children */
+ /* margin-bottom: 150px;  */
+ bottom: 60px;
+  }
+  
+   .D-my-image1{
+    width: 70vw; /* Use viewport width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 300%; /* Position image relative to the container */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the image */
+    border: 0px solid #FEFEFF; /* Ensure the border is visible, adjust color if needed */
+   }
+   .D-heading44 {
+     margin-bottom: 10px;
+     text-align: center;
+     position: relative;
+     top: 10vh;
+     white-space: nowrap;
+   }
+   .D-image-container2{
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: hidden; 
+    top: 570px;
+    margin-bottom: 10px;
+
+  
+   }
+   .D-my-image2{
+     margin-top: 0px;
+     Width:100VW;
+   Height:auto;
+   Border:1px;
+   }
+   .D-heading335 {
+     margin-bottom: 10px;
+     text-align: left;
+     position: relative;
+     bottom: 1040px;
+    left: 300px;
+    white-space: nowrap;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+     
+   }
+   
+   .heading-part110 {
+     color: #070707;
+     font-weight: 700;
+     white-space: nowrap;
+   }
+   
+   .heading-part220 {
+     color: #2a4ef0;
+     font-weight: 700;
+   
+   }
+
+.D-overlay-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 0 30px;
+    pointer-events: auto; /* Ensure pointer-events are enabled for interactive content */
+}
+.D-ellipse-line-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 640px;
+    left: -420px;
+}
+
+.D-small-line {
+    height: 400px;
+    stroke: #076AFF;
+    stroke-width: 3px;
+}
+
+.D-ellipse {
+    width: 25px;
+    height: 25px;
+    margin: 17px 0px;
+    background-color: #076AFF;
+    border-radius: 50%;
+    position: relative;
+    bottom: 386px;
+}
+
+.D-text-container {
+  margin-left: 30px;
+  padding-top: 10px;
+  text-align: left;
+  position: relative;
+    bottom: 640px;
+    left: -970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+}
+
+.D-bullet-point {
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    margin: 16px 0px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.D-primary-button-2 {
+  background-color: #ffffff; /* Button background color */
+  color: #076AFF; /* Text color */
+  font-size: 16px; /* Font size */
+  padding: 13px 35px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 15px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease; /* Smooth transition for changes */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for button */
+  border: 2px #076AFF solid;
+  position: absolute;
+  top: 330px;
+  left: -40px;
+  transform: scale(1); /* Initial scale */
+}
+
+.D-primary-button-2:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #ffffff; /* White text on hover */
+  animation: expand-shrink-jump 0.5s ease-in-out; /* Apply animation on hover */
+  transform-origin: center; /* Ensure the transform happens from the center */
+}
+
+@keyframes expand-shrink-jump {
+  0% {
+      transform: scale(1); /* Initial size */
+  }
+  30% {
+      transform: scaleX(1.3) scaleY(1.3); /* Expand width, shrink height */
+  }
+  50% {
+      transform: scaleX(0.8) scaleY(0.8); /* Shrink width, expand height */
+  }
+  80% {
+      transform: scale(1.1) translateY(-5px); /* Jump effect */
+  }
+  100% {
+      transform: scale(1); /* Return to normal size */
+  }
+}
+/* .Btn-custom1:hover {
+     background-color: #fff;
+     color:#007bff ;
+   } */
+   .D-my-image3{
+     width: 380px;
+     height: 380px;
+     position: relative;
+     bottom:350px;
+     left: 800px;
+   }
+   
+   @media (min-width: 1440px) and (max-width: 1910px) {
+    .D-overlay-content{
+      margin-bottom: 90;
+    }
+    .D-heading335{
+      margin-top: 150px;
+      margin-left: -70px;
+    }
+    .D-ellipse-line-container{
+      margin-left: 400px;
+      margin-top: 100px;
+    }
+    .D-bullet-point{
+    position:relative ;
+left: 390px;
+top: 90px;
+  }
+  .D-primary-button-2{
+margin-left: 400px;
+margin-top: 80px;
+  }
+  .D-my-image3{
+    margin-left: 240px;
+    margin-top: 80px;
+  }
+  }

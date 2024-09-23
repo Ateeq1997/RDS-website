@@ -1,0 +1,411 @@
+.OB-content {
+    flex: 1;
+     z-index: 1;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     position: absolute;
+     top: 22%;
+     left: 20%;
+     transform: translateX(-50%);
+   }
+   
+   .OB-nav-heading,
+   .OB-paragraph1{
+     width: 100%;
+     max-width: 100vw;
+     text-align: left;
+     margin-top: 10px;
+   }
+   
+   .OB-nav-heading {
+     color: #FFFAFA;
+     font-size: 66px;
+     font-family: Poppins;
+     font-weight: 700;
+     line-height: 83px;
+     word-wrap: break-word
+   }
+   
+   .OB-paragraph1{
+     color:  #FEFEFF;
+     margin-top: 30px;  
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+   }
+   
+   .OB-overlay-content {
+     position: relative;
+   padding: 20px;
+   z-index: 1; /* Ensures the content is above the background image */
+   
+   
+   }
+   .OB-heading3, .OB-paragraph2, .OB-paragraph3 {
+     margin: 0 0 20px 0; /* Adjust margin to control spacing */
+   }
+   .OB-heading-part11, .OB-heading-part22 {
+     display: block;
+   }
+   
+   .OB-heading-part11 {
+     color: #070707;
+     font-weight: 700;
+   }
+   
+   .OB-heading-part22 {
+     color: #2a4ef0;
+     font-weight: 700;
+   }
+   .OB-heading3 {
+     margin-bottom: 10px; /* Add space between heading and containers */
+     text-align: center;
+   
+   
+   }
+   .OB-paragraph2{
+     font-size: 18px; /* Adjust as needed */
+     color: #666;
+     font-weight: 400;
+     margin: 25px 0;
+   }
+   .OB-paragraph3{
+     font-size: 18px; /* Adjust as needed */
+     color: #666;
+     font-weight: 400;
+     margin: 5px 0;
+    
+   }
+   .OB-image-container2 {
+     display: flex;
+     position: relative;
+     width: 100vw;
+   
+     height: 86vh;
+     overflow: hidden;
+   
+   }
+   
+   .OB-my-image1 {
+     position: absolute;
+     top: 3px;
+     left: 0px;
+     display: flex;
+     width: 100vw;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+     /* margin-top: 0px; */
+     border-radius: 8px;
+   }
+   
+   .OB-overlay-content1 {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 30px;
+    
+   }
+   
+   .OB-heading4 {
+     margin-bottom: 10px;
+     text-align: left;
+     position: relative;
+   top: 15vh;
+     left: 47%; 
+     display: inline-block;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+white-space: normal;
+
+   }
+   .OB-heading-part22 {
+    color: #007bff; /* Replace with your primary color */
+    position: relative;
+    left: 75px;
+    bottom: 52px;
+}
+   
+   .OB-paragraph201 {
+     color: rgba(0, 0, 0, 0.60);
+     text-align: left;
+     top: 31vh;
+     right: 440px;
+     position: relative;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   
+   .OB-dp-image {
+     width: 26%;
+     height: 42vh;
+     position: relative;
+     right: 25vw;
+    bottom: 12vh;
+   }
+   .OB-heading44 {
+     margin-bottom: 10px;
+     text-align: left;
+     position: relative;
+     left: 140px;
+     top: 60px;
+     font-size: 48px;
+     font-family: Outfit;
+     font-weight: 700;
+     line-height: 55px;
+     word-wrap: break-word;
+     white-space: nowrap;
+     display: inline-block;
+   }
+   .OB-heading-part222 {
+    color: #007bff; /* Replace with your primary color */
+    
+}
+   .OB-paragraph2014 {
+     color:  rgba(0, 0, 0, 0.60);
+     text-align: left;
+     top: 7vh;
+     left: 240px;
+     white-space: nowrap;
+     position: relative;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   .OB-paragraph-more {
+    color:  rgba(0, 0, 0, 0.60);
+    text-align: left;
+    top: 7vh;
+    left: 240px;
+    white-space: nowrap;
+    position: relative;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+   
+   .OB-dp-image1 {
+     width: 26%;
+     height: 42vh;
+     position: absolute;
+     left: 56vw;
+    top: 100px;
+   }
+   .OB-button {
+    position: relative; /* Ensure the button is positioned within its parent */
+    z-index: 10; /* Bring the button above other elements */
+    text-align: center; /* Align the buttons to the center if needed */
+    margin-top: 20px; /* Space between the button and content */
+  }
+   .OB-read-more-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: -580px;
+    margin-top: 370px;
+  }
+
+  /* Style for the "Show Less" button */
+  .OB-show-less-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-left: -570px;
+    margin-top: 660px;
+  }
+
+  /* Add animation to the buttons */
+.animated-btn {
+  transition: all 0.3s ease;
+}
+
+/* Hover effect with keyframes */
+.animated-btn:hover {
+  animation: expand-shrink-jump 0.6s ease forwards;
+}
+
+/* Keyframe animation for expanding, shrinking, and jumping */
+@keyframes expand-shrink-jump {
+  0% {
+    transform: scale(1); /* Initial size */
+  }
+  30% {
+    transform: scaleX(1.3) scaleY(1.3); /* Expand width, shrink height */
+  }
+  50% {
+    transform: scaleX(0.8) scaleY(0.8); /* Shrink width, expand height */
+  }
+  80% {
+    transform: scale(1.1) translateY(-5px); /* Jump effect and expand */
+  }
+  100% {
+    transform: scale(1); /* Return to normal size */
+  }
+}
+
+/* Apply the animation to both button styles */
+.OB-read-more-button.animated-btn,
+.OB-show-less-button.animated-btn {
+  /* Ensure these buttons get animated on hover */
+  background: linear-gradient(270deg, #eff1f5 0%, #f2f4f6 100%);
+  color: #007bff;
+  border: #007bff 2px solid;
+  width: 160px;
+}
+.OB-read-more-button.animated-btn:hover,
+.OB-show-less-button.animated-btn:hover {
+  background: linear-gradient(270deg, #007bff 0%, #007bff 100%);
+  color:white ; /* Text color on hover */
+}
+   .OB-overlay-content11 {
+    position: relative;
+    padding: 20px;
+    text-align: center; /* Center-align text inside this container */
+    z-index: 1; /* Ensures the content is above the background image */
+   }
+   
+   
+   .OB-heading34 {
+    font-size: 48px;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: 1.4; /* Adjust line height for spacing */
+    margin: 0; /* Remove default margins */
+    display: block; /* Ensure the heading takes up a block level space */
+   }
+   .OB-heading-part2222 {
+    display: block; /* Ensures this part appears on a new line */
+    color: #007bff; /* Replace with your primary color */
+    font-size: 48px; /* Adjust size if needed */
+    font-family: Outfit; /* Ensure consistent font family */
+    font-weight: 700; /* Ensure consistent font weight */
+}
+.OB-heading-part11 {
+  display: block; /* Ensures this part spans the full width */
+  color: black; /* Black color for the first part */
+  margin-bottom: 0.5rem; /* Space between the two lines */
+}
+   .OB-paragraph23{
+     color: #101010;
+     margin: 25px 0;
+     text-align: center;
+     margin-left: 40px;
+     position: relative;
+     font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+word-wrap: break-word
+    
+   }
+   .OB-paragraph231{
+     color:  rgba(0, 0, 0, 0.60);
+     margin: 25px 0;
+     text-align: center;
+     margin-left: 40px;
+     position: relative;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+margin-bottom: 20vh;
+    
+   }
+   .OB-container-wrapper2 {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px; /* Adjust spacing as needed */
+     margin: 50px auto; /* Center the container wrapper */
+     max-width: 1920px; /* Adjust max width as needed */
+     position: relative;
+     bottom: 5vh;
+     padding-left: 80px;
+   
+   }
+   
+   .OB-container-item2 {
+     width: calc(50% - 90px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+   margin-left: 40px;
+     border-radius: 7px;
+     background-color: #EDF1FD;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   }
+   
+   .OB-checkbox-container2 {
+     flex-shrink: 0;
+     width: 31.667px;
+     height: 31.667px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .OB-checkbox-icon {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .OB-content-container2 p {
+     margin-left: 40px;
+     margin-top: 10px;
+     text-align: left;
+     font-size: 18px;
+     color: rgba(0, 0, 0, 0.60);
+     font-size: 16px;
+     font-family: Poppins;
+     font-weight: 400;
+     word-wrap: break-word
+   }
+   @media (min-width: 1440px) and (max-width: 1910px) {
+    .OB-paragraph201{
+      margin-right: -195px;
+    }
+    .OB-dp-image{
+      margin-top: -30px;
+    }
+    .OB-paragraph2014{
+      margin-left: -45px;
+      margin-top: 30px;
+    }
+    .OB-overlay-content1{
+      margin-top: 50px;
+    }
+    .OB-image-container2{
+      height: 105vh;
+    }
+    .OB-heading44{
+      margin-left: -30px;
+    }
+    .OB-dp-image1{
+      width:440px;
+      height: auto;
+      margin-left: 100px;
+      margin-top: 20px;
+
+    }
+    .OB-paragraph-more{
+      margin-left: -47px;
+    }
+  }
+ 

@@ -1,0 +1,384 @@
+.CA-content {
+    flex: 1;
+     z-index: 1;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     position: absolute;
+     top: 22%;
+     left: 20%;
+     transform: translateX(-50%);
+   }
+   
+   .CA-nav-heading,
+   .CA-paragraph1{
+     width: 100%;
+     max-width: 490px;
+     text-align: left;
+     margin-top: 10px;
+   }
+   
+   .CA-nav-heading {
+     color: #FFFAFA;
+     font-size: 66px;
+     font-family: Poppins;
+     font-weight: 700;
+     line-height: 83px;
+     word-wrap: break-word
+   }
+   
+   .CA-paragraph1{
+     color:  #FEFEFF;
+     margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+   }
+   
+   .CA-heading44 {
+     margin-bottom: 10px;
+     display: flex;
+     text-align: left;
+     position: relative;
+     left: 12vw;
+     top: 12vh;
+     white-space: nowrap;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+word-wrap: break-word
+   }
+   
+   .CA-paragraph2014 {
+     color: rgba(0, 0, 0, 0.60);
+     text-align: left;
+     line-height: 1.5;
+     top: 14vh;
+     left: 235px;
+     white-space: nowrap;
+     position: relative;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   
+   .CA-dp-image1 {
+     width: 26%;
+     height: 43vh;
+     position: relative;
+     left: 26vw;
+   bottom: 26vh;
+   }
+   .CA-button{
+     width: 100%; /* Adjust as needed */
+     text-align: center; /* Center the button */
+   }
+   .CA-cta-button {
+     margin-top: 20px;
+     box-sizing: content-box; /* Ensures width does not include padding/border */
+     height: 50px;
+     width: 180px;
+     background-color: #4896FF;
+     color: #ffffff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer; /* Pointer cursor */
+     transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for smooth animation */
+     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+     position: relative;
+     right: 34vw;
+     top: 12vh;
+   }
+   
+   .CA-cta-button:hover {
+    background: linear-gradient(270deg, #e1e4e8 0%, #eef0f3 100%); /* Change gradient on hover */
+    animation: expand-shrink-jump 0.9s ease forwards; /* Apply animation */
+  color: #096BD9;
+  border: #096BD9 2px solid;
+    }
+    @keyframes expand-shrink-jump {
+      0% {
+          transform: scale(1); /* Initial size */
+      }
+      30% {
+          transform: scaleX(1.3) scaleY(1.3); /* Expand width, shrink height */
+      }
+      50% {
+          transform: scaleX(0.8) scaleY(0.8); /* Shrink width, expand height */
+      }
+      80% {
+          transform: scale(1.1) translateY(-5px); /* Jump effect and expand */
+      }
+      100% {
+          transform: scale(1); /* Return to normal size */
+      }
+    }
+  
+    .CA-cta-button {
+      animation: pulse 2s infinite; /* Button will pulse */
+    }
+   .CA-heading-part11, .CA-heading-part22 {
+     display: block;
+     white-space: nowrap;
+   }
+   
+   .CA-heading-part11 {
+     color: #070707;
+     font-weight: 700;
+     white-space: nowrap;
+   }
+   
+   .CA-heading-part22 {
+     color: #2a4ef0;
+     font-weight: 700;
+     margin-top: 55px;
+     margin-left: -320px;
+   }
+   
+   .CA-image-container2 {
+     display: flex;
+     position: relative;
+     width: 100vw;
+     height: 70vh;
+     overflow: hidden;
+   bottom: 20vh;
+   }
+   
+   .CA-my-image1 {
+     position: absolute;
+     top: 3px;
+     left: 0px;
+     display: flex;
+     width: 100vw;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+     /* margin-top: 0px; */
+     border-radius: 8px;
+   }
+   
+   .CA-overlay-content1 {
+     position: relative;
+   padding: 20px;
+   white-space: nowrap;
+   z-index: 1; /* Ensures the content is above the background image */
+   }
+   
+   .CA-heading4 {
+     margin-bottom: 10px; /* Add space between heading and containers */
+     text-align: left;
+     display: block;
+     white-space: nowrap;
+     margin-left: 35px;
+     position: relative;
+     left: 47vw;
+     top: 10vh;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+   
+   }
+   .CA-heading-part221{
+    margin-left: 0px;
+    color: #2a4ef0;
+    font-weight: 700;
+   }
+   .CA-paragraph201{
+     color: rgba(0, 0, 0, 0.60);
+     margin: 25px 0;
+     text-align: left;
+     margin-left: 40px;
+     position: relative;
+     left: 47vw;
+     top: 10vh;  
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+    
+   }
+   .CA-dp-image2 {
+     width: 26%;
+     height: 43vh;
+     position: relative;
+   right: 24vw;
+   top: 12vh;
+   }
+   
+   .CA-gradient-container {
+     position: relative;
+     width: 100vw;
+     height: 60vh; /* Adjust this to the size you need */
+     background: linear-gradient(to right, rgba(0, 47, 108, 1), rgba(8, 89, 149, 0.8), rgba(3, 92, 181, 0.804), rgb(42, 126, 236));
+     display: flex;
+     /* justify-content: center; */
+     /* align-items: center; */
+     overflow: hidden;
+     margin-bottom: 10px;
+     margin-top: -190px;
+   }
+   .CA-container-wrapper {
+     position: relative;
+     width: 100vw;
+     max-width: 1200px; /* Adjust as needed */
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 0;
+     z-index: 2; /* Ensure it's above the background image */
+   }
+   
+   .CA-container-heading {
+     color: white;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 55px;
+     word-wrap: break-word;
+     margin-top:7vh;
+     position: relative;
+     left: 8VW;
+     font-family: Outfit;
+word-wrap: break-word
+   }
+   
+   .CA-gradient-container img.CA-background-image {
+     position: absolute;
+     top: 0;
+     left: 0px;
+     width: 100vw;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+   }
+   
+   .CA-gradient-container::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0px;
+     width: 100vw;
+     height: 100%;
+     background: inherit;
+     z-index: 1;
+   }
+   .CA-container-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px; /* Adjust spacing as needed */
+     margin: 50px auto; /* Center the container wrapper */
+     max-width: 1920px; /* Adjust max width as needed */
+     position: relative;
+   
+   }
+   
+   .CA-container-item {
+     width: calc(33.33% - 20px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+     border-radius: 7px;
+     background-color: #ffffff;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   }
+   .CA-container-item1 {
+     width: calc(42% - 20px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+     border-radius: 7px;
+     background-color: #ffffff;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   position: relative;
+   left: 9vw;
+   }
+   .CA-checkbox-container {
+     flex-shrink: 0;
+     width: 31.667px;
+     height: 31.667px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   /* .CA-checkbox-icon {
+     width: 100%;
+     height: 100%;
+   } */
+   
+   .CA-content-container1 p {
+     margin-left: 40px;
+     margin-top: 10px;
+     text-align: left;
+     font-size: 16px;
+     color: rgba(0, 0, 0, 0.60); /* Text color */ 
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   .CA-text-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 100vw;
+     height: 750px; /* Adjust the height as needed */
+     background-color: #fff; /* Light grey background */
+     margin: 0 auto; /* Center the container */
+     margin-bottom: 0px;
+     margin-top: -50px;
+   }
+   
+   .CA-text-heading {
+     color: black;
+     margin: 40px ; /* Margin for spacing */
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+margin-top: -50px;
+   }
+   
+   .CA-text-paragraph {
+     color: rgba(0, 0, 0, 0.60);
+     margin: 10px 0; /* Margin for spacing */
+     max-width: 80%; /* Optional: limit the width of the paragraph */
+     font-size: 18px;
+     font-family: Poppins;
+     font-weight: 400;
+     word-wrap: break-word
+    }
+   .CA-footer{
+     margin-top: 20vh;
+   }
+   @media (min-width: 1440px) and (max-width: 1910px) {
+    .CA-paragraph2014{
+      margin-left: -45px;
+    }
+    .CA-dp-image1{
+      margin-top: -40px;
+    }
+    .CA-overlay-content1{
+      /* margin-left: -50px; */
+    }
+    .CA-dp-image2{
+      margin-left: -120px;
+      margin-top: 20px;
+    }
+    .CA-heading4{
+      margin-left: -10px;
+    }
+    .CA-paragraph201{
+      margin-left: -10px;
+    }
+  }

@@ -1,0 +1,355 @@
+.PM2-content {
+    flex: 1;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  
+  .PM2-paragraph1, .PM2-nav-heading {
+    width: 100%;
+    max-width: 490px;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .PM2-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word;
+  }
+  
+  .PM2-paragraph1 {
+    color:   #FEFEFF;
+    margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  
+  .PM2-grid-container {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px; /* Adjusted gap for spacing between containers */
+    /* margin: 70px 0 40px 70px; /* Adjusted margins for spacing around the grid */
+    /* justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Space around container */
+  }
+  
+  .PM2-icon-container1 {
+    /* position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;*/
+    /* width: 340px;
+    height: 225px;  */
+    flex-shrink: 0; 
+    justify-content: space-between;
+    border: 1px solid #cec6c6;
+    border-radius: 8px;
+    background-color: #fff; 
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.11);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center;
+    max-width: 250px; /* Limit width to maintain layout */
+    padding: 10px;
+  }
+  
+  .PM2-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .PM2-heading {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: black;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+word-wrap: break-word
+  }
+  
+  .PM2-icon-container:hover .PM2-heading {
+    color: #fbfbfb;
+  }
+  
+  .PM2-text {
+    color:  rgba(0, 0, 0, 0.60);
+    margin: 0;
+    padding-top: 5px;
+    text-align: left;
+    max-width: 100%;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+margin-left: 8px;
+word-wrap: break-word
+  }
+  
+  .PM2-icon-container1:hover {
+    background-color: #3498db;
+    border-color: #2980b9;
+    transform: scale(1.05);
+  }
+  /* On hover: change heading and text to white */
+.PM2-icon-container1:hover .PM2-heading,
+.PM2-icon-container1:hover .PM2-text {
+  color: white;
+  transition: color 0.3s ease; /* Ensure the transition is smooth */
+}
+
+/* Optional: Add a hover effect on the container itself */
+.PM2-icon-container1:hover {
+  background-color: #3498db; /* Optionally change the background color on hover */
+}
+  .PM2-icon-container:hover .PM2-text {
+    color: #f9fafc;
+  }
+  
+  .PM2-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 20px;
+    text-align: center;
+    background-color: #EAF1FD;
+    /* position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px; */
+    overflow: hidden; 
+  }
+  
+  .PM2-overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the start (left) */
+    max-width: 60%;
+    color: #000;
+    text-align: left;
+    z-index: 2;
+padding-top: 40px;
+    margin-left: 600px; /* Adjust as needed */
+  }
+  
+  .PM2-heading44 {
+  
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .PM2-heading4 {
+    font-size: 2.6em; /* Increased font size for better visibility */
+    margin-bottom: 10px;
+  }
+  
+  .PM2-heading-part111 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .PM2-heading-part222 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  
+  .PM2-paragraph21 {
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 15px 0;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word
+   
+  }
+  
+  .PM2-paragraph3 {
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    margin: 25px 0;
+  }
+  
+  .PM2-image-container2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    top: 3vh;
+    height: 90vh;
+    overflow: hidden;
+  }
+  .PM2-dp-image1 {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+    z-index: 1;
+    position: relative; /* Allows positioning adjustments */
+    top: -340px; /* Move the image up by 20px, adjust as needed */
+    left:-350px
+    /* Alternatively, you could use margin-top */
+    /* margin-top: -20px; */
+}
+  .container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing as needed */
+    margin: 0 auto; 
+    max-width: 1920px;
+    justify-content: center; /* Center content horizontally */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+    margin-top: -200px;
+  }
+  
+  .container-item {
+    width: calc(30% - 30px); 
+    height: 67px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #ffffff; 
+    white-space: nowrap;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15); 
+    padding: 0 15px; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+  }
+  .container-item:hover {
+    background-color: #076AFF; /* Background color on hover */
+    color: white; /* Text color on hover */
+  }
+  
+  .container-item:hover .checkbox-container svg {
+    fill: white; /* Change SVG fill color to white on hover */
+  }
+  .checkbox-container svg {
+    transition: fill 0.3s; /* Smooth transition for SVG fill color */
+  }
+  .container-item:hover .content-container1 p {
+    color: white; /* Text color on hover */
+  }
+  
+  .checkbox-container {
+    flex-shrink: 0;
+    width: 31.667px;
+    height: 31.667px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Space between checkbox and content */
+  }
+  
+  .checkbox-icon {
+    width: 100%;
+    height: 100%;
+  }
+  .content-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left; /* Center content vertically */
+  }
+  .container-item img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+  }
+  .content-container1 p {
+    margin-left: 0px;
+    margin-top: 10px;
+    text-align: left;
+    color:   rgba(0, 0, 0, 0.60); /* Text color */
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .PM2-text-container11 {
+    background-color: #ffffff;
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    border-radius: 8px;
+    overflow: visible;
+    
+  }
+  
+  .PM2-overlay-content1 {
+    position: relative;
+    top: 8vh;
+    left: 19vw;
+    color: #000;
+    max-width: 60%;
+    text-align: center;
+    z-index: 2;
+   
+  }
+  
+  .PM2-heading4 {
+    margin: 0;
+    text-align: center;
+    color: black;
+font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+
+  .PM2-heading-part111 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .PM2-heading-part222 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  
+  .PM2-paragraph21 {
+    font-size: 18px;
+    color:   rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .PM2-text-container11{
+     margin-bottom: 30px;
+    }
+     
+     }

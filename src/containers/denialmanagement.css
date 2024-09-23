@@ -1,0 +1,343 @@
+.DM-content {
+    flex: 1;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  
+  .DM-nav-heading,
+  .DM-paragraph1 {
+    width: 100%;
+    max-width: 490px;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .DM-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word
+  }
+  
+  .DM-paragraph1 {
+    color:  #FEFEFF;
+    margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+  }
+  
+  .DM-text-container111 {
+    max-width: 60%;
+    text-align: left;
+    position: relative;
+    top: 23vh;
+  }
+  
+  .DM-heading451 {
+    line-height: 55px;
+    position: relative;
+    bottom: 100px;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+word-wrap: break-word;
+left:13vw
+
+  }
+  
+  .DM-content-paragraph12 {
+    position: relative;
+    bottom: 80px;
+    left: 255px;
+    color: black;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+/*   
+  .DM-learn-more-container112 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    white-space: nowrap;
+  }
+  
+  .DM-learn-more-text112 {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+font-family: Anek Telugu;
+font-weight: 600;
+    position: relative;
+    bottom: 90px;
+    left: 255px;
+  }
+  
+  .DM-arrow112 {
+    margin-left: 10px;
+    color: #007bff;
+    font-size: 20px;
+    position: relative;
+    bottom: 90px;
+    left: 250px;
+  } */
+  
+  .DM-image-container2 {
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    bottom: 200px;
+    overflow: hidden;
+  }
+  
+  .DM-my-image1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 8px;
+  }
+  
+  .DM-overlay-content1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    left: 660px;
+    bottom: 90px;
+  }
+  
+  .DM-heading4 {
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+    left: 340px;
+    white-space: nowrap;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .DM-paragraph201 {
+    font-size: 18px;
+    white-space: nowrap;
+    color: #666;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.5;
+    right: 330px;
+    top: 50px;
+    position: relative;
+    color: black;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+  }
+  
+  .DM-dp-image {
+    width: 28vw;
+    height: 47vh;
+    position: relative;
+    right: 1950px;
+    top: 110px;
+  }
+  
+  .DM-heading-part111 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .DM-heading-part222 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  
+  .DM-dp-image112 {
+    width: 26vw;
+    height: auto;
+    position: relative;
+    left: 1200px;
+    bottom: 520px;
+  }
+  .arrow-paragraphs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 960px;
+    top: 180px;
+    white-space: nowrap;
+  }
+  
+  .arrow-item {
+    display: flex;
+    align-items: flex-start; /* Align items vertically at the start */
+    margin-bottom: 5px; /* Space between paragraphs */
+  }
+  
+  .DM-arrow1 {
+    width: 20px;
+    height: 14px;
+    font-size: 30px;
+    color: #007bff;
+    position: relative;
+    left: 140px;
+  
+  }
+  
+  .paragraph-text {
+    margin: 10px; /* Remove default margin */
+    line-height: 1.5; /* Line height for readability */
+    color: black;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+position: relative;
+left: 160px;
+  }
+  
+  .DM-overlay-content13 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    left: 700px;
+    bottom: 60px;
+  }
+  
+  .DM-heading43 {
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    white-space: nowrap;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .DM-paragraph2013 {
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    right: 1340px;
+    top: 50px;
+    position: relative;
+    color: black;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  
+  .DM-heading42 {
+    margin-bottom: 10px;
+    text-align: left;
+    position: absolute;
+  margin-left: -800px;
+   top: -460px;
+    font-size: 48px;
+font-family: Poppins;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  
+  } 
+  .DM-dp-image123{
+    width: 90vw;
+    position: absolute;
+    right: 70px;
+    height: 70vh;
+    margin-top: -60px;
+  } 
+  .background-container {
+    position: relative;
+    width: 100vw;
+    height: 110vh;
+    overflow: hidden;
+  margin-bottom:80px;
+  
+  }
+  
+  .DM-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130vh;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); Adjust the color and transparency */
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: white; /* Text color */
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .DM-content-paragraph12{
+      margin-left: -50px
+    }
+    .DM-dp-image112{
+      margin-left: -180px;
+      margin-top: 40px;
+    }
+    .DM-overlay-content1{
+      margin-left: -230px;
+    }
+    .DM-dp-image{
+      margin-left: 180px;
+    }
+    .DM-heading43{
+      margin-left: -170px;
+    }
+    .DM-paragraph2013{
+      margin-right: -200px;
+    }
+    .DM-heading42{
+      margin-top: 90px;
+      margin-left: -670px;
+    }
+  }

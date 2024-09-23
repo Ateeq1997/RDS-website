@@ -1,0 +1,145 @@
+.SP-content {
+    flex: 1;
+     z-index: 1;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     position: absolute;
+     top: 22%;
+     left: 20%;
+     transform: translateX(-50%);
+   }
+   
+   .SP-nav-heading,
+   .SP-paragraph1{
+     width: 100vw;
+     max-width: 490px;
+     text-align: left;
+     margin-top: 10px;
+   }
+   
+   .SP-nav-heading {
+     font-size: 48px;
+     font-weight: 700;
+     color: #ffffff;
+     font-family: Poppins;
+   }
+   
+   .SP-paragraph1{
+      color: white;
+   font-size: 18px;
+   font-family: Poppins;
+   font-weight: 400;
+   white-space: nowrap;
+
+   }
+   
+.SP-heading44 {
+font-size: 48px;
+display: flex; /* or use flex */
+    text-align: center;
+    font-family: Poppins;
+    white-space: nowrap;
+    margin-bottom: 50px;
+    position: relative;
+    left: 780px;
+
+  }
+  .heading-part11, .heading-part22 {
+    white-space: nowrap;
+  }
+  
+  .heading-part11 {
+    color: #070707;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  
+  .heading-part22 {
+    color: #2a4ef0;
+    font-weight: 700;
+    margin-left:10px;
+  
+  }
+  .SP-paragraph2{
+   color: rgba(0, 0, 0, 0.90);
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+/* specialities.css */
+.SP-main-container {
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 1;
+  max-width: 300px;
+  margin: 10px;
+}
+.col-2 {
+  flex: 1;
+  max-width: 620px;
+  margin: 10px;
+}
+.service-card-link {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure text color matches parent element */
+}
+
+.service-card-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from links */
+  border-radius: 25px;
+  color: inherit; /* Inherit color from parent */
+  box-shadow: 10px 10px 10px #c5c0c0;
+  background-color: #f9f9f9; /* Optional: Adjust background color if needed */
+}
+.icon {
+  font-size: 45px;
+  color: #007bff; /* Primary blue color */
+  margin: 10px;
+  padding-right: 10px;
+}
+
+h4 {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+.service-card-border:hover {
+  background-color: #4091e8; /* Primary blue color on hover */
+  text-decoration: none;
+  transform: scale(1.13); /* Slight zoom effect */
+}
+.service-card-border:hover .icon {
+  color: #ffffff; /* Icon color on hover */
+  text-decoration: none;
+}
+.service-card-border h4 {
+  font-weight: bold;
+  margin: 20px;
+  color: black; /* Ensure the text color is black */
+}
+  @media (min-width: 1440px) and (max-width: 1910px) {
+  .SP-heading44{
+    margin-left: -190px;
+  }
+} 

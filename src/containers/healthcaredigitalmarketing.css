@@ -1,0 +1,350 @@
+
+
+/* Wrapper for the whole page */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.HDM-content {
+    flex: 1;
+    z-index: 1; /* Ensure the content is above the background image */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; /* White text for readability on the image */
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translateX(-50%); /* Center the content horizontally */
+  }
+
+  
+  .HDM-paragraph1, .HDM-nav-heading{
+    width: 100%;
+    max-width: 490px; /* Adjust as needed for your layout */
+   text-align: left;
+   margin-top: 100px; /* Remove top margin to align with heading */
+  
+  }
+  .HDM-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word;
+    white-space: nowrap;
+  
+  }
+  .HDM-paragraph1{
+    color:   #FEFEFF; /* Ensure paragraph text color matches heading */
+    margin-top: 40px; /* Remove top margin to align with heading */
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    white-space: nowrap;
+   
+  }
+  .HDM-main-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the heading, grid, and button horizontally */
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: 30px;
+  padding-top: 0;
+    /* position: relative; */
+    /* bottom: 130vh; */
+  
+  } 
+  .HDM-heading2 {
+    text-align: center; /* Center the heading text */
+    justify-content: center;
+    margin-bottom: 50px; /* Add space between heading and containers */
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 55px;
+    word-wrap: break-word
+  }
+  
+  .HDM-heading-part1 {
+    color: #070707; /* First color */
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+  }
+  
+  .HDM-heading-part2 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+  }
+  
+  .HDM-grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Set up 5 equal columns */
+    gap: 40px; /* Space between containers */
+    margin: 60px;
+    justify-content: left; /* Align the grid to the left */
+    margin-bottom: 50px;
+  }
+  
+  .HDM-icon-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    width: 11vw;
+    height: 18vh;
+    flex-shrink: 0;
+    padding: 30px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    background-color: #eef3fe;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.11);
+  }
+  
+  .HDM-text {
+    color: #333;
+    margin: 0;
+    padding-top: 30px; 
+    text-align: center;
+    max-width: 100vw;
+    font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+position:relative;
+bottom: 20px;
+left: 13px;   
+  }
+  .HDM-icon-container:hover {
+    background-color: #3498db; /* Primary color on hover */
+    border-color: #2980b9; /* Darker shade of primary color */
+    transform: scale(1.05); /* Slightly increase the size */
+  }
+  .HDM-icon-container:hover .HDM-text {
+    color: #fff; /* Change text color to white on hover */
+  }
+  .HDM-gradient-container {
+    position: relative;
+    width: 100vw;
+    height: 60vh; /* Adjust this to the size you need */
+    background: linear-gradient(to right, rgba(0, 47, 108, 1), rgba(8, 89, 149, 0.8), rgba(3, 92, 181, 0.804), rgb(42, 126, 236));
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+    top: 15vh;
+    margin-bottom: 50px;
+  }
+  .HDM-container-wrapper {
+    position: relative;
+    width: 100vw;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0;
+    z-index: 2; /* Ensure it's above the background image */
+  }
+  
+  .HDM-container-heading {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    font-family: Poppins;
+    word-wrap: break-word;
+    margin-top:7vh;
+  }
+  .HDM-text-upper{
+  margin-top: 6vh;
+  color: white;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  word-wrap: break-word
+  }
+  .HDM-gradient-container img.HDM-background-image {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  
+  .HDM-gradient-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    background: inherit;
+    z-index: 1;
+  }
+  .HDM-grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 130px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .HDM-icon-container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    width: 350px;
+    height: 275px;
+    flex-shrink: 0;
+    padding: 15px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.11);
+  }
+  
+  .HDM-icon1 {
+    position: relative; /* Positions the icon relative to the container */
+    /* top: 10px; /* Adjust the distance from the top */
+    /* left: 10px;  */
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .HDM-heading {
+    color: black;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: left;
+  
+  }
+  .HDM-icon-container1:hover .HDM-heading {
+    color: #fff; /* Change text color to white on hover */
+  }
+  .HDM-text1 {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 0;
+    padding-top: 5px; 
+    text-align: left;
+    max-width: 100vw;
+   
+  }
+  .HDM-icon-container1:hover {
+    background-color: #3498db; /* Primary color on hover */
+    border-color: #2980b9; /* Darker shade of primary color */
+    transform: scale(1.05); /* Slightly increase the size */
+  }
+  .HDM-icon-container1:hover .HDM-text1 {
+    color: #fff; /* Change text color to white on hover */
+  }
+   
+  .HM-image-container12 {
+    display: flex;
+    position: relative;
+    width: 100vw; /* Adjust width as needed */
+    height: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+  
+  .HM-my-image1 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    display: flex;
+    width: 100vw; /* Ensure the image fills the container */
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: -30px;
+    border-radius: 8px;
+    align-items: right;
+  }
+  
+  .HM-overlay-content {
+    /* position: relative;
+    top: 45%; 
+     left: 20%;  */
+     margin-top: 200px;
+     margin-left: 470px;
+    transform: translate(-10%, -20%);
+    text-align: left;
+    color: #fff;
+  }
+  
+  .HM-heading3 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: left;
+    font-size: 48px;
+font-family: Poppins;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  
+  
+  }
+  .HM-heading-part11 {
+    color: #070707; /* First color */
+    font-weight: 700;
+  }
+  
+  .HM-heading-part22 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+  }
+  .HM-paragraph2{
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .HM-dp-image{
+    width: 480px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+ margin-left: 900px;
+ margin-top: -370px ;
+    z-index: 2; /* Ensure the image is above other content */
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .HDM-text{
+      margin-top: -15px;
+      margin-left: -12px;
+      white-space: nowrap;
+    }
+    .HM-heading3{
+      margin-left: 80px;
+    }
+    .HM-paragraph2{
+      margin-left: 80px;
+    }
+    .HM-overlay-content{
+      margin-left: 160px;
+    }
+    }

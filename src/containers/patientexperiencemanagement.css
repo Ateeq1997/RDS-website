@@ -1,0 +1,420 @@
+.PE-content {
+    flex: 1;
+    z-index: 1; /* Ensure the content is above the background image */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; /* White text for readability on the image */
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%); /* Center the content horizontally */
+  }
+  
+  .PE-paragraph1, .PE-nav-heading{
+    width: 100%;
+    max-width: 490px; /* Adjust as needed for your layout */
+   text-align: left;
+   margin-top: -10px; /* Remove top margin to align with heading */
+  
+  }
+  .PE-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word;
+    white-space: nowrap;
+  
+  }
+  .PE-paragraph1{
+    color: #FEFEFF; /* Ensure paragraph text color matches heading */
+    margin-top: 30px; /* Remove top margin to align with heading */
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .PE-overlay-content {
+    position: relative;
+    top: 20vh; /* Adjust positioning as needed */
+     left: 11%; 
+    transform: translate(-10%, -20%);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20vh;
+  }
+  
+  .PE-heading3 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  
+  
+  }
+  .PE-heading-part11 {
+    color: #070707; /* First color */
+    font-weight: 700;
+  }
+  
+  .PE-heading-part22 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+  }
+  .PE-paragraph2{
+    font-size: 18px; /* Adjust as needed */
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  .PE-paragraph3{
+    font-size: 18px; /* Adjust as needed */
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word
+   
+  }
+  .PE-grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Set up 5 equal columns */
+    gap: 0; /* Space between containers */
+    margin: 0 200px;
+    justify-content: center; /* Align the grid to the left */
+    margin-bottom: 90px;
+  }
+  
+  .PE-icon-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 10vw;
+    height: 18vh;
+    flex-shrink: 0;
+    padding: 25px;
+    border: 1px solid #f9f9f9;
+    border-radius: 8px; 
+    background-color: #eef3fe;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.11);
+  }
+  
+  .PE-text {
+    margin: 0;
+    padding-top: 40px; 
+    padding-left: 10px;
+    text-align: center;
+    max-width: 100%;
+    color: black;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+position: relative;
+bottom: 20px;
+left: 7px;
+   
+  }
+  .PE-icon-container:hover {
+    background-color: #3498db; /* Primary color on hover */
+    border-color: #2980b9; /* Darker shade of primary color */
+    transform: scale(1.05); /* Slightly increase the size */
+  }
+  .PE-icon-container:hover .PE-text {
+    color: #fff; /* Change text color to white on hover */
+  }
+  .PE-image-container2 {
+    display: flex;
+    position: relative;
+    width: 100vw; /* Adjust width as needed */
+    top: 3vh;
+    height: 90vh;;
+    overflow: hidden;
+  
+    /* margin: 0 auto; Center the container */
+  }
+  .PE-image-container22 {
+    display: flex;
+    position: relative;
+    width: 100vw; /* Adjust width as needed */
+    top: 3vh;
+    height: 60vh;
+    overflow: hidden;
+  
+    /* margin: 0 auto; Center the container */
+  }
+  .PE-overlay-content1 {
+    display: flex;
+    position: relative;
+    align-items: center; /* Aligns items vertically centered */
+    justify-content: space-between; /* Ensures space between text and image */
+  margin-bottom: 80px;
+  
+  }
+  
+  .PE-text-container {
+    max-width: 60%; /* Adjust this value as needed */
+    text-align: left; /* Align text to the left */
+    position: absolute;
+    margin-left: 980px; /* Push the text container to the right */
+ 
+  
+  }
+  .PE-heading4 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: left;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  .PE-heading-part111 {
+    color: #070707; /* First color */
+    font-weight: 700;
+  }
+  
+  .PE-heading-part222 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+  }
+  .PE-paragraph21{
+    font-size: 18px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    line-height: 1.5; /* Adjust line height as needed */
+    margin: 35px 0;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  .PE-paragraph211{
+    font-size: 18px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    line-height: 1.5; /* Adjust line height as needed */
+    margin: 35px 0;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  .PE-paragraph212{
+    font-size: 18px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    line-height: 1.5; /* Adjust line height as needed */
+    margin: 35px 0;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  .PE-dp-image{
+    width: 440px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+margin-left: 290px;
+
+  }
+  .PE-overlay-content2 {
+    display: flex;
+    position: relative;
+    align-items: center; /* Aligns items vertically centered */
+    justify-content: space-between; /* Ensures space between text and image */
+  margin-bottom: 130px;
+  
+  }
+  
+  .PE-text-container1 {
+    max-width: 60%; /* Adjust this value as needed */
+    text-align: left; /* Align text to the left */
+    margin-left: 300px; /* Push the text container to the right */
+margin-top: 40px;
+   
+  }
+  .PE-heading5 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: left;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  .PE-paragraph21{
+    font-size: 18px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 1.5; /* Adjust line height as needed */
+    margin: 35px 0;
+    
+  }
+  .PE-dp-image1{
+    width: 440px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  margin-right: 380px;
+  }
+  
+  .PE-image-container2{
+    width: 100vw;
+    height: auto;
+    margin-bottom: 80px;
+  
+  }
+  .PE-my-image1 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    display: flex;
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    margin-top: 30px;
+    border-radius: 8px;
+  
+  }
+  .PE-overlay-content3{
+    position: relative;
+    top: 15vh; /* Adjust positioning as needed */
+     left: 28%; 
+    transform: translate(-10%, -20%);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20vh;
+  }
+  .PE-overlay-content33{
+    position: relative;
+    top: 15vh; /* Adjust positioning as needed */
+     left: 28%; 
+    transform: translate(-10%, -20%);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20vh;
+  }
+  .PE-container-row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 40px; /* Adjust the gap between containers as needed */
+  
+   
+  }
+  
+  .PE-container {
+    width: 25%; /* 100% / 4 containers */
+    height: 20vh;
+    background: #076AFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .PE-icon-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .PE-icon {
+    position: relative;
+    width: 40px; /* Adjust based on your needs */
+    height: 40px; /* Adjust based on your needs */
+    margin-top: 10px; /* Space above icons */
+  }
+  
+  .PE-inner-icon {
+    width: 24px; /* Adjust based on your needs */
+    height: 24px; /* Adjust based on your needs */
+    background: #EFF4FE;
+    position: absolute;
+  }
+  
+  .PE-inner-icon:nth-child(1) {
+    left: 5.47px;
+    top: 5.47px;
+  }
+  
+  .PE-inner-icon:nth-child(2) {
+    left: 1.56px;
+    top: 1.56px;
+  }
+  
+  .PE-icon-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 3vh;
+    color: white;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+    /* margin-top: auto; Ensures text is below the icons */
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .PE-text{
+     margin-top: -20px;
+     white-space: nowrap;
+     margin-left: -10px;
+    }
+    .PE-grid-container{
+      padding-left: 200px;
+      padding-right: 200px;
+
+    }
+     .PE-text-container{
+      margin-left: 1050px;
+     }
+     .PE-dp-image{
+      margin-left: 420px;
+     }
+     .PE-dp-image1{
+      margin-left: 80px;
+     }
+     .PE-text-container1{
+      margin-right: 170px;
+      white-space: nowrap;
+     }
+     .PE-heading5{
+      margin-left: 100px;
+     }
+     .PE-paragraph21{
+      margin-left: 00px;
+     }
+     .PE-paragraph211{
+      margin-left: 100px;
+    }
+    .PE-image-container2{
+      margin-left: 250px;
+    }
+    .PE-overlay-content3{
+      margin-top: 30px;
+    }
+    .PE-image-container22{
+      margin-left: 260px;
+
+    }
+    .PE-overlay-content33{
+margin-left: -50px;
+    }
+    .PE-dp-image1{
+      margin-top: 80px;
+    }
+    .PE-paragraph212{
+margin-left: 100px;    
+    }
+     }

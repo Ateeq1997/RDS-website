@@ -1,0 +1,683 @@
+.MC-content {
+    flex: 1;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  
+  .MC-paragraph1, .MC-nav-heading {
+    width: 100%;
+    max-width: 490px;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .MC-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word;
+  }
+  
+  .MC-paragraph1 {
+    color: #FEFEFF;
+    margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .MC-text-container1 {
+    max-width: 60%;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    top: 40px;
+    left: -470px;
+    
+
+  }
+  .MC-text-container2 {
+    max-width: 60%;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    left: -400px;
+    
+
+  }
+  
+  .MC-text-container13 {
+    max-width: 60%;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    left: -450px;
+    top: -90px;
+
+  }
+  
+  .MC-heading5 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+margin-top: 30px;
+
+  }
+  
+  .MC-heading-part111 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .MC-heading-part222 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  
+  .MC-paragraph21 {
+    color:     rgba(0, 0, 0, 0.90);;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 35px 0;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word;
+  }
+/*   
+  .MC-learn-more-container {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+  }
+  
+  .MC-learn-more-text {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 20px;
+font-family: Anek Telugu;
+font-weight: 600;
+word-wrap: break-word
+  }
+  
+  .MC-arrow {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #007bff;
+  } */
+
+  .MC-dp-image14 {
+    width: 26vw;
+    height: auto;
+    position: relative;
+    left: 900px;
+    bottom: 410px;
+  }
+  
+  .MC-dp-image1 {
+    width: 26vw;
+    height: auto;
+    position: relative;
+    left: 900px;
+    bottom: 380px;
+  }
+  .MC-dp-image13 {
+    width: 26vw;
+    height: auto;
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+  }
+  .MC-paragraph2011 {
+    margin-top: 6vh;
+    color: white;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+/*   
+  .MC-learn-more-container11 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .MC-learn-more-text11, .MC-arrow11 {
+    color: white;
+    font-size: 18px;
+    /* margin-right: 10px; */
+  /* } */
+  .MC-image-container2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    bottom: 24vh;
+    height: 70vh;
+    overflow: hidden;
+  
+  }
+  
+  .MC-my-image1 {
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    /* margin-top: 0px; */
+    border-radius: 8px;
+  }
+  
+  .MC-overlay-content1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  left: 1100px;
+    bottom: 6vh;
+  }
+  
+  .MC-heading4 {
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    left: -60px;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .MC-paragraph201 {
+    font-size: 18px;
+    color: #666;
+    text-align: left;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 1.5;
+    top: 12vh;
+    right: 21vw;
+    position: relative;
+  }
+  
+  .MC-dp-image {
+    width: 26vw;
+    height: 45vh;
+    position: relative;
+    right: 550px;
+    top: 130px;
+  }
+  /* .MC-learn-more-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+   */
+/*   
+  .MC-learn-more-text12{
+    color: #2a4ef0;
+    font-size: 18px;
+    margin-right: 20px;
+    position: relative;
+    right: 965px;
+    top: 165px; */
+
+    /* left: 80px; */
+   
+  /* }
+  .MC-arrow12 {
+    color: #2a4ef0;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    right: 975px;
+    top: 165px;
+  
+  } */
+  .MC-gradient-container {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Adjust this to the size you need */
+    background: linear-gradient(to right, rgba(0, 47, 108, 1), rgba(8, 89, 149, 0.8), rgba(3, 92, 181, 0.804), rgb(42, 126, 236));
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    bottom:15vh;
+    margin-top: -120px;
+    margin-bottom: 30px;
+  }
+  .MC-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.3; /* Reduce the shine of the image */
+  }
+  .MC-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 59, 112, 0.5); /* Slight blue overlay */
+    z-index: 1;
+  }
+  .MC-content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    z-index: 2;
+    margin-left: 120px;
+  }
+  
+  .MC-text-content {
+    color: white;
+    max-width: 50%; /* Adjust according to your layout needs */
+    text-align: left;
+    position: relative;
+    left:45vw ;
+    top: -40px;
+  }
+  
+  .MC-heading7 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 7vh;
+    position: relative;
+    font-family: Outfit;
+    left:170px;
+    bottom: 70px;
+  }
+  .MC-heading-part11112{
+   position: relative;
+   top: 10vh;
+   right: 10vh;
+  }
+  .MC-paragraph2011 {
+    font-size: 18px;
+    margin-top: 6vh;
+    font-weight: 400;
+    margin-left: 80px;
+  }
+  
+/*  
+  .MC-learn-more-container1 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    font-size: 16px;
+font-family: Anek Telugu;
+font-weight: 600;
+    left:20px;
+    white-space: nowrap;
+  
+  }
+  
+  .MC-learn-more-text17{
+    color: #FFFAFA;
+    font-size: 18px;
+    margin-right: 20px;
+    position: relative;
+    left: 80px;
+   
+  }
+  .MC-arrow17 {
+    color: #FFFAFA;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    left: 70px;
+  
+  } */
+  
+  .MC-dp-image2 {
+    width: 26vw;
+    height: 42vh;
+    position: relative;
+    right: 1030px;
+    /* top: vh; */
+  }
+  .MC-heading452{
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 18vh;
+   right: 22vw;
+   white-space: nowrap;
+   font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  .three-containers-row {
+    display: flex;
+    justify-content: space-between; /* Space containers evenly */
+    align-items: center; /* Center content vertically if containers have different heights */
+    width: 100%;
+    gap: 20px; /* Adjust gap between containers */
+    padding: -40px; /* Optional: adjust padding for the row */
+    position: relative; /* To position the overlay */
+    right: 280px;
+    top: 7vh;
+  }
+  
+  .white-container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    width: 35%;
+    height: 49%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2; /* Ensure containers are above the image overlay */
+  }
+  
+  .container-heading {
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    color: black;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+word-wrap: break-word
+  }
+  
+  .container-paragraph {
+    font-size: 16px;
+    color:  rgba(0, 0, 0, 0.60);
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  .MC-heading455{
+    line-height: 55px;
+   position: relative;
+   left: 190px;
+  bottom: 220px;
+  font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .MC-dp-image11 {
+    width: 26vw;
+    height: auto;
+    position: absolute; /* Change to absolute to fix its position */
+    left: 1000px; /* Adjust based on your layout */
+    top: -50px; /* Adjust this value as needed to keep it fixed */
+}
+  .left-side-content {
+    width: 90%; /* Adjust width as needed */
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    bottom: 15vh;
+    
+  }
+  
+  .content-block {
+    margin-bottom: 20px;
+  }
+  
+  .content-heading {
+    margin-bottom: 10px;
+    color: black;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+  }
+  
+  .content-paragraph {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.60);
+    margin-bottom: 20px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+  }
+  /* Keyframes for the expand-shrink-jump animation */
+@keyframes expand-shrink-jump {
+  0% {
+      transform: scale(1); /* Initial size */
+  }
+  30% {
+      transform: scaleX(1.3) scaleY(1.3); /* Expand width, shrink height */
+  }
+  50% {
+      transform: scaleX(0.8) scaleY(0.8); /* Shrink width, expand height */
+  }
+  80% {
+      transform: scale(1.1) translateY(-5px); /* Jump effect and expand */
+  }
+  100% {
+      transform: scale(1); /* Return to normal size */
+  }
+}
+  .primary-button {
+    background-color:#ffffff ; /* Primary blue color */
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 170px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    animation: none; /* Initially no animation */
+  }
+  .primary-button:hover {
+    animation: expand-shrink-jump 0.6s ease-in-out; /* Apply the animation when hovered */
+}
+
+.primary-button:active {
+    animation: expand-shrink-jump 0.6s ease-in-out; /* Apply the animation when clicked */
+}
+  .primary-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #EAF1FD;
+  }
+  .MC-heading4441{
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  .outer-container {
+    background-color: #EAF1FD;
+    width: 100%;
+    height: 60vh;
+    padding: 20px;
+    margin-top: 10px;
+    
+  }
+  
+  .inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    height: 170px;
+    position: relative;
+    top: 10vh;
+    left: 10vw;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    gap: 0; /* Ensure there is no gap between items */
+  
+  }
+  
+  .content-box {
+    background-color: #F2F2F2;
+    width: 16%; /* Adjust to fit five containers in a row */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+  }
+  .step-box {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px; /* Adjust width as needed */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .step-box.with-rounded-border::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px dashed #101010; /* Use dashed border to mimic the rounded dashed SVG */
+    border-radius: 14px;
+    z-index: -1;
+  }
+  .content-heading1 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: Poppins;
+font-weight: 700;
+word-wrap: break-word
+  }
+  
+  .content-paragraph1 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+  }
+  .arrow-image1 {
+    width: 80px; /* Adjust the size of the arrow image */
+    height: 158px;
+    position: relative;
+    bottom:147px ;
+    left: 95px;
+  }
+  .arrow-image2 {
+    width: 80px; /* Adjust the size of the arrow image */
+    height: 185px;
+    position: relative;
+    bottom:173px ;
+    left: 94px;
+  }
+  .arrow-image3 {
+    width: 80px; /* Adjust the size of the arrow image */
+    height: 158px;
+    position: relative;
+    bottom:147px ;
+    left: 94px;
+  }
+  .arrow-image4 {
+    width: 80px; /* Adjust the size of the arrow image */
+    height: 185px;
+    position: relative;
+    bottom:172px ;
+    left: 93px;
+  }
+  .arrow-image5 {
+    width: 180px; /* Adjust the size of the arrow image */
+    height: 490px;
+    position: relative;
+    bottom:323px ;
+    left: 14px;
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .MC-dp-image{
+      margin-left: 200px;
+    }
+    .MC-overlay-content1{
+      margin-left: -300px;
+    }
+    .MC-heading4{
+     margin-right: -80px;
+    }
+    .MC-text-container13{
+      margin-top: 80px;
+      margin-bottom: -150px;
+    }
+    .MC-dp-image13{
+      margin-left: -120px;
+    }
+    .MC-text-content{
+      margin-left: -120px;
+    }
+    .MC-dp-image2{
+      margin-right: -100px;
+    }
+    .MC-text-container2{
+      margin-left:580px ;
+    }
+    .MC-dp-image1{
+      margin-left: -120px;
+    }
+    .three-containers-row{
+      margin-left: 180px;
+    }
+    .MC-heading455{
+      margin-top: 50px;
+    }
+    .MC-dp-image11{
+      margin-left: -90px;
+    }
+    .arrow-image1 {
+      left: 120px;
+    }
+    .arrow-image2 {
+      left: 118px;
+    }
+    .arrow-image3 {
+      left: 118px;
+    }
+    .arrow-image4 {
+      left: 118px;
+    }
+    .arrow-image5 {
+      left: 33px;
+    }
+  }

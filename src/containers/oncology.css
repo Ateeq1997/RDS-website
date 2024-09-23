@@ -1,0 +1,373 @@
+.O-content {
+    flex: 1;
+     z-index: 1;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: white;
+     position: absolute;
+     top: 22%;
+     left: 20%;
+     transform: translateX(-50%);
+   }
+   
+   .O-nav-heading,
+   .O-paragraph1{
+     width: 100%;
+     max-width: 490px;
+     text-align: left;
+     margin-top: 10px;
+   }
+   
+   .O-nav-heading {
+     font-size: 3.5em;
+     font-weight: 700;
+     color: #FFFAFA;
+     font-size: 66px;
+     font-family: Poppins;
+     font-weight: 700;
+     line-height: 83px;
+     word-wrap: break-word
+   }
+   
+   .O-paragraph1{
+     font-size: 1.1em;
+     color: #FEFEFF;
+     margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+   }
+   
+   .O-overlay-content {
+     position: relative;
+   padding: 40px;
+   z-index: 1; /* Ensures the content is above the background image */
+   
+   
+   }
+   .O-heading3, .O-paragraph2, .O-paragraph3 {
+     margin: 0 0 20px 0; /* Adjust margin to control spacing */
+   }
+   .O-heading-part11, .heading-part22 {
+     display: block;
+   }
+   
+   .O-heading-part11 {
+     color: #070707;
+     font-weight: 700;
+   }
+   
+   .O-heading-part22 {
+     color: #2a4ef0;
+     font-weight: 700;
+   }
+   .O-heading3 {
+     margin-bottom: 10px; /* Add space between heading and containers */
+     text-align: center;
+     font-size: 48px;
+     font-family: Outfit;
+     font-weight: 700;
+     line-height: 55px;
+     word-wrap: break-word
+   
+   
+   }
+   .O-paragraph2{
+     color: rgba(0, 0, 0, 0.60);
+     font-weight: 400;
+     margin: 25px 0;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   .O-paragraph3{
+     font-size: 18px; /* Adjust as needed */
+     color: #666;
+     font-weight: 400;
+     margin: 5px 0;
+    
+   }
+   .O-image-container2 {
+     display: flex;
+     position: relative;
+     width: 100%;
+   
+     height: 70vh;
+     overflow: hidden;
+   
+   }
+   
+   .O-my-image1 {
+     position: absolute;
+     top: 3px;
+     left: 0px;
+     display: flex;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+     /* margin-top: 0px; */
+     border-radius: 8px;
+   }
+   
+   .O-overlay-content1 {
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 30px;
+     left: 45vw;
+     bottom: 6vh;
+   }
+   
+   .O-heading4 {
+     margin-bottom: 10px;
+     text-align: left;
+     position: relative;
+     bottom: 7vh;
+     right: -160px;
+     white-space: nowrap;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+
+   }
+   
+   .O-paragraph201 {
+     color:  rgba(0, 0, 0, 0.60);
+     text-align: left;
+     font-weight: 400;
+     line-height: 1.5;
+     top: 10vh;
+     right: 20vw;
+     position: relative;
+font-size: 18px;
+font-family: Poppins;
+word-wrap: break-word
+   }
+   
+   .O-dp-image {
+     width: 26%;
+     height: 43vh;
+     position: relative;
+     right: 42vw;
+     top: 12vh;
+   }
+   
+   .O-gradient-container {
+     position: relative;
+     width: 100%;
+     height: 60vh; /* Adjust this to the size you need */
+     background: linear-gradient(to right, rgba(0, 47, 108, 1), rgba(8, 89, 149, 0.8), rgba(3, 92, 181, 0.804), rgb(42, 126, 236));
+     display: flex;
+     /* justify-content: center; */
+     /* align-items: center; */
+     overflow: hidden;
+     margin-bottom: 50px;
+   }
+   .O-container-wrapper {
+     position: relative;
+     width: 100%;
+     max-width: 1200px; /* Adjust as needed */
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 0;
+     z-index: 2; /* Ensure it's above the background image */
+   }
+   
+   .O-container-heading {
+     margin-top:7vh;
+     position: relative;
+     left:60px;
+     color: white;
+font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+     
+   }
+   
+   .O-gradient-container img.O-background-image {
+     position: absolute;
+     top: 0;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+   }
+   
+   .O-gradient-container::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0px;
+     width: 100%;
+     height: 100%;
+     background: inherit;
+     z-index: 1;
+   }
+   .O-container-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px; /* Adjust spacing as needed */
+     margin: 30px auto; /* Center the container wrapper */
+     max-width: 1920px; /* Adjust max width as needed */
+    padding-left: 70px;
+
+   
+   }
+   
+   .O-container-item {
+     width: calc(33.33% - 50px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+     border-radius: 7px;
+     background-color: #ffffff;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   }
+   .O-container-item-1 {
+     width: calc(50% - 65px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+     border-radius: 7px;
+     background-color: #ffffff;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   }
+   .O-checkbox-container {
+     flex-shrink: 0;
+     width: 31.667px;
+     height: 31.667px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .O-checkbox-icon {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .O-content-container1 p {
+     margin-left: 40px;
+     margin-top: 10px;
+     text-align: left;
+     font-size: 16px;
+     color:  rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   
+   .O-overlay-content2 {
+     position: relative;
+   padding: 60px;
+   white-space: nowrap;
+   margin-bottom: 10vh;
+   z-index: 1; /* Ensures the content is above the background image */
+    }
+   
+   
+   .O-heading34 {
+     margin-bottom: 10px; /* Add space between heading and containers */
+     text-align: left;
+     display: flex;
+     white-space: nowrap;
+     margin-left: 35px;
+     overflow: hidden;
+     font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+   
+   
+   }
+   .O-heading-part119 {
+    display: inline; /* Keep text on the same line */
+    margin-right: 0.5rem; /* Space between the parts, adjust as needed */
+  }
+   .O-paragraph23{
+     color: rgba(0, 0, 0, 0.60);
+     margin: 25px 0;
+     text-align: left;
+     margin-left: 40px;  
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   .container-wrapper2 {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px; /* Adjust spacing as needed */
+     margin: 50px auto; /* Center the container wrapper */
+     max-width: 1920px; /* Adjust max width as needed */
+     position: relative;
+   
+   }
+   
+   .container-item2 {
+     width: calc(50% - 90px); /* 3 items per row with spacing */
+     height: 67px;
+     display: flex;
+     align-items: center;
+   margin-left: 40px;
+     border-radius: 7px;
+     background-color: #EDF1FD;
+     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+     padding: 0 15px; /* Padding inside the container */
+     box-sizing: border-box; /* Ensure padding and border are included in the width */
+   }
+   
+   .checkbox-container2 {
+     flex-shrink: 0;
+     width: 31.667px;
+     height: 31.667px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .checkbox-icon {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .content-container2 p {
+     margin-left: 40px;
+     margin-top: 10px;
+     text-align: left;
+     font-size: 18px;
+     color: rgba(0, 0, 0, 0.60); /* Text color */
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word
+   }
+   @media (min-width: 1440px) and (max-width: 1910px) {
+  .O-dp-image{
+    margin-left: -110px;
+  }
+  .O-overlay-content1{
+    margin-left: -40px;
+  }
+  .O-paragraph201{
+    margin-top: 50px;
+    margin-left: -75px;
+  }
+}

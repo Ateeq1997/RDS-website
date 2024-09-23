@@ -1,0 +1,102 @@
+.AR-content {
+    flex: 1;
+    z-index: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+  
+  .AR-paragraph1, .AR-nav-heading {
+    width: 100%;
+    max-width: 490px;
+    text-align: left;
+    margin-top: -30px;
+  }
+  
+  .AR-nav-heading {
+    color: #FFFAFA;
+    font-size: 66px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 83px;
+    word-wrap: break-word
+  }
+  
+  .AR-paragraph1 {
+    color:   #FEFEFF;
+    margin-top: 30px;
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+word-wrap: break-word;
+white-space: nowrap;
+  }
+  .AR-grid{
+    margin-top: -100px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+  .AR-image-container2{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    padding-top: 180px; /* Adjust this value to increase the space at the top */
+    margin-bottom: 0px;
+    margin-left: 35px;
+  }
+  .AR-my-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image stays in the background */
+  }.AR-overlay-content {
+    margin-top: 20px;
+    position: relative;
+  padding: 20px;
+  z-index: 1; /* Ensures the content is above the background image */
+  bottom: 20vh;
+  
+  }
+  .AR-heading3, .AR-paragraph2, .AR-paragraph3 {
+    margin: 0 0 20px 0; /* Adjust margin to control spacing */
+  }
+  .AR-heading-part11, .AR-heading-part22 {
+    display: block;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .AR-heading-part11 {
+    color: #070707;
+    font-weight: 700;
+  }
+  
+  .AR-heading-part22 {
+    color: #2a4ef0;
+    font-weight: 700;
+  }
+  .AR-paragraph2, .AR-paragraph3 {
+   color: rgba(0, 0, 0, 0.60);
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .AR-image-container2{
+      margin-left: 190px;
+      margin-bottom: 30px;
+    }
+  }

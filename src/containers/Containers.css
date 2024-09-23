@@ -1,0 +1,209 @@
+.D-content {
+ flex: 1;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
+.D-nav-heading,
+.D-paragraph1{
+  width: 100%;
+  max-width: 490px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.D-nav-heading {
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.D-paragraph1{
+  font-size: 1.1em;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.D-heading44 {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  
+  top: 10vh;
+  white-space: nowrap;
+}
+.heading-part11, .heading-part22 {
+
+  white-space: nowrap;
+}
+
+.heading-part11 {
+  color: #070707;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.heading-part22 {
+  color: #2a4ef0;
+  font-weight: 700;
+
+}
+.D-my-image1{
+  margin-top: 0px;
+  Width:913px;
+Height:350px;
+position: absolute;
+Top:776px;
+Left:333px;
+Border:1px;
+}
+.D-heading44 {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  top: 10vh;
+  white-space: nowrap;
+}
+.D-image-container2{
+  position: relative;
+  top: 60vh;
+}
+.D-my-image2{
+  margin-top: 0px;
+  Width:100%;
+Height:80vh;
+Border:1px;
+}
+.D-heading335 {
+  margin-bottom: 10px;
+  text-align: left;
+  position: relative;
+  bottom: 75vh;
+ left: 10vw;
+ white-space: nowrap;
+  
+}
+
+.heading-part110 {
+  color: #070707;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.heading-part220 {
+  color: #2a4ef0;
+  font-weight: 700;
+
+}
+
+.D-small-line {
+  width: 4px; /* Line width */
+  height: 490px; /* Increase the height here */
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #076AFF;
+  position: relative;
+  right: 37vw;
+  bottom: 70vh;
+ 
+ 
+}
+.D-image2, .D-image4, .D-image6, .D-image8, .D-image10 {
+  width: 25px;
+  height: 60vh;
+  border-radius: 8px;
+  position: absolute;
+
+}
+
+.D-image2 {
+  right: 1315px;
+  bottom: 198vh;
+}
+
+.D-image4 {
+  right: 1315px;
+  bottom: 190vh;
+}
+
+.D-image6 {
+  right: 1315px;
+  bottom: 182.50vh;
+}
+
+.D-image8 {
+  right: 1315px;
+  bottom: 174.50vh;
+}
+
+.D-image10 {
+  right: 1315px;
+  bottom: 166.50vh;
+  
+}
+
+.D-bullet-points-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.D-bullet-point {
+  margin-bottom: 30px; /* Adjust this value to space the bullet points properly */
+  position: relative;
+  bottom: 470px;
+  left: 650px;
+}
+.D-text-container{
+  color: #070707;
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  bottom: 545px;
+  right: 27vw;
+}
+
+.D-primary-button-2 {
+  background-color: #007bff; /* Primary button color */
+  color: #fff; /* Text color */
+  position: absolute;
+  bottom: 103vh;
+  width: 170px;
+  height: 50px;
+  left: 39vw;
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center;
+  display: block; /* Ensures the button takes up available width */
+  margin-top: 20px; /* Space above the button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+.D-primary-button-2:hover {
+background-color: #0056b3; /* Darker blue on hover */
+}
+
+.Btn-custom1:hover {
+  background-color: #fff;
+  color:#007bff ;
+}
+.D-my-image3{
+  width: 380px;
+  height: 380px;
+  position: relative;
+  bottom:110vh;
+  left: 90vw
+}
+.D-footer{
+  position: relative;
+  bottom: 95vh;
+}
+

@@ -1,0 +1,56 @@
+.left-side2 {
+    flex: 1; /* Flex takes up 50% of the space */
+    background-color: #f1f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    width: 77vw;
+    height: 100vh;
+  }
+  
+  .logo1 img {
+    width: 60px;
+    margin-top: 0px;
+    margin-left: -570px;
+    margin-bottom: 20px;
+  }
+  
+  .logo1 h1 {
+    font-size: 36px;
+    margin-top: -100px;
+    margin-left: 100px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+  }
+  .right-side h1{
+    margin-left: 0;
+  }
+  .form-group.confirm-password label {
+    margin-left: -210px; /* Adjust this value to move it further right */
+  }
+  /* Custom styles for reset-password-btn from Reset component */
+.reset-password-btn {
+    font-size: 20px; /* Increase text size */
+    padding: 15px 30px; /* Increase padding to make it larger */
+    margin-bottom: 30px;
+    width: 320px;
+  }
+  @media (min-width: 1440px) and (max-width: 1910px) {
+    .signup-image {
+ margin-top: 10px;   
+    }
+    .logo1{
+        margin-top: 160px;
+        margin-left: -40px;
+    }
+    .reset-image{
+        margin-top: 130px;
+    }
+    .right-side{
+        height: 130vh;
+    }
+}
