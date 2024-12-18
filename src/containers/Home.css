@@ -115,8 +115,8 @@ margin-top: -140px;
 .Home-grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 360px;
-  padding-right: 460px;
+  padding-left: 370px;
+  padding-right: 470px;
   margin-left: 100px;
   margin-top: -120px;
   gap: 20px;
@@ -664,59 +664,7 @@ word-wrap: break-word
     }
    
   }
- /* General Styles (Laptop / Desktop) - Default */
-/* .H-content {
-  padding: 20px;
-  top: 10%;
-  left: 20%;
-}
-
-.H-nav-heading {
-  font-size: 80px;
-  line-height: 90px;
-}
-
-.H-paragraph1 {
-  font-size: 18px;
-  margin-top: 15px;
-}
-
-.dropdown-menu {
-  width: 200px;
-}
-
-.H-grid-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.H-icon-container {
-  margin-bottom: 40px;
-}
-
-.H-micro-image {
-  width: 300px;
-  height: auto;
-}
-
-.Home-bg-image {
-  width: 500px;
-  height: auto;
-}
-
-.Home-doctor-image {
-  width: 600px;
-  height: auto;
-}
-
-.HDM-heading-container h1 {
-  font-size: 80px;
-  line-height: 90px;
-} */
-
-/* Media Queries */
-
+ 
 /* Smartphone screens (max-width: 480px) */
 @media only screen and (max-width: 480px) {
   .H-content {
@@ -857,94 +805,4 @@ left: -212px;
   .H-container-wrapper {
  
   }
-  /* .H-gradient-container {
-    width: 440px;
-    margin-left: 425px;
-  } */
-
-
-
 }
-
-
-/* Tablet screens (481px - 768px) */
-/* @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .H-content {
-    padding: 15px;
-    top: 8%;
-    left: 15%;
-  }
-
-  .H-nav-heading {
-    font-size: 60px;
-    line-height: 70px;
-  }
-
-  .H-paragraph1 {
-    font-size: 16px;
-  }
-
-  .dropdown-menu {
-    width: 60vw;
-  }
-
-  .H-grid-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .H-icon-container {
-    margin-bottom: 30px;
-  }
-
-  .H-micro-image, .Home-bg-image, .Home-doctor-image {
-    width: 80%;
-  }
-
-  .HDM-heading-container h1 {
-    font-size: 60px;
-    line-height: 70px;
-  }
-} */
-
-/* Large Screens (min-width: 1200px) */
-/* @media only screen and (min-width: 1200px) {
-  .H-content {
-    padding: 40px;
-    top: 12%;
-    left: 25%;
-  }
-
-  .H-nav-heading {
-    font-size: 100px;
-    line-height: 120px;
-  }
-
-  .H-paragraph1 {
-    font-size: 22px;
-  }
-
-  .dropdown-menu {
-    width: 250px;
-  }
-
-  .H-grid-container {
-    justify-content: space-between;
-  }
-
-  .H-icon-container {
-    margin-bottom: 50px;
-  }
-
-  .H-micro-image, .Home-bg-image, .Home-doctor-image {
-    width: 60%;
-  }
-
-  .HDM-heading-container h1 {
-    font-size: 100px;
-    line-height: 120px;
-  }
-}
- */
-
-  

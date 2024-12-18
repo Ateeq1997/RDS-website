@@ -1,44 +1,4 @@
-/* .P-content {
-    flex: 1;
-    z-index: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    position: absolute;
-    top: 22%;
-    left: 20%;
-    transform: translateX(-50%);
-  }
-  
-  .P-paragraph1, .P-nav-heading {
-    width: 100%;
-    max-width: 490px;
-    text-align: left;
-    margin-top: -10px;
-  }
-  
-  .P-nav-heading {
-    font-size: 3.5em;
-    font-weight: 700;
-    color: #FFFAFA;
-    font-size: 66px;
-    font-family: Poppins;
-    font-weight: 700;
-    line-height: 83px;
-    word-wrap: break-word
-  }
-  
-  .P-paragraph1 {
-    color:   #FEFEFF;
-    margin-top: 30px;
-font-size: 18px;
-font-family: Poppins;
-font-weight: 400;
-word-wrap: break-word;
-white-space:nowrap;
-  } */
+
   .P-image-container2{
     width: 100vw;
     height: 140vh;
@@ -100,37 +60,12 @@ white-space:nowrap;
     padding: 40px 20px;
     text-align: center;
   }
-/*   
-  .toggle-buttons {
-    display: inline-block;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 1px;
-    margin-bottom: 40px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-  bottom: 20vh;
-  }
-  
-  .toggle-btn {
-    background-color: transparent;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 30px;
-    transition: background-color 0.3s;
-    font-weight: bold;
-  }
-  
-  .toggle-btn.primary {
-    background-color: #007bff;
-    color: #fff;
-  }
-   */
+
   .pricing-container {
     display: flex;
     justify-content: space-between;
-    gap: 1px;
+    gap: 30px;
+    white-space: nowrap;
     position: relative;
     bottom: 15vh;
   }

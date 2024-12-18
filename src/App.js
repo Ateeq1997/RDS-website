@@ -1,3 +1,4 @@
+
 // src/App.js
 import React, { useState } from 'react';
 import './App.css';
@@ -25,7 +26,7 @@ import Cardiology from './containers/Cardiology';
 import Dermatology from './containers/Dermatology';
 import ConditionalFooterWrapper from './components/common/ConditionalFooterWrapper';
 import LoginPage from './containers/LoginPage';  // Import the LoginPage component
-import Signup from './containers/SignUp';
+import SignUp from './containers/SignUp';
 import Resetpassword from './containers/Resetpassword';
 
 function App() {
@@ -44,7 +45,7 @@ function App() {
           <Route path="/signup" element={
             <>
               <CustomNavbar showContainer12={false} />
-              <Signup />  
+              <SignUp />  
             </>
           } />
           <Route path="/resetpassword" element={

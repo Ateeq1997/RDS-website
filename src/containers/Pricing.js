@@ -11,16 +11,6 @@ const Pricing = () => {
 
   return (
     <>
-      {/* <CustomNavbar /> */}
-      {/* <div className="P-content">
-        <h1 className="P-nav-heading">Pricing</h1>
-        <p className="P-paragraph1">
-        Medical billing streamlines reimbursement by translating healthcare <br/> services into codes, submitting claims to insurers....
-
-        </p>
-      </div> */}
-    
-
       <div className="P-image-container2">
           <img src={bg2} alt="description" className="P-my-image1" />
           <div className="P-overlay-content">
@@ -30,26 +20,10 @@ const Pricing = () => {
             </h1>
           </div>
           <div class="pricing-section">
-  {/* <div class="toggle-buttons">
-    <button class="toggle-btn primary">MONTHLY</button>
-    <button class="toggle-btn">YEARLY</button>
-  </div> */}
+
 
   <div class="pricing-container">
-    {/* <div class="pricing-card">
-      <h2>$20 /month</h2>
-      <h3>Intro</h3>
-      <p>For most businesses that want to optimize web queries</p>
-      <ul>
-        <li>All limited links</li>
-        <li>Own analytics platform</li>
-        <li>Chat support</li>
-        <li>Optimize hashtags</li>
-        <li>Unlimited users</li>
-      </ul>
-      <button class="choose-btn">Choose Plan</button>
-    </div> */}
-    
+   
     <div class="pricing-card">
     <h2>3% Billing Plan</h2>
     <p>Our basic billing plan includes the following services:</p>
@@ -82,20 +56,6 @@ const Pricing = () => {
     <button class="choose-btn">Choose Plan</button>
 </div>
 
-    
-    {/* <div class="pricing-card">
-      <h2>$200 /month</h2>
-      <h3>Enterprise</h3>
-      <p>For most businesses that want to optimize web queries</p>
-      <ul>
-        <li>All limited links</li>
-        <li>Own analytics platform</li>
-        <li>Chat support</li>
-        <li>Optimize hashtags</li>
-        <li>Unlimited users</li>
-      </ul>
-      <button class="choose-btn">Choose Plan</button>
-    </div> */}
   </div>
 </div>
 

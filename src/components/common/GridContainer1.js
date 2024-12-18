@@ -4,7 +4,7 @@ import React from 'react';
 import './gridcontainer1.css'; // Import CSS for styling
 
 // Import images with the correct file names
-import IsolationMode from '../../assets/img/Isolation_Mode.svg';
+import IsolationMode from '../../assets/img/revenue.svg';
 import IsolationMode3 from '../../assets/img/Isolation_Mode3.svg';
 import IsolationMode4 from '../../assets/img/Isolation_Mode4.svg';
 import IsolationMode2 from '../../assets/img/Isolation_Mode2.svg';

@@ -319,3 +319,208 @@ position: relative; /* To position the underline */
     font-size: 15px; /* Slightly larger font */
   }
 }
+/* Mobile Styles */
+/* @media (max-width: 480px) {
+  .custom-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 10px;
+    width: 423px;
+        margin-left: -154px;
+  }
+
+  .navbar-logo {
+    height: 30px;
+    margin-left: 579px;
+  }
+
+  .navbar-text {
+    font-size: 16px;
+    margin-left: 345px;
+    margin-right: -574px;
+    text-decoration: none;
+  }
+
+  .mr-auto {
+    margin-left: 1007px;
+    font-size: 16px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: right; */
+    /* gap: 10px; Adjust spacing between links and button */
+  /* }
+  .navbar-collapse{
+    position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    /* background-color: white; */
+    /* z-index: 1000; Ensures it stays on top */
+    /* overflow: auto; Allows scrolling if the content overflows */
+    /* display: none; Hidden by default */
+  /* } */
+  /* .navbar-collapse.show {
+    display: block;
+}
+  .navbar-toggler-icon{
+    position: absolute;
+    right: -587px;
+    top: 10px; */
+    /* z-index: 1100; Higher than the dropdown to ensure visibility */
+  /* } */
+  /* .navbar-toggler{
+    margin-left: 971px;
+    margin-top: -46px;
+    width: 22px;
+    height: 28px;
+    z-index: 1100; Higher than the dropdown */
+  /* }
+ 
+  .navbar-nav {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .nav-link1{
+   position: absolute;
+   left: 860px;
+   font-size: 16px;
+   margin-top: -25px;
+  }
+  .nav-link{
+    margin-left: -241px;
+  }
+ .animated-btn ml-auto{
+  margin-right: -160px;
+ }
+  .navbar-nav .dropdown-menu {
+    width: 260px;
+    margin-left: -435px;
+margin-top: -45px;
+visibility: visible;
+  }
+
+  .navbar-nav .dropdown-menu a {
+    padding: 6px 10px;
+  }
+  
+  .animated-btn {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    margin-left:745px ;
+    margin-right: -90px;
+  }
+.container-12{
+  position: relative;
+  width: 100%; */
+  /* height: auto; Adjust the height as needed */
+  /* overflow: hidden; Ensure the image doesn't overflow the container */
+
+/* } */
+
+  /* .background-image {
+    position: relative;
+    left: 186px;
+    top: -129px;
+    width: 424px;
+    height: 165px;
+    z-index: -1;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+  }
+} */
+
+/* Tablet Styles */
+/* @media (min-width: 481px) and (max-width: 768px) {
+  .custom-navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .navbar-logo {
+    height: 35px;
+    margin-left: -100px;
+  }
+
+  .navbar-text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .mr-auto {
+    margin-left: 200px;
+    font-size: 18px;
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+    flex-direction: row;
+  }
+
+  .navbar-nav .dropdown-menu {
+    min-width: 120px;
+  }
+
+  .navbar-nav .dropdown-menu a {
+    padding: 8px 15px;
+  }
+
+  .animated-btn {
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .background-image {
+    width: 110%;
+    height: auto;
+  }
+}
+
+/* Large Screens Styles */
+/* @media (min-width: 769px) {
+  .custom-navbar {
+    padding: 15px 30px;
+  }
+
+  .navbar-logo {
+    height: 40px;
+    margin-left: -160px;
+  }
+
+  .navbar-text {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .mr-auto {
+    margin-left: 250px;
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .navbar-nav .dropdown-menu {
+    min-width: 160px;
+  }
+
+  .navbar-nav .dropdown-menu a {
+    padding: 10px 20px;
+  }
+
+  .animated-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .background-image {
+    width: 100%;
+    height: auto;
+  }
+} */ 

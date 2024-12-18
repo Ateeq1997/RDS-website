@@ -61,6 +61,7 @@ const Footer = () => {
   <img src={Logo} alt="Company Logo" className="company-logo" />
   <h3 className="company-name">RDS Precision Billing</h3>
 </Link>
+
                         <div className="social-icons">
                             <div className="social-logo">
                                 <img src={FacebookIcon} alt="Facebook" />

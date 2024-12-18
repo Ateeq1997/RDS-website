@@ -32,8 +32,8 @@
     position: relative; /* Positions the icon relative to the container */
     /* top: 10px; /* Adjust the distance from the top */
     /* left: 10px;  */
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-bottom: 10px;
   }
   .heading {

@@ -33,9 +33,9 @@ function CustomNavbar({ showContainer12 = true }) {
   }, []);
 
   const handleLoginClick = () => {
-    // Navigate to the login page when the button is clicked
-    navigate('/login');
-  };
+    // Navigate to the Angular login page hosted on the subdomain
+    window.location.href = 'https://software.rdsprecisionbilling.com';
+};
 
   return (
     <>
@@ -83,7 +83,9 @@ function CustomNavbar({ showContainer12 = true }) {
                 <Link to="/requestademo" className="nav-link request-demo">Request a demo</Link>
               </span>
             </Nav>
-            <Button variant="primary" className="animated-btn ml-auto" onClick={handleLoginClick}>Login</Button>
+            <Button variant="primary" className="animated-btn ml-auto" onClick={handleLoginClick}>
+  Login
+</Button>
           </Navbar.Collapse>
         </Navbar>
       </div>

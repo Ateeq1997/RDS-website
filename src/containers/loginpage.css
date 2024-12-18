@@ -1,24 +1,20 @@
-/* Basic reset for padding and margin */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* Flex container for splitting the screen */
-.split-container {
+.L-split-container {
   display: flex;
   height: 100vh; /* Full viewport height */
   width: 100vw;  /* Full viewport width */
+  
 }
-.login-container {
+.L-login-container {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
+    overflow: auto; /* Allow content scrolling within the container */
   }
   
-  .left-side {
+  .L-left-side {
     flex: 1; /* Flex takes up 50% of the space */
     background-color: #f8fcff;
     display: flex;
@@ -30,7 +26,7 @@
     height: 100vh;
   }
   
-  .logo {
+  .L-logo {
     max-width: 50%; /* Adjust logo size */
     height: auto;
     display: flex;
@@ -45,13 +41,13 @@
 margin-top: 30px;
   }
   
-  .logo img {
+  .L-logo img {
     width: 60px;
     margin-top: 90px;
     margin-left: -570px;
   }
   
-  .logo h1 {
+  .L-logo h1 {
     font-size: 36px;
     margin-top: -90px;
     margin-left: 100px;
@@ -61,7 +57,7 @@ margin-top: 30px;
     white-space: nowrap;
   }
 
-  .right-side {
+  .L-right-side {
     flex: 1;
     padding: 40px;
     display: flex;
@@ -72,17 +68,17 @@ margin-top: 30px;
     background-color: white; /* Transparent background */
   }
   
-  .right-side h2 {
+  .L-right-side h2 {
     font-size: 24px;
   }
   
- .role-buttons {
+ .L-role-buttons {
   display: flex;
   gap: 30px;
   margin: 20px 0;
 }
 
-.role-btn {
+.L-role-btn {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -132,31 +128,31 @@ margin-top: 30px;
   }
 }
 
-  .login-form {
+  .L-login-form {
     display: flex;
     flex-direction: column;
   }
-  .right-side h1 {
-    font-size: 32px;
+  .L-right-side h1 {
+    font-size: 38px;
     font-weight: 700;
-    margin-left: -260px;
+    margin-left: -30px;
   }
-  .form-group {
+  .L-form-group {
     margin-bottom: 15px;
     width: 400px;
   }
   
-  .form-group label {
+  .L-form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: 500;
     margin-left: -280px;
   }
-  .input-container {
+  .L-input-container {
     position: relative; /* Positioning for the icon */
   }
   
-  .form-group input {
+  .L-form-group input {
     width: 100%;
     padding: 10px 10px 10px 20px; /* Padding: top, right, bottom, left */
     border: 1px solid #ccc;
@@ -168,24 +164,43 @@ margin-top: 30px;
     font-size: 16px;
     opacity: 1; /* Ensure placeholder is fully opaque */
   }
-  .icon {
+  .L-icon {
     position: absolute; /* Positioning the icon */
-    right: 0; /* Space from the right */
-    top: 25%; /* Center vertically */
+    right: 10px; /* Space from the right */
+    top: 50%; /* Center vertically */
     font-size: 30px;
     transform: translateY(-50%); /* Adjust for vertical centering */
     cursor: pointer; /* Change cursor to pointer on hover */
   }
+  .L-icon.hidden {
+    /* text-decoration:line-through; Strikethrough effect */
+    color: red; /* Optional: Change color for visibility */
+  }
   
-  .mandatory {
+.L-icon.hidden::after {
+  content: '';
+  position: absolute;
+  width: 45px; /* Width of the diagonal line */
+  height: 3px; /* Thickness of the diagonal line */
+  background-color: red; /* Color of the diagonal line */
+  top: 48%; /* Center vertically */
+  left: -2px; /* Adjust left position as necessary */
+  transform: rotate(135deg); /* Rotate to create a diagonal line */
+}
+
+/* Optional: Adjust opacity of the eye icon when hidden */
+.L-icon.hidden {
+  opacity: 2.5; /* Optional: make the icon slightly transparent */
+}
+  .L-mandatory {
     color: red; /* Color for the mandatory sign */
   }
-  .actions {
+  .L-actions {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
-  .custom-checkbox {
+  .L-custom-checkbox {
     width: 23px;
     height: 23px;
     border: 2px solid #ccc;
@@ -197,13 +212,13 @@ margin-top: 30px;
     display: inline-block;
   }
   
-  .custom-checkbox:checked {
+  .L-custom-checkbox:checked {
     /* background-color: #4CAF50;
     border-color: #4CAF50; */
 
   }
   
-  .custom-checkbox:checked::after {
+  .L-custom-checkbox:checked::after {
     content: '✔'; /* Unicode for tick mark */
     color: rgb(73, 39, 211);
     font-size: 18px;
@@ -213,7 +228,7 @@ margin-top: 30px;
     top: 0;
   }
   
-  .login-btn {
+  .L-login-btn {
     padding: 12px;
     background-color: #3a86ff;
     border: none;
@@ -249,21 +264,21 @@ position: relatives;
       transform: scale(1); /* Return to normal size */
     }
   }
-  .social-login {
+  .L-social-login {
     text-align: center;
     margin-top: 20px;
   }
   
-  .social-login p {
+  .L-social-login p {
     margin-bottom: 10px;
   }
   
-  .social-icons {
+  .L-social-icons {
     display: flex;
     gap: 10px;
     margin-left: 110px;
   }
-  .icon-wrapper {
+  .L-icon-wrapper {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -275,39 +290,34 @@ position: relatives;
     transition: border-color 0.3s ease, background-color 0.3s ease;
   }
   
-  .icon-wrapper:hover {
+  .L-icon-wrapper:hover {
     border-color: black; /* Border color on hover */
     color: #ffffff;
     background-color: #9fb2e3; /* Background color on hover */
   }
   
-  .icon-wrapper svg {
+  .L-icon-wrapper svg {
     font-size: 20px; /* Adjust the icon size */
     color: #333; /* Icon color */
   }
   
-  .social-icons svg {
+  .L-social-icons svg {
     font-size: 24px;
 
     cursor: pointer;
   }
   @media (min-width: 1440px) and (max-width: 1910px) {
-    .split-container {
-      height: 80vh; /* Full viewport height */
-    }
-    .login-container {
-      height: 80vh;
+    .L-split-container {
 
     }
-    .left-side {
-      height: 142vh;
-     
+   
+    .L-left-side {
+   height: 130vh;
     }
-    .logo img{
-      width: 60px;
+    .L-logo img{
     margin-left: -460px;
     }
-    .logo h1 {
+    .L-logo h1 {
 
       font-size: 3rem;
       white-space: nowrap;
@@ -315,8 +325,8 @@ position: relatives;
     .heart-image {
 
     }
-    .right-side {
-      margin-top: 100px;
-      height: 110vh;
+    .L-right-side {
+
+ 
     }
   }

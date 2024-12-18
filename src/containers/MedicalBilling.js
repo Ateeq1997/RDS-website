@@ -25,51 +25,31 @@ const Medicalbilling = () => {
           </h1>
           </div>
           <div className="MB-container">
-    <div className="MB-text-content">
-    <img src={line} alt="Line" class="MB-line-image1" />
-    <div className="MB-text">
-        <h2>Patient Registration:</h2>
-        <p className='MB-para' >The process begins with patient registration, where all demographic and insurance information is collected.Our 
-          streamlined approach ensures that all necessary details are <br/> accurately recorded, minimizing errors and delays in the
-           billing process. We utilize  advanced software systems to efficiently capture and verify patient information, ensuring <br/> compliance
-            with HIPAA regulations regarding patient privacy.</p>
-    </div>
-    </div>
-    <div className="MB-text-content">
-    <img src={line} alt="Line" class="MB-line-image2" />
-    <div className="MB-text">
-        <h2>Documentation and Coding:</h2>
-        <p>After the patient's visit, healthcare providers document the services provided and diagnoses made during the encounter. Our
-         continuous training and stays updated with the latest <br/> coding guidelines ...</p>
-    </div>
-    </div>
-    <div className="MB-text-content">
-    <img src={line} alt="Line" class="MB-line-image3" />
-    <div className="MB-text">
-        <h2>Claim Preparation and Submission:</h2>
-        <p>Once the coding is complete, our billing team prepares the insurance claims using the coded information. We utilize electronic
-           claim  submission whenever possible to expedite <br/> the process</p>
-    </div>
-    </div>
-    <div className="MB-text-content">
-    <img src={line} alt="Line" class="MB-line-image4" />
-    <div className="MB-text">
-        <h2>Payment Posting:</h2>
-        <p>Upon receipt of payments from insurance companies, our payment posting team ensures accurate posting of payments against the 
-         corresponding claims. Our advanced <br/> reconciliation processes help identify discrepancies and ensure that payments are posted
-          correctly, minimizing revenue leakage.</p>
-    </div>
-    </div>
-    <div className="MB-text-content">
-    <img src={line} alt="Line" class="MB-line-image5" />
-    <div className="MB-text">
-        <h2>Reimbursement and Reporting:</h2>
-        <p>Finally, once claims are processed and reimbursed, our system generates detailed reports to track key performance metrics 
-          such as reimbursement rates, denial rates, and days in <br/>accounts receivable. These reports provide valuable insights
-           into the financial health of the practice and help identify areas for improvement in billing and revenue cycle management.</p>
-    </div>
-    </div>
+  <ul className="MB-list">
+    <li className="MB-text-content">
+      <img src={line} alt="Line" className="MB-line-image1" />
+      <h2>Patient Registration:</h2>
+    </li>
+    <li className="MB-text-content">
+      <img src={line} alt="Line" className="MB-line-image2" />
+      <h2>Documentation and Coding:</h2>
+    </li>
+    <li className="MB-text-content">
+      <img src={line} alt="Line" className="MB-line-image3" />
+      <h2>Claim Preparation and Submission:</h2>
+    </li>
+    <li className="MB-text-content">
+      <img src={line} alt="Line" className="MB-line-image4" />
+      <h2>Payment Posting:</h2>
+    </li>
+    <li className="MB-text-content">
+      <img src={line} alt="Line" className="MB-line-image5" />
+      <h2>Reimbursement and Reporting:</h2>
+    </li>
+  </ul>
 </div>
+
+
           </div>
           <div className="MB-image-container2">
         <img src={bg2} alt="description" className="MB-my-image2" />
