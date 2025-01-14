@@ -4,6 +4,11 @@ html, body {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* Ensures only one scrollbar */
+}
 
 .footer {
   background: linear-gradient(to left, #011245 0%, #0085FF 100%);
@@ -12,50 +17,54 @@ html, body {
   padding: 20px;
   position: relative;
   width: 100%;
-  z-index: 1000; /* Make sure it is higher than any overlay content */
+  min-height: 13vh; /* Ensures the container fits within the viewport */
+    overflow: hidden; /* Prevents internal scrolling */
+  z-index: 1; /* Make sure it is higher than any overlay content */
 }
   .footer-top{
-    max-width: 1200px; /* Set a fixed max width for consistency */
-    width: 80%; /* Retain responsive behavior */
-    margin: 0 auto; /* Center the content */
- 
+    max-width: 1200px; 
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
   }
   .footer-top, .footer-bottom {
-    overflow: hidden;
+    overflow: visible;
   }
   .footer-content, .footer-links {
     display: flex;
     white-space: nowrap;
-    flex-wrap: wrap; /* Ensures content wraps instead of overflowing */
-    justify-content: space-between; /* Distribute the content evenly */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
   }
-  .footer-top {
-    padding: 20px;
-  }
+  
   footer.footer-content {
     max-width: 1200px !important;
     width: 100% !important;
     margin: 0 auto !important;
   }
   .footer-bottom {
-    min-height: 100px;
+    min-height: 185px;
   }
   
   
   .footer-buttons {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Adjust spacing between buttons */
-  }
+    gap: 80px; 
+    position: relative; 
+    z-index: 1; 
+    margin-bottom: 40px;
+    margin-right: 130px;
+  } 
 .footer-top {
   background-color: white;
-  color: #0f3d7f; /* Dark blue text */
+  color: #0f3d7f; 
   padding: 20px;
   display: flex;
-  justify-content: space-between; /* Space between heading and buttons */
-  align-items: center; /* Vertically center content */
-  /* width: 80%;  Decreased width */
-  margin: -100px auto 0 auto; /* Move it upwards and center */
+  justify-content: space-between; 
+  align-items: center; 
+ 
+  margin: -100px auto 0 auto; 
   border-radius: 12px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   height: 170px;
@@ -72,25 +81,19 @@ html, body {
   max-width: 1200px;
   width: 100%; /* Ensure the content doesn't overflow */
   margin: 0 auto; /* Center the content */
-  height: 350px; /* Adjust this value to your preference */
+  height: 320px; /* Adjust this value to your preference */
   box-sizing: border-box; /* Ensures padding and height play nicely together */
 }
 
-.footer-top-heading {
+ .footer-top-heading {
   margin: 50px;
   color: black;
   font-size: 48px;
   font-family: Outfit;
   font-weight: 700;
   line-height: 55px;
-}
+} 
 
-.footer-buttons {
-  display: flex;
-  gap: 85px; /* Add spacing between the buttons */
-  margin-bottom: 40px;
-  margin-right: 130px;
-}
 
 .footer-button {
   display: flex;
@@ -101,46 +104,46 @@ html, body {
   padding: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  color: rgba(0, 0, 0, 0.52); /* Dark blue text */
+  color: rgba(0, 0, 0, 0.52); 
   white-space: nowrap;
   transition: background-color 0.3s;
-  width: 70px; /* Set a fixed width for buttons */
+  width: 70px; 
   height: 60px;
-  text-decoration: none; /* Remove underline */
-}
+  text-decoration: none; 
+} 
 
 .footer-button:hover {
   background-color: #0f3d7f;
   color: rgba(0, 0, 0, 0.52);
 }
 .footer-button:hover .footer-button-text {
-  text-decoration: underline; /* Underline the text on hover */
+  text-decoration: underline; 
   text-underline-offset: 5px;
-}
-.footer-icon-container {
+} 
+ .footer-icon-container {
   width: 40px;
   height: 40px;
   margin-bottom: 10px;
-}
+} 
 
 .footer-icon {
   width: 100%;
   height: 100%;
-  fill: #0f3d7f; /* Dark blue color for icons */
-}
+  fill: #0f3d7f; 
+} 
 
-.footer-button-text {
+ .footer-button-text {
   color: rgba(0, 0, 0, 0.52);
   font-size: 18px;
   font-family: Outfit;
   font-weight: 500;
   line-height: 55px;
-  text-decoration: none; /* Ensure no underline by default */
-}
+  text-decoration: none; 
+} 
 
 .footer-button span:hover {
-  text-decoration: underline; /* Underline only on hover */
-  text-underline-offset: 5px; /* Adjusts the distance between text and underline */
+  text-decoration: underline; 
+  text-underline-offset: 5px; 
 }
 .footer-content {
   display: flex;
@@ -174,7 +177,7 @@ html, body {
 }
 
 .company-name {
-  font-size: 22px;
+  font-size: 24px;
   color: white;
   margin: 0;
 }
@@ -213,7 +216,7 @@ html, body {
   margin-right: 120px;
   gap: 100px;
   color: white;
-font-size: 17px;
+font-size: 22px;
 margin-top: -200px;
 font-family: Poppins;
 font-weight: 700;
@@ -223,14 +226,15 @@ z-index: 1; /* Ensure this is higher than z-index of images */
 }
 .services{
   margin-left: 190px;
+
 }
 .legal-notice{
-  margin-top: -350px;
+  margin-top: -415px;
   margin-left: 500px;
 }
 .explore{
   margin-left: 750px;
-  margin-top: -450px;
+  margin-top: -515px;
    
  }
 
@@ -238,12 +242,12 @@ z-index: 1; /* Ensure this is higher than z-index of images */
   width: 30%;
 }
 
-.footer-links h4 {
+.footer-links h3 {
   margin-top: 45px;
   color: white;
-font-size: 17px;
+font-size: 25px;
 font-family: Poppins;
-font-weight: 700;
+font-weight: 800;
 margin-bottom: 20px;
 }
 
@@ -252,43 +256,39 @@ margin-bottom: 20px;
   list-style-type: none;
   padding: 0;
   color: white;
-font-size: 16px;
+font-size: 19px;
 font-family: Poppins;
-font-weight: 400;
+font-weight: 500;
 word-wrap: break-word
 }
 
-.footer-links ul li {
-  margin-bottom: 8px;
-}
 
 .footer-links ul li a {
   color: #cfd9e6; /* Light gray for text */
   text-decoration: none;
-  font-size: 14px;
-}
-
-.footer-links ul li a {
+  margin-top: 12px;
+  display: flex;
+  display: inline-block; /* Ensures the underline matches the text length */
+  align-content: space-around;
   position: relative; /* Required for the custom underline positioning */
-  text-decoration: none; /* Remove default underline */
 }
 
 .footer-links ul li a::after {
-  content: ''; /* Create a custom underline */
+  content: '';
   position: absolute;
-  width: 100%;
-  height: 2px; /* Thickness of the underline */
-  background-color: #fff; /* Color of the underline */
-  bottom: -5px; /* Adjust this value to move the line further down */
   left: 0;
-  transform: scaleX(0); /* Initially hide the underline */
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out;
+  bottom: -3px; /* Adjust the position below the text */
+  width: 100%; /* Matches the text width dynamically */
+  height: 3px; /* Thickness of the underline */
+  background-color: currentColor; /* Uses the text color */
+  transform: scaleX(0); /* Hidden initially */
+  transform-origin: left; /* Starts from the left */
+  transition: transform 0.3s ease; /* Smooth reveal */
 }
 
 .footer-links ul li a:hover::after {
   transform: scaleX(1); /* Reveal the underline on hover */
-  transform-origin: bottom left;
+
 }
 
 .footer-images-container {
@@ -312,7 +312,7 @@ word-wrap: break-word
   width: 750px;
   height: 330px;
  position: absolute;
- bottom: -570px;
+ bottom: -510px;
     filter: contrast(100%);
 }
 
@@ -321,7 +321,7 @@ word-wrap: break-word
   position: absolute; 
   width: 250px;
   height: 319px;
-bottom: -350px;
+bottom: -320px;
 margin-left: 520px;
   filter: contrast(150%);
   pointer-events: none; 
@@ -332,7 +332,7 @@ margin-left: 520px;
   position: absolute; /* Positioned relative to .footer-main */
   width: 211px;
   height: 191px;
-  bottom: -310px;
+  bottom: -290px;
   margin-left: 600px;
   filter: contrast(250%);
   pointer-events: none; /* Prevent interaction */
@@ -343,7 +343,7 @@ margin-left: 520px;
   position: absolute;
   width: 211px;
   height: 191px;
-  margin-top: 380px;
+  margin-top: 320px;
   margin-left: 745px;
     filter: contrast(1550%);
 }
@@ -354,20 +354,22 @@ margin-left: 520px;
   padding: 10px 0;
   background: linear-gradient(to left, #011245 0%, #0085FF 100%);
   color: white;
-  height: 90px;
+ 
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: -60px;
   
 }
 
 .footer-line {
   border: none;
   border-top: 2px solid white;
-  margin-bottom: 10px;
+/* margin-top:140px; */
   width: 100%;
-  margin: 40px auto 20px auto; /* Adjusted top and bottom margins */
+  position: relative;
+  top: 120px;
+  /* margin: 110px auto 20px auto;  */
   opacity: 1.50;
 
 }
@@ -376,14 +378,23 @@ margin-left: 520px;
   font-size: 13px;
   font-family: Poppins;
   font-weight: 400;
+  position: relative;
+  top: 115px;
+  line-height: 1.5; /* Adjusts text spacing */
   /* line-height: 24.78px; */
   /* margin-top: 10px; */
 }
 
 @media (min-width: 1440px) and (max-width: 1910px) {
-  .footer-buttons{
+  /* .footer-buttons{
 margin-right: 32px;
+  } */
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
+  
   .company-logo{
     margin-left: 100px;
   }
@@ -398,7 +409,7 @@ margin-right: 32px;
   }
   .back-image5 {
     position: absolute;
-    margin-top: 385px;
+    margin-top: 325px;
     margin-left: 545px;
       filter: contrast(1550%);
   }

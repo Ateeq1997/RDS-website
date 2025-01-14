@@ -28,23 +28,23 @@ const Medicalbilling = () => {
   <ul className="MB-list">
     <li className="MB-text-content">
       <img src={line} alt="Line" className="MB-line-image1" />
-      <h2>Patient Registration:</h2>
+      <h2>Patient Registration</h2>
     </li>
     <li className="MB-text-content">
       <img src={line} alt="Line" className="MB-line-image2" />
-      <h2>Documentation and Coding:</h2>
+      <h2>Documentation and Coding</h2>
     </li>
     <li className="MB-text-content">
       <img src={line} alt="Line" className="MB-line-image3" />
-      <h2>Claim Preparation and Submission:</h2>
+      <h2>Claim Preparation and Submission</h2>
     </li>
     <li className="MB-text-content">
       <img src={line} alt="Line" className="MB-line-image4" />
-      <h2>Payment Posting:</h2>
+      <h2>Payment Posting</h2>
     </li>
     <li className="MB-text-content">
       <img src={line} alt="Line" className="MB-line-image5" />
-      <h2>Reimbursement and Reporting:</h2>
+      <h2>Reimbursement and Reporting</h2>
     </li>
   </ul>
 </div>

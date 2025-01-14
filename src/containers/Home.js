@@ -89,7 +89,12 @@ const HomeComponent = () => {
         <div>
       {showContainers && (
         <div className="Home-grid-container">
-          <div className="H-icon-container">
+          <div className="H-icon-container"  onClick={() => {
+          handleContainerClick('/practice-management');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
+            
             <img src={IsolationMode4} alt="Icon 3" className="H-icon" />
             <h3 className="H-heading">Practice Management</h3>
             <p className="H-text">

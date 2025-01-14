@@ -9,11 +9,9 @@ import department from '../assets/img/departments-5.png';
 
 const HealthcareDigitalMarketing = () => {
     const navigate = useNavigate();
-
-    const handleContainerClick = () => {
-      // Handle the click event
+    const handleContainerClick = (path) => {
       console.log('Icon container clicked');
-      navigate('/healthcare-digital-marketing');
+      navigate(path); // Use navigate function here
     };
   return (
     <>

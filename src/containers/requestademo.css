@@ -1,11 +1,18 @@
+/* General Footer Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Disable horizontal scrollbar */
+}
+
 
   .RD-image-container2{
     width: 92vw;
- 
+    height: 100%;
+    max-height:91vh ;
     position: relative;
     padding-top: 190px; /* Adjust this value to increase the space at the top */
-   
-    margin-top: -130px;
+    margin-top: 70px;
     border-radius: 90px;
     
   }
@@ -19,10 +26,9 @@
     border-radius: 90px;
     z-index: -1; /* Ensure the image stays in the background */
   }.RD-overlay-content {
-    position: relative;
-  padding: 20px;
+  margin-top: 70px;
   z-index: 1; /* Ensures the content is above the background image */
-  bottom: 23vh;
+ 
   text-align: center;
   
   }
@@ -34,7 +40,9 @@
 font-family: Outfit;
 font-weight: 700;
 line-height: 55px;
-margin-top: 30px;
+position: relative;
+top: -220px;
+/* margin-top: -30px; */
   }
   .RD-heading-part11, .RD-heading-part22 {
     display: inline; /* Ensure the spans are inline */
@@ -152,16 +160,78 @@ color: #ffffff;
 .submit-btn:active {
   animation: expand-shrink-jump 0.8s ease-in-out;
 }
+.success-message {
+  color: green;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Popup notification styles */
+.popup-message {
+  position: fixed;
+  top: 10px;  /* Position at the top */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;  /* Green background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;  /* Ensure it's on top of other content */
+  animation: fadeIn 0.5s, fadeOut 0.5s 4.5s;  /* Fade in and out animation */
+}
+
+/* Fade-in and fade-out animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
 @media (min-width: 1440px) and (max-width: 1910px) {
-  .RD-image-container2{
-    margin-top: 35px;
-    height:120vh
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
   }
-  .RD-overlay-content{
-  
+
+  .RD-image-container2 {
+    margin-top: 20px;
+    max-height: 900px;
+    overflow: hidden; /* Prevent vertical overflow if content exceeds height */
   }
-  .RD-heading3{
+
+  .form-container {
+    max-width: 100%; /* Ensure no horizontal overflow */
+    overflow-y: auto; /* Allow vertical scrolling only */
+    margin: 0 auto; /* Center content if necessary */
+    padding: 0 16px; /* Optional for consistent spacing */
+    margin-top: -270px;
+  }
+
+  .RD-heading3 {
     margin-top: -30px;
     margin-bottom: 70px;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 600px; /* Adjust form width for responsiveness */
+    margin: 0 auto; /* Center the form */
   }
 }

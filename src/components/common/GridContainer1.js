@@ -1,9 +1,5 @@
-// src/components/common/GridContainer1.js
-
 import React from 'react';
 import './gridcontainer1.css'; // Import CSS for styling
-
-// Import images with the correct file names
 import IsolationMode from '../../assets/img/revenue.svg';
 import IsolationMode3 from '../../assets/img/Isolation_Mode3.svg';
 import IsolationMode4 from '../../assets/img/Isolation_Mode4.svg';
@@ -14,35 +10,65 @@ import Layer from '../../assets/img/Layer.svg';
 const GridContainer1 = ({ handleContainerClick }) => {
   return (
     <div className="grid-container">
-      <div className="icon-container"  onClick={() => handleContainerClick('/revenue-cycle-management')}>
+      <div
+        className="icon-container"
+        onClick={() => {
+          handleContainerClick('/revenue-cycle-management');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={IsolationMode} alt="Icon 1" className="icon" />
         <h3 className="heading">Revenue Cycle Management</h3>
         <p className="text">
           Enhancing Financial Performance and Reducing Operational Costs in Service Delivery
         </p>
       </div>
-      <div className="icon-container" onClick={handleContainerClick}>
+      <div
+        className="icon-container"
+        onClick={() => {
+          handleContainerClick('/hipaa-rules');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={IsolationMode3} alt="Icon 2" className="icon" />
-        <h3 className="heading">Hipaa Management</h3>
+        <h3 className="heading">Hipaa Rules</h3>
         <p className="text">
           Ensure the integrity of protected health information with diligent administration of HIPAA regulations.
         </p>
       </div>
-      <div className="icon-container" onClick={() => handleContainerClick('/patient-experience-management')}>
+      <div
+        className="icon-container"
+        onClick={() => {
+          handleContainerClick('/patient-experience-management');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={IsolationMode4} alt="Icon 3" className="icon" />
         <h3 className="heading">Patient Experience Management</h3>
         <p className="text">
           Contemporary Patient Experience Enhancement: RDS Real-Time Feedback System for Ongoing Healthcare Experience Assessment.
         </p>
       </div>
-      <div className="icon-container" onClick={() => handleContainerClick('/healthcare-digital-marketing')}>
+      <div
+        className="icon-container"
+        onClick={() => {
+          handleContainerClick('/healthcare-digital-marketing');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={IsolationMode2} alt="Icon 4" className="icon" />
         <h3 className="heading">Healthcare Digital Marketing</h3>
         <p className="text">
           Enhancing Service Profitability and Reducing Administrative Costs through Strategic Healthcare Digital Marketing.
         </p>
       </div>
-      <div className="icon-container" onClick={() => handleContainerClick('/healthcare-analytics')}>
+      <div
+        className="icon-container"
+        onClick={() => {
+          handleContainerClick('/healthcare-analytics');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
         <img src={IsolationMode5} alt="Icon 5" className="icon" />
         <h3 className="heading">Healthcare Analytics</h3>
         <p className="text">

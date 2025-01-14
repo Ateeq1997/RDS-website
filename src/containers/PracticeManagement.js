@@ -62,7 +62,7 @@ const Practicemanagement = () => {
         </div>
         <img src={department3} alt="Your Image" className="PM2-dp-image1" />
 
-        <div class="container-wrapper">
+        {/* <div class="container-wrapper">
  
   <div class="container-item">
     <div class="checkbox-container">
@@ -184,7 +184,7 @@ const Practicemanagement = () => {
       <p>State Medicare & Mediciad enrollment <br /> including RR Medicare, Tricare, BWC</p>
     </div>
   </div>
-</div>
+</div> */}
 
       </div>
       <div className="PM2-text-container11">

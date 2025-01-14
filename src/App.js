@@ -9,6 +9,7 @@ import HomeComponent from './containers/Home';
 import CustomNavbar from './components/common/CustomNavbar';
 import Specialities from './containers/Specialities';
 import RevenueCycleManagement from './containers/RevenueCycleManagement';
+import HipaaRules from './containers/HipaaRules';
 import HealthcareDigitalMarketing from './containers/HealthcareDigitalMarketing';
 import HealthcareAnalytics from './containers/Healthcare&Analytics';
 import PatientExperienceManagement from './containers/PatientExperienceManagement';
@@ -89,6 +90,14 @@ function App() {
               <CustomNavbar />
               <ConditionalFooterWrapper>
                 <RevenueCycleManagement />
+              </ConditionalFooterWrapper>
+            </>
+          } />
+          <Route path="/hipaa-rules" element={
+            <>
+              <CustomNavbar />
+              <ConditionalFooterWrapper>
+                <HipaaRules />
               </ConditionalFooterWrapper>
             </>
           } />

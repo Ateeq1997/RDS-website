@@ -64,7 +64,7 @@
   .pricing-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 100px;
     white-space: nowrap;
     position: relative;
     bottom: 15vh;
@@ -80,14 +80,14 @@
     text-align: left;
   }
   
-  .pricing-card:hover {
+  /* .pricing-card:hover {
     transform: scale(1.05);
     background-color: #007bff;
     color: white;
   }
   .pricing-card:hover ul li {
     color: white;
-}
+} */
   .featured h2, .featured h3, .featured p, .featured ul, .featured button {
     color: white;
   }
@@ -165,33 +165,53 @@ word-wrap: break-word
     text-align: center;
   }
   /* Hover effect on the pricing card */
-.pricing-card:hover ul li::before {
-  background: white; /* White fill on hover */
-  color: #0d0d0d; /* Primary blue for the tick mark on hover */
-}
-  
-  .choose-btn {
-    background-color: transparent;
-    border: 1px solid #007bff;
-    color: #007bff;
-    padding: 10px 35px;
+/* .pricing-card:hover ul li::before {
+  background: white; 
+  color: #0d0d0d; 
+} */
+/* @keyframes expand-shrink-jump {
+  0% {
+    transform: scale(1); 
+  }
+  30% {
+    transform: scaleX(1.3) scaleY(1.3); 
+  }
+  50% {
+    transform: scaleX(0.8) scaleY(0.8); 
+  }
+  80% {
+    transform: scale(1.1) translateY(-5px); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+} */
+  /* .choose-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 1em;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
   
   .choose-btn.primary {
     background-color: #007bff;
     color: #fff;
-  }
+  } */
+  /* .pricing-card:hover .choose-btn {
+    background-color: white; 
+    color: #007bff; 
+    border: 1px solid white; 
   
-  .choose-btn:hover {
-    background-color: #ffffff;
-    color: #007bff;
-    border-color: white; /* White border on hover */
   }
+  .choose-btn:hover {
+    background-color: white; 
+    color: #007bff; 
+    border: 1px solid white; 
+    animation: expand-shrink-jump 0.5s ease; 
+  } */
   @media (min-width: 1440px) and (max-width: 1910px) {
     .P-image-container2{
       margin-bottom: 3px

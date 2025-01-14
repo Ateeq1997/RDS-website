@@ -37,7 +37,7 @@ const Pricing = () => {
         <li>Standard reporting from your billing software</li>
         <li>Basic patient inquiries support</li>
     </ul>
-    <button class="choose-btn">Choose Plan</button>
+    {/* <button class="choose-btn">Choose Plan</button> */}
 </div>
     
 <div class="pricing-card">
@@ -53,7 +53,7 @@ const Pricing = () => {
         <li>Customized monthly/annual reports with insights</li>
         <li>Full patient statements & inquiries management</li>
     </ul>
-    <button class="choose-btn">Choose Plan</button>
+    {/* <button class="choose-btn">Choose Plan</button> */}
 </div>
 
   </div>
