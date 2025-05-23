@@ -50,6 +50,7 @@ const Practicemanagement = () => {
       </div>
 
       <div className="PM2-text-container">
+      <img src={department3} alt="Your Image" className="PM2-dp-image1" />
         <div className="PM2-overlay-content">
           <h1 className="PM2-heading44">
             <span className="PM2-heading-part111">Increase revenue profitability <br /> with acomprehensive practice</span>
@@ -60,7 +61,7 @@ const Practicemanagement = () => {
             Whether you aim to enhance patient care or boost financial returns, RDS <br /> Precision offers the flexibility and accessibility to empower your practice
           </p>
         </div>
-        <img src={department3} alt="Your Image" className="PM2-dp-image1" />
+        
 
         {/* <div class="container-wrapper">
  
@@ -194,13 +195,13 @@ const Practicemanagement = () => {
             <span className="PM2-heading-part222">Care analytics </span>
           </h1>
           <p className="PM2-paragraph21">
-          RDS Precision offers a holistic account overview, encompassing appointment requests and upcoming <br /> appointments. 
-          The RDS Precision Practice Analytics Dashboard enables you to gauge performance and <br /> access essential data instantly.
+          RDS Precision offers a holistic account overview, encompassing appointment requests and upcoming appointments. 
+          The RDS Precision Practice Analytics Dashboard enables you to gauge performance and  access essential data instantly.
           Utilizing Charts, you gain a comprehensive insight into a patient's entire medical history and clinical summary at a glance. This empowers you to establish more meaningful patient connections and enhance treatment planning.
           </p>
           <p className="PM2-paragraph21">
-          Utilizing Charts, you gain a comprehensive insight into a patient's entire medical history and clinical <br /> summary at 
-          a glance. This empowers you to establish more meaningful patient connections and enhance <br /> treatment planning.
+          Utilizing Charts, you gain a comprehensive insight into a patient's entire medical history and clinical  summary at 
+          a glance. This empowers you to establish more meaningful patient connections and enhance  treatment planning.
           </p>
         </div>
         </div>

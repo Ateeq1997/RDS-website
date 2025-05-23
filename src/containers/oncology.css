@@ -8,7 +8,7 @@
      color: white;
      position: absolute;
      top: 22%;
-     left: 20%;
+     left: 21VW;
      transform: translateX(-50%);
    }
    
@@ -81,6 +81,7 @@ white-space: nowrap;
      font-weight: 400;
      margin: 25px 0;
 font-size: 18px;
+text-align: center;
 font-family: Poppins;
 font-weight: 400;
 word-wrap: break-word
@@ -117,20 +118,20 @@ word-wrap: break-word
    
    .O-overlay-content1 {
      display: flex;
-     position: relative;
+     /* position: relative; */
      align-items: center;
      justify-content: space-between;
      margin-bottom: 30px;
-     left: 45vw;
-     bottom: 6vh;
+     /* left: 45vw;
+     bottom: 6vh; */
    }
    
    .O-heading4 {
      margin-bottom: 10px;
      text-align: left;
      position: relative;
-     bottom: 7vh;
-     right: -160px;
+margin-top: -160px;
+margin-left: 150px;
      white-space: nowrap;
      font-size: 48px;
 font-family: Outfit;
@@ -145,20 +146,22 @@ word-wrap: break-word
      text-align: left;
      font-weight: 400;
      line-height: 1.5;
-     top: 10vh;
-     right: 20vw;
+     margin-left: -550px;
+     margin-top: 120px;
+     /* top: 10vh;
+     right: 24vw; */
      position: relative;
 font-size: 18px;
 font-family: Poppins;
-word-wrap: break-word
    }
    
    .O-dp-image {
-     width: 26%;
-     height: 43vh;
+     width: 28vw;
+     height: 50vh;
      position: relative;
-     right: 42vw;
-     top: 12vh;
+   margin-left: 11vw;
+   margin-top: 70px;
+     /* top: 12vh; */
    }
    
    .O-gradient-container {
@@ -359,15 +362,39 @@ font-family: Poppins;
 font-weight: 400;
 word-wrap: break-word
    }
-   @media (min-width: 1440px) and (max-width: 1910px) {
-  .O-dp-image{
-    margin-left: -110px;
+   @media (min-width: 1921px) and (max-width: 2565px) {
+    .O-overlay-content1 {
+left: 57vw;
+    }
+    .O-dp-image {
+      right: 25vw;
+    }
+    .O-heading4 {
+      right: -35px;
+    }
+  }
+   @media (min-width: 1410px) and (max-width: 1910px) {
+    /* .O-overlay-content {
+      margin-top: -120px;
+    }
+    .O-dp-image{
+    margin-left: -190px;
+    width: 30vw;
+    height: 39vh;
+    top: 9vh;
   }
   .O-overlay-content1{
-    margin-left: -40px;
+    margin-left: -80px;
   }
   .O-paragraph201{
     margin-top: 50px;
-    margin-left: -75px;
+    margin-left: -95px;
   }
-}
+  .O-image-container2 {
+    height: 60vh;
+  }
+  
+  .O-overlay-content2 {
+    margin-bottom: -20px;
+  } */
+} 

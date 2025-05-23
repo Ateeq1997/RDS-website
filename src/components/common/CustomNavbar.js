@@ -21,89 +21,67 @@ const DropdownMenu = () => {
   const toggleDropdown = () => {
     setIsOpen((prevState) => !prevState);
   };
+  if (window.devicePixelRatio === 2) {
+    document.documentElement.style.setProperty('--dynamic-width', '100px');
+  }
+  useEffect(() => {
+    const navbarBrand = document.querySelector('.navbar-brand');
+
+    if (navbarBrand) {
+      if (window.devicePixelRatio === 1) {
+        // LED Screen (100% zoom)
+        navbarBrand.classList.add('led-screen');
+        navbarBrand.classList.remove('laptop-screen');
+      } else {
+        // Laptop Screen (125% zoom)
+        navbarBrand.classList.add('laptop-screen');
+        navbarBrand.classList.remove('led-screen');
+      }
+    }
+  }, []);
 
   return (
-    <><div
-      className="btn-group1"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <button
-        className="btn1 dropdown-toggle"
-        aria-expanded={isOpen}
-      >
-        Solutions
-      </button>
-      {isOpen && (
-        <ul
-          className="dropdown-menu dropdown-menu-solutions centered-dropdown"
-          aria-labelledby="solutionsDropdown"
-        >
-          <li>
-            <Link
-              className="dropdown-item"
-              to="/revenue-cycle-management" 
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-            >
-              Revenue Cycle Management
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="dropdown-item"
-              to="/healthcare-digital-marketing"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-            >
-              Healthcare Digital Marketing
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="dropdown-item"
-              to="/healthcare-analytics"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-            >
-              Healthcare Analytics
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="dropdown-item"
-              to="/patient-experience-management"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-            >
-              Patient Experience Management
-            </Link>
-          </li>
-          <li>
-            <Link
-              className="dropdown-item"
-              to="/practice-management"
-              onClick={() => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-                setIsOpen(false);
-              }}
-            >
-              Practice Management
-            </Link>
-          </li>
-        </ul>
-      )}
-
-
-    </div>
+    <>
+      <Navbar.Brand className="navbar-brand">
+        <img src={logo01} alt="Logo" className="navbar-logo" />
+        <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+          <img src={text1} alt="Brand Text" className="navbar-text1" style={{ cursor: 'pointer' }} />
+        </Link>
+      </Navbar.Brand>
+      <div className="btn-group1" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <button className="btn1 dropdown-toggle" aria-expanded={isOpen}>
+          Solutions
+        </button>
+        {isOpen && (
+          <ul className="dropdown-menu dropdown-menu-solutions centered-dropdown" aria-labelledby="solutionsDropdown">
+            <li>
+              <Link className="dropdown-item" to="/revenue-cycle-management" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setIsOpen(false); }}>
+                Revenue Cycle Management
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="/healthcare-digital-marketing" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setIsOpen(false); }}>
+                Healthcare Digital Marketing
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="/healthcare-analytics" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setIsOpen(false); }}>
+                Healthcare Analytics
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="/patient-experience-management" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setIsOpen(false); }}>
+                Patient Experience Management
+              </Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to="/practice-management" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setIsOpen(false); }}>
+                Practice Management
+              </Link>
+            </li>
+          </ul>
+        )}
+      </div>
     <div
       className="btn-group2"
       onMouseEnter={handleMouseEnter}
@@ -219,12 +197,6 @@ function CustomNavbar({ showContainer12 = true }) {
   return (
     <>
       <Navbar bg="light" expand="lg" className="custom-navbar">
-        <Navbar.Brand>
-          <img src={logo01} alt="Logo" className="navbar-logo" />
-          <Link to="/"onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <img src={text1} alt="Brand Text" className="navbar-text1" style={{ cursor: 'pointer' }} />
-          </Link>
-        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -236,11 +208,7 @@ function CustomNavbar({ showContainer12 = true }) {
                 </Link>
               </span>
               <span className="navbar-text">
-                <Link
-                  to="/requestademo"
-                  className="nav-link request-demo"
-                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                >
+                <Link to="/requestademo" className="nav-link request-demo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                   Request a demo
                 </Link>
               </span>

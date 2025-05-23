@@ -8,7 +8,7 @@
      color: white;
      position: absolute;
      top: 22%;
-     left: 20%;
+     left: 21vw;
      transform: translateX(-50%);
    }
    
@@ -85,10 +85,9 @@ white-space: nowrap;
      display: flex;
      position: relative;
      width: 100vw;
-   
-     height: 86vh;
+     height: 105vh;
      overflow: hidden;
-   
+   margin-top: -100px;
    }
    
    .OB-my-image1 {
@@ -106,9 +105,8 @@ white-space: nowrap;
    
    .OB-overlay-content1 {
      display: flex;
-     align-items: center;
-     justify-content: space-between;
-     margin-bottom: 30px;
+margin-left: 12vw;
+     margin-top: 20px;
     
    }
    
@@ -116,7 +114,7 @@ white-space: nowrap;
      margin-bottom: 10px;
      text-align: left;
      position: relative;
-   top: 15vh;
+   top: -45vh;
      left: 47%; 
      display: inline-block;
      font-size: 48px;
@@ -130,15 +128,17 @@ white-space: normal;
     color: #007bff; /* Replace with your primary color */
     position: relative;
     left: 75px;
-    bottom: 52px;
+    bottom: 60px;
 }
    
    .OB-paragraph201 {
      color: rgba(0, 0, 0, 0.60);
      text-align: left;
-     top: 31vh;
-     right: 440px;
-     position: relative;
+     margin-top: -28vh;
+     margin-left: 8vw;
+     /* top: -30vh;
+     right: 240px;
+     position: relative; */
 font-size: 18px;
 font-family: Poppins;
 font-weight: 400;
@@ -146,18 +146,20 @@ word-wrap: break-word
    }
    
    .OB-dp-image {
-     width: 26%;
-     height: 42vh;
-     position: relative;
+     width: 28vw;
+     height: 50vh;
+     margin-top: 40px;
+     margin-left: -46vw;
+     /* position: relative;
      right: 25vw;
-    bottom: 12vh;
+    bottom: 12vh; */
    }
    .OB-heading44 {
      margin-bottom: 10px;
      text-align: left;
      position: relative;
-     left: 140px;
-     top: 60px;
+     left: 145px;
+     top: 40px;
      font-size: 48px;
      font-family: Outfit;
      font-weight: 700;
@@ -174,7 +176,7 @@ word-wrap: break-word
      color:  rgba(0, 0, 0, 0.60);
      text-align: left;
      top: 7vh;
-     left: 240px;
+     left: 170px;
      white-space: nowrap;
      position: relative;
 font-size: 18px;
@@ -186,7 +188,7 @@ word-wrap: break-word
     color:  rgba(0, 0, 0, 0.60);
     text-align: left;
     top: 7vh;
-    left: 240px;
+    left: 170px;
     white-space: nowrap;
     position: relative;
 font-size: 18px;
@@ -196,17 +198,21 @@ word-wrap: break-word
   }
    
    .OB-dp-image1 {
-     width: 26%;
-     height: 42vh;
-     position: absolute;
+     width: 28vw;
+     height: 50vh;
+     position: relative;
+     margin-top: 80px;
+     margin-left: 300px;
+     /* position: absolute;
      left: 56vw;
-    top: 100px;
+    top: 100px; */
    }
    .OB-button {
     position: relative; /* Ensure the button is positioned within its parent */
     z-index: 10; /* Bring the button above other elements */
     text-align: center; /* Align the buttons to the center if needed */
     margin-top: 20px; /* Space between the button and content */
+  margin-left: 60px;
   }
    .OB-read-more-button {
     padding: 10px 20px;
@@ -218,7 +224,9 @@ word-wrap: break-word
     margin-left: -580px;
     margin-top: 370px;
   }
-
+  .OB-overlay-content12{
+    margin-left: 4vw;
+  }
   /* Style for the "Show Less" button */
   .OB-show-less-button {
     padding: 10px 20px;
@@ -377,35 +385,90 @@ margin-bottom: 20vh;
      font-weight: 400;
      word-wrap: break-word
    }
-   @media (min-width: 1440px) and (max-width: 1910px) {
-    .OB-paragraph201{
-      margin-right: -195px;
+   @media (min-width: 1921px) and (max-width: 2565px) {
+    .OB-dp-image {
+right:15vw ;
     }
-    .OB-dp-image{
+    .OB-heading4 {
+      left: 57%;
+    }
+    .OB-paragraph201 {
+      right: 515px;
+      top: 26vh;
+    }
+    /* .OB-my-image1 {
+      height: 80%;
+    } */
+    .OB-overlay-content12{
+      margin-left: 245px;
+      margin-top: 70px;
+    }
+    .OB-button {
+      margin-top: 90px;
+    }
+    .OB-overlay-content11 {
+      margin-top: 60px;
+    }
+  }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+     .OB-dp-image{ 
+  margin-left: 9vw;
+    }
+    .OB-paragraph201{
+      margin-left: 7vw;
+    }
+    .OB-heading44{
+      left: 9vw;
+    }
+  }
+   @media (min-width: 1410px) and (max-width: 1910px) {
+    .OB-overlay-content1 {
+ margin-left: 5vw;  
+    }
+   
+    .OB-overlay-content12{
+      margin-left: 1vw;
+    }
+    /* .OB-dp-image{ 
       margin-top: -30px;
+      width: 30vw;
+      height: 38vh;
+    }
+    .OB-heading4 {
+      top:10vh;
+      left: 730px;
     }
     .OB-paragraph2014{
       margin-left: -45px;
       margin-top: 30px;
     }
     .OB-overlay-content1{
-      margin-top: 50px;
+      margin-top: -70px;
     }
     .OB-image-container2{
-      height: 105vh;
+      height: 80vh;
     }
     .OB-heading44{
       margin-left: -30px;
     }
     .OB-dp-image1{
-      width:440px;
+      width:30vw;
       height: auto;
-      margin-left: 100px;
-      margin-top: 20px;
+      margin-left: 120px;
+      margin-top: 0px;
 
     }
     .OB-paragraph-more{
       margin-left: -47px;
     }
-  }
+    .OB-button{
+margin-top: 50px;
+    }
+    .OB-overlay-content11 {
+      top: 20px;
+    }
+    .OB-paragraph231 {
+      margin-bottom: 120px;
+    }*/
+  } 
  

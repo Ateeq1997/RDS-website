@@ -55,12 +55,12 @@ const Medicalbilling = () => {
         <img src={bg2} alt="description" className="MB-my-image2" />
           <div className="MB-overlay-content2">
             <h1 className="MB-heading4">
-              <span className="MB-heading-part111">Where We Can</span>
+              <span className="MB-heading-part1114">Where We Can</span>
               <span className="MB-heading-part222"> Help You? </span>
             </h1>
             <p className="MB-paragraph2">
-              We handle everything from the process of submitting and following up on claims with <br/> health insurance
-              companies to receive payment for services rendered by a healthcare <br/> provider or medical billing company.
+              We handle everything from the process of submitting and following up on claims with health insurance
+              companies to receive payment for services rendered by a healthcare  provider or medical billing company.
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@
     color: white; /* White text for readability on the image */
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 21VW;
     transform: translateX(-50%); /* Center the content horizontally */
   }
 
@@ -94,13 +94,13 @@
   }
   
   .HDM-icon-container {
-    position: relative;
+
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     /* justify-content: flex-start; */
-    width: 11vw;
-    height: 18vh;
+    width: 190px;
+    height: 170px;
     flex-shrink: 0;
     padding: 30px;
     /* margin-left: 10px;
@@ -122,9 +122,11 @@
 font-family: Poppins;
 font-weight: 400;
 word-wrap: break-word;
-position:relative;
-bottom: 20px;
-left: 13px;   
+margin-top: -3vh;
+margin-left: 0vw;
+/* position:relative;
+bottom: 35px;
+left: 10px;    */
   }
   .HDM-icon-container:hover {
     background-color: #3498db; /* Primary color on hover */
@@ -267,7 +269,7 @@ left: 13px;
     position: relative;
     width: 100vw; /* Adjust width as needed */
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: -25px;
     overflow: hidden;
   }
   
@@ -290,7 +292,7 @@ left: 13px;
     top: 45%; 
      left: 20%;  */
      margin-top: 200px;
-     margin-left: 470px;
+     margin-left: 16vw;
     transform: translate(-10%, -20%);
     text-align: left;
     color: #fff;
@@ -326,25 +328,69 @@ font-weight: 400;
 word-wrap: break-word
   }
   .HM-dp-image{
-    width: 480px; /* Adjust size as needed */
+    width: 28vw; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
  margin-left: 900px;
  margin-top: -370px ;
     z-index: 2; /* Ensure the image is above other content */
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
-    .HDM-text{
-      margin-top: -15px;
-      margin-left: -12px;
-      white-space: nowrap;
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .HDM-text {
+left: 55px;
+top: 20px;
+    }
+    .HM-overlay-content{
+      margin-left: 760px;
+    }
+    .HM-dp-image {
+      margin-left: 900px;
+    }
+    .HM-image-container12 {
+      margin-bottom: -20px;
+    }
+    .HDM-icon-container {
+      height: 15vh;
+    }
+    .HDM-gradient-container {
+      height: 50vh;
+      margin-top: -100px;
+    }
+  }
+   @media (min-width: 1410px) and (max-width: 1920px) {
+    /* .HDM-main-container1 {
+      margin-top: -100px;
+    }
+  
+    .HDM-gradient-container {
+      margin-top: -70px;
+    }
+    .HDM-container-heading {
+      margin-top: 140px;
+    }
+    .HM-image-container12 {
+      margin-bottom: -90px;
     }
     .HM-heading3{
       margin-left: 80px;
+      margin-bottom: 100px;
     }
     .HM-paragraph2{
       margin-left: 80px;
+      position: relative;
+      top: -70px; */
+      /* margin-top: -70px; */
+    /* } */
+    /* .HM-overlay-content{
+      margin-left: 350px;
+      margin-top: 170px;
     }
-    .HM-overlay-content{
-      margin-left: 160px;
+    .HDM-text{
+      margin-top: 16px;
+      margin-left: 20px;
+      white-space: nowrap;
     }
+     */
+/* .HM-dp-image {
+  margin-top: -490px;
+} */
     }

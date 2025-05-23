@@ -12,7 +12,7 @@ html, body {
      color: white;
      position: absolute;
      top: 22%;
-     left: 20%;
+     left: 21vw;
      transform: translateX(-50%);
    }
    
@@ -98,7 +98,7 @@ word-wrap: break-word
     height: auto;
     overflow: hidden; 
     top: 570px;
-    margin-bottom: 10px;
+    margin-bottom: -21vh;
 
   
    }
@@ -112,8 +112,8 @@ word-wrap: break-word
      margin-bottom: 10px;
      text-align: left;
      position: relative;
-     bottom: 1040px;
-    left: 300px;
+ top: -890px;
+    left: 60px;
     white-space: nowrap;
     font-size: 48px;
 font-family: Outfit;
@@ -135,12 +135,14 @@ font-weight: 700;
 
 .D-overlay-content {
     position: relative;
+    top: -10vw;
     z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: auto;
     padding: 0 30px;
+    margin-left: 15vw;
     pointer-events: auto; /* Ensure pointer-events are enabled for interactive content */
 }
 .D-ellipse-line-container {
@@ -148,9 +150,11 @@ font-weight: 700;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    margin-top: -108vh;
+    margin-left: -53vw;
+    /* position: relative;
     bottom: 640px;
-    left: -420px;
+    left: -420px; */
 }
 
 .D-small-line {
@@ -170,12 +174,12 @@ font-weight: 700;
 }
 
 .D-text-container {
-  margin-left: 30px;
+  margin-left: 3vw;
   padding-top: 10px;
   text-align: left;
   position: relative;
-    bottom: 640px;
-    left: -970px;
+  top: -50vh;
+    left: -48vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -235,36 +239,91 @@ font-weight: 700;
      color:#007bff ;
    } */
    .D-my-image3{
-     width: 380px;
-     height: 380px;
+     width: 28vw;
+     height: auto;
      position: relative;
      bottom:350px;
-     left: 800px;
+     left: 35vw;
    }
-   
-   @media (min-width: 1440px) and (max-width: 1910px) {
-    .D-overlay-content{
-      margin-bottom: 90;
+   @media (min-width: 1921px) and (max-width: 2565px) {
+    .D-my-image1 {
+margin-top: 100px;
     }
-    .D-heading335{
+    .D-image-container2 {
       margin-top: 150px;
-      margin-left: -70px;
+      margin-bottom: -280px;
+    }
+    .D-heading335 {
+      left: 600px;
+      top: -1130px;
+    }
+    .D-ellipse-line-container {
+      bottom: 730px;
+    }
+    .D-text-container {
+      left: -1270px;
+      bottom: 645px;
+    }
+    .D-my-image3 {
+      width: 550px;
+      height: 550px;
+      bottom: 460px;
+    }
+  }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+    .D-heading335{
+/* margin-top: 5vh; */
+top: -98vh;
     }
     .D-ellipse-line-container{
-      margin-left: 400px;
-      margin-top: 100px;
+
     }
-    .D-bullet-point{
+    .D-text-container{
+left: -46vw;
+top: -52vh;
+    }
+  }
+    @media (min-width: 1410px) and (max-width: 1910px) {
+    /* .D-overlay-content1 {
+      margin-top: -130px;
+    }
+    .D-my-image1 {
+      margin-top: 20px;
+      width: 80vw;
+    }
+    .D-image-container2 {
+      margin-bottom: -300px;
+    }*/
+    .D-overlay-content{ 
+   top: 0vw;
+
+    }
+     /* .D-heading335{
+      margin-left: -5vw;
+    }    */
+    /* .heading-part110 {
+      margin-left: 30px;
+    } */
+     /* .D-ellipse-line-container{
+      margin-top: -130vh;
+      margin-left: -49vw;
+
+    } */
+    /* .D-bullet-point{ 
     position:relative ;
-left: 390px;
-top: 90px;
-  }
-  .D-primary-button-2{
-margin-left: 400px;
-margin-top: 80px;
-  }
-  .D-my-image3{
-    margin-left: 240px;
-    margin-top: 80px;
-  }
+left: 465px;
+top: 140px;
+  } */
+/* 
+   .D-text-container {
+    left: -43vw;
+top: -66vh;
+  } 
+   .D-my-image3{
+    left: 40vw;
+  } */
+  /* .D-primary-button-2{
+    margin-top: 140px;
+    margin-left: 465px;
+  }*/ 
   }

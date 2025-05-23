@@ -91,7 +91,7 @@ const Footer = () => {
                         <div className="legal-notice">
                             <h3>Legal notice</h3>
                             <ul>
-                                <li><Link to="/requestademo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Privacy Policy</Link></li>
+                                <li><Link to="/privacypolicy" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Privacy Policy</Link></li>
                                 <li><Link to="/requestademo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Non-Discrimination</Link></li>
                                 <li><Link to="/requestademo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Contact</Link></li>
                             </ul>

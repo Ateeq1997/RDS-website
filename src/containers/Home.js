@@ -57,6 +57,7 @@ const HomeComponent = () => {
   return (
     <>
       {/* <CustomNavbar /> */}
+      <div className=".app-container">
       <div className="H-content">
         <h1 className="H-nav-heading">Emphasize <br/> Your Expertise</h1>
         <p className="H-paragraph1">Reclaim your time for patient care by using RDS Precision to handle <br/>your medical billing</p>
@@ -118,16 +119,16 @@ const HomeComponent = () => {
         </div>
       )}
        {!showContainers && (
-    <div className="center-page">
+    <div className="center-page1">
       <Button className="Btn-custom animated-btn" onClick={handleViewAllClick}>
         View all
       </Button>
     </div>
   )}
    {showContainers && (
-            <Button className="Btn-custom animated-btn" onClick={handleShowLessClick}>
-              Show less
-            </Button>
+            <Button className="Btn-custom animated-btn show-less-btn" onClick={handleShowLessClick}>
+            Show less
+          </Button>
           )}
     </div>
     <div className="Home-image-container2">
@@ -138,7 +139,7 @@ const HomeComponent = () => {
         <div className="HDM-heading-container">
             <h1 className="HDM-heading3">
                 <span className="heading-part11">We take Immense Pride in our  <br/> Statistical</span>
-                <span className="heading-part223"><br/> Achievements</span>
+                <span className="heading-part223"> Achievements</span>
             </h1>
         </div>
 
@@ -160,9 +161,9 @@ const HomeComponent = () => {
                 <p className="bullet-point">Delivering Tailored and Adaptive Strategies:</p>
                 <p className="bullet-point">Robust Data Security Protocols:</p>
                 <p className="bullet-point">Elevating Coding Accuracy and Workforce Efficiency:</p>
-                <button className="Btn-custom1 animated-btn" onClick={handleClick}>
+                {/* <button className="Btn-custom1 animated-btn" onClick={handleClick}>
       Get a Quote
-    </button>
+    </button> */}
             </div>
         </div>
     </div>
@@ -211,14 +212,14 @@ const HomeComponent = () => {
           <div className="circle circle4"></div>
         </div>
         <div className="main-container2">
-          <div className="center-content">
+          
             <h1 className="heading22">
               <span className="heading-part1">Serving the most advanced providers in the </span>
               <span className="heading-part2">US</span>
             </h1>
             <p className="description">Empowering healthcare providers nationwide, we specialize in maximizing reimbursements for 
               unpaid <br /> claims. Below is a selection of some of the leading insurance companies we work with.</p>
-          </div>
+     
           <div className="logo-grid">
             <div className="logo-item">
               <img src={logo1} alt="Your Image1" className="logo-image" />
@@ -247,7 +248,7 @@ const HomeComponent = () => {
           </div>
         </div>
       </div>
-    
+      </div>
     </>
   );
 }

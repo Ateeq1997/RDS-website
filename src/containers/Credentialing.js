@@ -36,6 +36,7 @@ const Credentialing = () => {
 
   return (
     <>
+    <div className='C-main'>
       <div className="C-content">
         <h1 className="C-nav-heading">Credentialing</h1>
         <p className="C-paragraph1">
@@ -54,6 +55,7 @@ const Credentialing = () => {
       </div>
       <div className="C-image-container2">
         <img src={bg2} alt="description" className="C-my-image1" />
+        <img src={department6} alt="Your Image" className="C-dp-image" />
         <div className="C-overlay-content2">
           <h1 className="C-heading0">
             <span className="C-heading-part11">We rapidly enroll providers into <br/> premium </span>
@@ -63,7 +65,7 @@ const Credentialing = () => {
           Credentialing, also referred to as insurance or doctor credentialing, is a <br/> process that verifies the qualifications, skills, and legitimacy of <br/>healthcare providers. This ensures that providers possess the necessary <br/>licenses, certifications, and education required to deliver healthcare<br/> services to patients.
           </p>
       
-          <img src={department6} alt="Your Image" className="C-dp-image" />
+       
           </div>
         </div>
        
@@ -83,33 +85,33 @@ const Credentialing = () => {
   <div class="C-container-box">
     <h2>Surveying the provider
     </h2>
-    <p>Our credentialing process starts with an extensive survey carried out by our credentialing specialists. This involves thorough <br/> interviews with providers to collect crucial information, including license numbers, educational history, demographics, and<br/> professional background.</p>
+    <p>Our credentialing process starts with an extensive survey carried out by our credentialing specialists. This involves thorough  interviews with providers to <br/> collect crucial information, including license numbers, educational history, demographics, and professional background.</p>
   </div>
   <div class="C-container-box">
     <h2>Choosing the insurance company</h2>
-    <p>Our medical credentialing services help providers strategically select insurance partners that align with their practice goals <br/> and license type. We also assist in finalizing insurance panels based on the practice location.</p>
+    <p>Our medical credentialing services help providers strategically select insurance partners that align with their practice goals and license type .<br/> We also assist in finalizing insurance panels based on the practice location.</p>
   </div>
   <div class="C-container-box">
     <h2>CAQH Enrollment and Management</h2>
-    <p>We handle CAQH application submissions, manage ProView accounts, and maintain up-to-date credentials <br/> for seamless primary source verification. Additionally, we assist with payer credentialing submissions to <br/> ensure </p>
+    <p>We handle CAQH application submissions, manage ProView accounts, and maintain up-to-date credentials for seamless primary source verification.<br/> Additionally, we assist with payer credentialing submissions to ensure </p>
   </div>
   <div class="C-container-box">
     <h2>Ensure Fast Credentialing Approval
     </h2>
-    <p>Although the typical timeline is 60-120 days, our provider credentialing experts take proactive steps to accelerate the process.<br/> Our team engages in weekly interactions with payers, advocating for the rapid processing and endorsement of your <br/> credentialing applications.</p>
+    <p>Although the typical timeline is 60-120 days, our provider credentialing experts take proactive steps to accelerate the process. Our team engages in weekly <br/>interactions with payers, advocating for the rapid processing and endorsement of your  credentialing applications.</p>
   </div>
   <div class="C-container-box">
     <h2>In-Network Enrollment</h2>
-    <p>Once credentialing is complete, your application moves to the contract phase. During this phase, you may be offered an in-<br/>network contract that includes fee schedules and eligible CPT billing codes. We address closed panel challenges and<br/> advocate through appeals to secure your inclusion.</p>
+    <p>Once credentialing is complete, your application moves to the contract phase. During this phase, you may be offered an in-network contract that includes fee <br/> schedules and eligible CPT billing codes. We address closed panel challenges and advocate through appeals to secure your inclusion.</p>
   </div>
   <div class="C-container-box">
     <h2>Winning you Hospital Privileges Application</h2>
-    <p>As credentialing wraps up, our active involvement persists. We assist you in gaining all necessary hospital privileges: whether <br/>it’s admitting, courtesy, or surgical rights.
+    <p>As credentialing wraps up, our active involvement persists. We assist you in gaining all necessary hospital privileges: whether it’s admitting, courtesy, or <br/> surgical rights.
     </p>
   </div>
   <div class="C-container-box">
     <h2>Ongoing Monitoring and Updates</h2>
-    <p>Our ongoing monitoring guarantees that your company's credentials are always up to date, preventing any lapses in<br/>certification. Our team of experts carefully tracks credentialing expiration dates and performs thorough daily and weekly <br/>reviews to ensure your active status is maintained without interruption.</p>
+    <p>Our ongoing monitoring guarantees that your company's credentials are always up to date, preventing any lapses in certification. Our team of experts carefully <br/> tracks credentialing expiration dates and performs thorough daily and weekly reviews to ensure your active status is maintained without interruption.</p>
   </div>
 </div>
   </div>
@@ -138,7 +140,8 @@ const Credentialing = () => {
       <div className="C-image-container21">
         <img src={bg2} alt="description" className="C-my-image1" />
         <div className="C-overlay-content11">
-        <div class="C-left-side-content">
+        <img src={department6} alt="Your Image" className="C-dp-image1" />
+        <div class="C-left-side-content2">
   <div class="C-content-block">
     <h2 class="C-content-heading">CAQH Registration and Maintenance</h2>
     <p class="C-content-paragraph">We assist providers in distinguishing themselves from their competitors. Our credentialing specialists <br/>handle the registration</p>
@@ -152,7 +155,7 @@ const Credentialing = () => {
     <p class="C-content-paragraph">We facilitate physicians with obtaining and renewing their hospital privileges, which are the rights and <br/>responsibilities granted by a hospital to a provider to practice within its facilities.</p>
   </div>
 </div>
-<img src={department6} alt="Your Image" className="C-dp-image1" />
+
           </div>
         </div>
 
@@ -175,22 +178,23 @@ const Credentialing = () => {
       </div>
       <div className="C-image-container211">
         <img src={bg2} alt="description" className="C-my-image1" />
-        <div className="C-overlay-content11">
-        <div class="C-left-side-content">
+        <div className="C-overlay-content118">
+        <img src={department6} alt="Your Image" className="C-dp-image11" />
+        <div class="C-left-side-content3">
   <div class="C-content-block">
     <h2 class="C-content-heading">Providers State License</h2>
-    <p class="C-content-paragraph">We assist providers in distinguishing themselves from their competitors. Our credentialing specialists <br/>handle the registration</p>
+    <p class="C-content-paragraph">We assist providers in distinguishing themselves from their competitors. Our <br/>credentialing specialists handle the registration</p>
   </div>
   <div class="C-content-block">
     <h2 class="C-content-heading">DEA Certificate & Renewal</h2>
-    <p class="C-content-paragraph">BellMedEx medical credentialing experts help providers with obtaining and renewing their <br/>Drug Enforcement Administration (DEA) certificate, which is a registration that authorizes them to prescribe <br/>controlled substances in the US.</p>
+    <p class="C-content-paragraph">BellMedEx medical credentialing experts help providers with obtaining and <br/> renewing their Drug Enforcement Administration (DEA) certificate, which is <br/>a registration that authorizes them to prescribe controlled substances in the US.</p>
   </div>
   <div class="C-content-block">
     <h2 class="C-content-heading">CLIA Registration</h2>
-    <p class="C-content-paragraph">Providers using our physician credentialing services get help with registering their laboratory under the <br/> Clinical Laboratory Improvement Amendments (CLIA), which are federal standards that regulate laboratory <br/> testing performed on human specimens.</p>
+    <p class="C-content-paragraph">Providers using our physician credentialing services get help with registering their <br/>laboratory under the Clinical Laboratory Improvement Amendments (CLIA), which <br/> are federal standards that regulate laboratory  testing performed on human specimens.</p>
   </div>
 </div>
-<img src={department6} alt="Your Image" className="C-dp-image11" />
+
           </div>
         </div>
         <div className="C-text-container111">
@@ -216,49 +220,52 @@ const Credentialing = () => {
         <div className='C-grid'>
         <GridContainer1  handleContainerClick={handleContainerClick}/>
         </div>
-        <div>
-      {showContainers && (
-        <div className="C-grid-container">
-          <div className="C-icon-container">
-            <img src={IsolationMode4} alt="Icon 3" className="C-icon" />
-            <h3 className="C-heading">Practice Management</h3>
-            <p className="C-text">
-              Optimize Administrative Efficiency Appointment Scheduling with Cutting-Edge Front Office Software for Seamless Practice Operations
-            </p>
-          </div>
-          <div className="C-icon-container">
-            <img src={IsolationMode2} alt="Icon 4" className="C-icon" />
-            <h3 className="C-heading">Business Intelligence</h3>
-            <p className="C-text">
-              Utilize data analytics to unlock valuable business insights, empowering informed decision-making. Drive strategic success by harnessing the power of data-driven strategies.
-            </p>
-          </div>
-          <div className="C-icon-container">
-            <img src={IsolationMode5} alt="Icon 5" className="C-icon" />
-            <h3 className="C-heading">Workforce Augmentation</h3>
-            <p className="C-text">
-              Accelerate your expansion by leveraging the expertise of on-demand professionals and the efficiency of automation.
-            </p>
-          </div>
+          <div>
+             {showContainers && (
+               <div className="Home-grid-container">
+                 <div className="H-icon-container"  onClick={() => {
+                 handleContainerClick('/practice-management');
+                 window.scrollTo({ top: 0, behavior: 'smooth' });
+               }}
+             >
+                   
+                   <img src={IsolationMode4} alt="Icon 3" className="H-icon" />
+                   <h3 className="H-heading">Practice Management</h3>
+                   <p className="H-text">
+                     Optimize Administrative Efficiency Appointment Scheduling with Cutting-Edge Front Office Software for Seamless Practice Operations
+                   </p>
+                 </div>
+                 <div className="H-icon-container">
+                   <img src={IsolationMode2} alt="Icon 4" className="H-icon" />
+                   <h3 className="H-heading">Business Intelligence</h3>
+                   <p className="H-text">
+                     Utilize data analytics to unlock valuable business insights, empowering informed decision-making. Drive strategic success by harnessing the power of data-driven strategies.
+                   </p>
+                 </div>
+                 <div className="H-icon-container">
+                   <img src={IsolationMode5} alt="Icon 5" className="H-icon" />
+                   <h3 className="H-heading">Workforce Augmentation</h3>
+                   <p className="H-text">
+                     Accelerate your expansion by leveraging the expertise of on-demand professionals and the efficiency of automation.
+                   </p>
+                 </div>
+               </div>
+             )}
+              {!showContainers && (
+           <div className="center-page1">
+             <Button className="Btn-custom animated-btn" onClick={handleViewAllClick}>
+               View all
+             </Button>
+           </div>
+         )}
+          {showContainers && (
+                   <Button className="Btn-custom animated-btn show-less-btn" onClick={handleShowLessClick}>
+                   Show less
+                 </Button>
+                 )}
+           </div>
         </div>
-      )}
-       {!showContainers && (
-    <div className="C-center-page">
-      <Button className="C-Btn-custom" onClick={handleViewAllClick}>
-        View all
-      </Button>
-    </div>
-  )}
-   {showContainers && (
-    <div className="C-center-page">
-            <Button className="C-Btn-custom1" onClick={handleShowLessClick}>
-              Show less
-            </Button>
-            </div>
-          )}
-    </div>
         </div>
-
     </>
   );
 };

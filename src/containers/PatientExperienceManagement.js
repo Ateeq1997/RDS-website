@@ -20,6 +20,7 @@ const Patientexperiencemanagement = () => {
   return (
     <>
       {/* <CustomNavbar /> */}
+      <div className='PE-main'>
       <div className="PE-content">
         <h1 className="PE-nav-heading">Patient experience <br/> management</h1>
         <p className="PE-paragraph1">Craft an all-encompassing patient journey with RDS Precision.
@@ -42,38 +43,39 @@ const Patientexperiencemanagement = () => {
           </div>
           <div className="PE-grid-container">
           <div className="PE-icon-container">
-            <p className="PE-text">Create <br/> Patient <br/>experience</p>
+            <p className="PE-text">Create Patient experience</p>
           </div>
           <div className="PE-icon-container">
-            <p className="PE-text">Distinguish <br/>areas of <br/>excellence..</p>
+            <p className="PE-text">Distinguish areas of excellence..</p>
           </div>
           <div className="PE-icon-container">
-            <p className="PE-text">Formulate <br/>enhancement <br/>strategies</p>
+            <p className="PE-text">Formulate enhancement strategies</p>
           </div>
           <div className="PE-icon-container">
-            <p className="PE-text">Assets for<br/> suggested <br/>transformation</p>
+            <p className="PE-text">Assets for suggested transformation</p>
           </div>
           <div className="PE-icon-container">
-            <p className="PE-text">Evaluate the <br/>efficacy of  <br/>enhancement</p>
+            <p className="PE-text">Evaluate the efficacy of enhancement</p>
           </div>
           <div className="PE-icon-container">
-            <p className="PE-text">Commend <br/>patient <br/>achievements</p>
+            <p className="PE-text">Commend patient achievements</p>
           </div>
         </div>
         <div className="PE-overlay-content1">
+        <img src={department1} alt="Your Image" className="PE-dp-image" />
   <div className="PE-text-container">
     <h1 className="PE-heading4">
       <span className="PE-heading-part111">Book An appointment that’s <br /> convenient</span>
       <span className="PE-heading-part222"> For You. </span>
     </h1>
     <p className="PE-paragraph21">
-      Healthcare systems globally, in collaboration with government agencies and <br /> innovative 
-      startups, are increasingly developing and providing telehealth solution <br /> With our service,
-      you can conveniently consult with one of our friendly and well- <br />informed doctors online, 
-      no matter your location or how hectic your schedule <br /> may be.
+      Healthcare systems globally, in collaboration with government agencies and innovative 
+      startups, are increasingly developing and providing telehealth solution  With our service,
+      you can conveniently consult with one of our friendly and well- informed doctors online, 
+      no matter your location or how hectic your schedule  may be.
     </p>
   </div>
-  <img src={department1} alt="Your Image" className="PE-dp-image" />
+  
 </div>
 <div className="PE-overlay-content2">
   <div className="PE-text-container1">
@@ -145,8 +147,8 @@ const Patientexperiencemanagement = () => {
 </div>
           </div>    
       </div>
-      <div className="PE-overlay-content1">
-  <div className="PE-text-container">
+      <div className="PE-overlay-content12">
+  <div className="PE-text-container2">
     <h1 className="PE-heading4">
       <span className="PE-heading-part111">Make your practice more <br/> worhwhile </span>
       <span className="PE-heading-part222">& rewarding</span>
@@ -155,7 +157,7 @@ const Patientexperiencemanagement = () => {
     To be an exemplary healthcare provider, alignment with the organization's values <br/>  and vision, along with the necessary resources for effective delivery, is crucial.<br/>  RDS Precision stands as the optimal tool and service for maximizing the <br/>  profitability of your practice. With over six years of demonstrated expertise,<br/>  Carevma is a trusted partner for complex health systems
     </p>
   </div>
-  <img src={department3} alt="Your Image" className="PE-dp-image" />
+  <img src={department3} alt="Your Image" className="PE-dp-image2" />
 </div>
 <div className="PE-image-container2">
           <img src={bg2} alt="description" className="PE-my-image1" />
@@ -165,11 +167,11 @@ const Patientexperiencemanagement = () => {
               <span className="PE-heading-part22">faster claims</span>
             </h1>
             <p className="PE-paragraph2">
-            Our adaptable, consultative strategy, along with our comprehensive suite of services and a dedicated <br/> back-office team, directly aligns with your 
+            Our adaptable, consultative strategy, along with our comprehensive suite of services and a dedicated back-office team, directly aligns with your 
             requirements and delivers technological solutions.
             </p>
             <p className="PE-paragraph3" >
-            Our Insurance Claims Management and Reimbursement services are designed to boost collections and <br/> optimize you
+            Our Insurance Claims Management and Reimbursement services are designed to boost collections and optimize you
             </p>
             </div>
             </div>
@@ -189,7 +191,7 @@ const Patientexperiencemanagement = () => {
   </div>
   <img src={department4} alt="Your Image" className="PE-dp-image1" />
 </div>
-     
+</div>  
     </>
   );
 };

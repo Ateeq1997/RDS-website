@@ -8,7 +8,7 @@
     color: white; /* White text for readability on the image */
     position: absolute;
     top: 22%;
-    left: 20%;
+    left: 21vw;
     transform: translateX(-50%); /* Center the content horizontally */
   }
   
@@ -93,6 +93,7 @@ word-wrap: break-word
 font-size: 18px;
 font-family: Poppins;
 font-weight: 400;
+text-align: center;
 word-wrap: break-word
   }
   .HA-paragraph3{
@@ -102,8 +103,8 @@ word-wrap: break-word
     font-size: 18px;
 font-family: Poppins;
 font-weight: 400;
-word-wrap: break-word
-   
+word-wrap: break-word;
+text-align: center;
   }
   .HA-image-container2{
     width: 100vw;
@@ -119,9 +120,21 @@ margin-left: 20px;  }
     object-fit: cover;
     z-index: -1; /* Ensure the image stays in the background */
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .HA-overlay-content {
+   margin-top: 70px;
+    }
+  }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+  
+  }
+  @media (min-width: 1410px) and (max-width: 1920px) {
    .HA-image-container2{
-    margin-left: 200px;
+    width: 110vw;
+    margin-left: -10px;
    }
-    
+   .HA-overlay-content {
+    margin-left: -110px;
+  margin-top: 70px; 
+  }
     }

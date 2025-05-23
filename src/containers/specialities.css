@@ -8,7 +8,7 @@
      color: white;
      position: absolute;
      top: 22%;
-     left: 20%;
+     left: 21vw;
      transform: translateX(-50%);
    }
    
@@ -44,7 +44,7 @@ display: flex; /* or use flex */
     white-space: nowrap;
     margin-bottom: 50px;
     position: relative;
-    left: 780px;
+    left: 39vw;
 
   }
   .heading-part11, .heading-part22 {
@@ -67,6 +67,7 @@ display: flex; /* or use flex */
    color: rgba(0, 0, 0, 0.90);
 font-size: 18px;
 font-family: Poppins;
+text-align: center;
 font-weight: 400;
 word-wrap: break-word
   }
@@ -123,6 +124,7 @@ h4 {
   color: black;
   font-weight: bold;
   margin: 0;
+  text-decoration: none;
 }
 .service-card-border:hover {
   background-color: #4091e8; /* Primary blue color on hover */
@@ -136,10 +138,19 @@ h4 {
 .service-card-border h4 {
   font-weight: bold;
   margin: 20px;
+  text-decoration: none;
   color: black; /* Ensure the text color is black */
 }
-  @media (min-width: 1440px) and (max-width: 1910px) {
+@media (min-width: 1921px) and (max-width: 2565px) {
+  .SP-heading44{
+    margin-left: 295px;
+  }
+}
+  /* @media (min-width: 1410px) and (max-width: 1920px) {
+    .SP-main-container {
+      margin-top: -110px;
+    }
   .SP-heading44{
     margin-left: -190px;
   }
-} 
+}  */

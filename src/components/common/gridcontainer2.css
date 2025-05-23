@@ -70,3 +70,10 @@ word-wrap: break-word
   .icon-container:hover .text {
     color: #fff; /* Change text color to white on hover */
   }
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .grid-container2 {
+ margin: 630px;
+ margin-top: 484px;
+ margin-bottom: -110px;
+    }
+  }

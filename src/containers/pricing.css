@@ -1,7 +1,7 @@
 
   .P-image-container2{
     width: 100vw;
-    height: 140vh;
+    height: 145vh;
     position: relative;
     padding-top: 170px; /* Adjust this value to increase the space at the top */
     margin-bottom: -290px;
@@ -212,10 +212,19 @@ word-wrap: break-word
     border: 1px solid white; 
     animation: expand-shrink-jump 0.5s ease; 
   } */
-  @media (min-width: 1440px) and (max-width: 1910px) {
-    .P-image-container2{
-      margin-bottom: 3px
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .P-image-container2 {
+  height: 100vh;
     }
   }
+  /* @media (min-width: 1410px) and (max-width: 1920px) {
+    .P-image-container2{
+      height: 90vh;
+      margin-bottom: -30px
+    }
+    .P-overlay-content {
+      top: -140px;
+    }
+  } */
   
   

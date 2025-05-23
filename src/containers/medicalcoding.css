@@ -8,7 +8,8 @@
     color: white;
     position: absolute;
     top: 22%;
-    left: 20%;
+    left: 21vw;
+    white-space: NOWRAP;
     transform: translateX(-50%);
   }
   
@@ -37,25 +38,16 @@ font-weight: 400;
 word-wrap: break-word
   }
   .MC-text-container1 {
-    max-width: 60%;
     text-align: left;
-    margin-left: auto;
-    position: relative;
-    top: 40px;
-    left: -470px;
-    
-
+    margin-left: 10vw;
+    margin-top: 7vh;
   }
   .MC-text-container2 {
     max-width: 60%;
     text-align: left;
-    margin-left: auto;
-    position: relative;
-    left: -400px;
-    
-
+margin-left: 11vw;
   }
-  
+ 
   .MC-text-container13 {
     max-width: 60%;
     text-align: left;
@@ -63,17 +55,16 @@ word-wrap: break-word
     position: relative;
     left: -450px;
     top: -90px;
-
   }
   
   .MC-heading5 {
-    margin-bottom: 10px;
+ 
     text-align: left;
     font-size: 48px;
 font-family: Outfit;
 font-weight: 700;
 line-height: 55px;
-margin-top: 30px;
+
 
   }
   
@@ -119,26 +110,31 @@ word-wrap: break-word
   } */
 
   .MC-dp-image14 {
-    width: 26vw;
-    height: auto;
+    width: 28vw;
+    height: 48vh;
     position: relative;
-    left: 900px;
-    bottom: 410px;
+/* margin-left: 52vw; */
+left: 50vw;
+top: -45vh;
+/* bottom: 51vh; */
   }
   
   .MC-dp-image1 {
-    width: 26vw;
+    width: 28vw;
     height: auto;
-    position: relative;
-    left: 900px;
-    bottom: 380px;
+    margin-left: 47vw;
+    margin-top: -45vh;
+    margin-bottom: 40vh;
+    /* position: relative;
+    left: 810px;
+    bottom: 380px; */
   }
   .MC-dp-image13 {
-    width: 26vw;
+    width: 28vw;
     height: auto;
     position: relative;
-    left: 900px;
-    bottom: 300px;
+    left: 800px;
+    bottom: 270px;
   }
   .MC-paragraph2011 {
     margin-top: 6vh;
@@ -164,7 +160,7 @@ word-wrap: break-word
     display: flex;
     position: relative;
     width: 100%;
-    bottom: 24vh;
+    bottom: 30vh;
     height: 70vh;
     overflow: hidden;
   
@@ -184,45 +180,62 @@ word-wrap: break-word
   }
   
   .MC-overlay-content1 {
-    display: flex;
     position: relative;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-  left: 1100px;
-    bottom: 6vh;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 20px;
+    z-index: 2;
+     margin-left: 20vw; 
+     margin-top: -18vh;
+/* top: 30px;  */
+display: flex;
+flex-direction: column; /* Stack elements vertically */
+align-items: flex-start; /* Align content to the left */
+justify-content: center;
+  }
+  .MC-overlay-content2 {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 20px;
+    z-index: 2;
+    text-align: center;
+     margin-left: 10vw; 
+     margin-top: -18vh;
+/* top: 30px;  */
+display: flex;
+flex-direction: column; /* Stack elements vertically */
+align-items: flex-start; /* Align content to the left */
+justify-content: center;
   }
   
   .MC-heading4 {
-    margin-bottom: 10px;
-    text-align: left;
-    position: relative;
-    left: -60px;
     font-size: 48px;
-font-family: Outfit;
-font-weight: 700;
-line-height: 55px;
-word-wrap: break-word
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 9vh;
+    font-family: Outfit;
+/* margin-left: 80px; */
+white-space: nowrap;
+display: flex; 
+flex-wrap: wrap; /* Ensure text wraps properly */
+align-items: baseline; /* Aligns heading parts properly */
   }
   
   .MC-paragraph201 {
     font-size: 18px;
-    color: #666;
     text-align: left;
+    /* margin-top: 17vh; */
     font-weight: 400;
-    font-family: Poppins;
-    line-height: 1.5;
-    top: 12vh;
-    right: 21vw;
-    position: relative;
+    margin-left: 0; /* Ensure paragraph starts at the same left position */
   }
   
   .MC-dp-image {
-    width: 26vw;
-    height: 45vh;
+    width: 28vw;
+    height: 50vh;
     position: relative;
-    right: 550px;
-    top: 130px;
+    left: 10vw;
+    top: 10vh;
   }
   /* .MC-learn-more-container {
     display: flex;
@@ -289,32 +302,29 @@ word-wrap: break-word
     width: 100%;
     padding: 20px;
     z-index: 2;
-    margin-left: 120px;
+    margin-left: 9vw;
   }
   
   .MC-text-content {
     color: white;
     max-width: 50%; /* Adjust according to your layout needs */
     text-align: left;
-    position: relative;
-    left:45vw ;
-    top: -40px;
+    margin-right: 12vw;
+    /* position: relative;
+    rifgt ;
+    top: -40px; */
   }
   
   .MC-heading7 {
     font-size: 48px;
     font-weight: 700;
     line-height: 55px;
-    margin-top: 7vh;
-    position: relative;
+    margin-top: 9vh;
     font-family: Outfit;
-    left:170px;
-    bottom: 70px;
+margin-left: 80px;
   }
   .MC-heading-part11112{
-   position: relative;
-   top: 10vh;
-   right: 10vh;
+ 
   }
   .MC-paragraph2011 {
     font-size: 18px;
@@ -355,18 +365,19 @@ font-weight: 600;
   } */
   
   .MC-dp-image2 {
-    width: 26vw;
-    height: 42vh;
+    width: 28vw;
+    height: 50vh;
     position: relative;
-    right: 1030px;
+    left: 10px;
     /* top: vh; */
   }
   .MC-heading452{
-    margin-bottom: 10px;
-    text-align: left;
-    position: relative;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    margin-top: -28vh;
+    /* position: relative;
     bottom: 18vh;
-   right: 22vw;
+   right: 22vw; */
    white-space: nowrap;
    font-size: 48px;
 font-family: Outfit;
@@ -381,14 +392,13 @@ word-wrap: break-word
     width: 100%;
     gap: 20px; /* Adjust gap between containers */
     padding: -40px; /* Optional: adjust padding for the row */
-    position: relative; /* To position the overlay */
-    right: 280px;
-    top: 7vh;
+margin-left: -25vw;
+margin-right: 22vw;
   }
   
   .white-container {
     background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    width: 35%;
+    width: 33%;
     height: 49%;
     padding: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -398,7 +408,7 @@ word-wrap: break-word
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+
     z-index: 2; /* Ensure containers are above the image overlay */
   }
   
@@ -423,7 +433,7 @@ word-wrap: break-word
   .MC-heading455{
     line-height: 55px;
    position: relative;
-   left: 190px;
+   left: 1vw;
   bottom: 220px;
   font-size: 48px;
 font-family: Outfit;
@@ -433,11 +443,20 @@ word-wrap: break-word
   }
   
   .MC-dp-image11 {
-    width: 26vw;
+     position: relative; 
+    right: -48vw; /* Align image to the right */
+    top: 50%; /* Centers vertically */
+    transform: translateY(-50%); /* Adjusts for centering */
+    width: 28vw;
     height: auto;
-    position: absolute; /* Change to absolute to fix its position */
-    left: 1000px; /* Adjust based on your layout */
-    top: -50px; /* Adjust this value as needed to keep it fixed */
+    margin-top: -60vh;
+    /* margin-left: 55vw;
+    margin-top: -140vh; */
+    /* position: relative;
+    left: 55vw;
+    top: -98vh; */
+   /* margin-left: 50vw;
+   margin-top: -100vh; */
 }
   .left-side-content {
     width: 90%; /* Adjust width as needed */
@@ -520,6 +539,7 @@ word-wrap: break-word
 font-family: Outfit;
 font-weight: 700;
 line-height: 55px;
+text-align: left;
 word-wrap: break-word
   }
   .outer-container {
@@ -528,30 +548,36 @@ word-wrap: break-word
     height: 60vh;
     padding: 20px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     
   }
   
   .inner-container {
     display: flex;
+    gap: 20px; /* Space between content-boxes */
+    width: 85%; /* Adjust width as needed */
     justify-content: space-between;
-    width: 80vw;
     height: 170px;
-    position: relative;
-    top: 10vh;
-    left: 10vw;
-    margin: 0; /* Remove any default margin */
-    padding: 0; /* Remove any default padding */
-    gap: 0; /* Ensure there is no gap between items */
-  
+margin: 80px;
   }
   
   .content-box {
-    background-color: #F2F2F2;
-    width: 16%; /* Adjust to fit five containers in a row */
-    padding: 15px;
-    text-align: center;
+  
+    /* width: 10.50vw;  */
+    /* padding: 15px; */
+    /* text-align: center; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
+    position: relative; /* Ensures absolute positioning works */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
   }
   .step-box {
     background-color: #F2F2F2;
@@ -561,9 +587,24 @@ word-wrap: break-word
     text-align: center;
     width: 200px; /* Adjust width as needed */
     position: relative;
+    height: auto;
     z-index: 1;
   }
+  .step-box {
+    flex: 1; /* Ensures the text section takes full width */
+  }
   
+  .arrow-image1,
+  .arrow-image2,
+  .arrow-image3,
+  .arrow-image4,
+  .arrow-image5 {
+    position: absolute;
+    right: -50px; /* Adjust for perfect positioning */
+    top: 50%;
+    transform: translateY(-50%); /* Centers the arrow vertically */
+
+  }
   .step-box.with-rounded-border::before {
     content: "";
     position: absolute;
@@ -593,49 +634,221 @@ word-wrap: break-word
     word-wrap: break-word
   }
   .arrow-image1 {
-    width: 80px; /* Adjust the size of the arrow image */
+    width: 80px;
     height: 158px;
-    position: relative;
+margin-right: 1.53vw;
+    /* margin-left: -7vw; */
+    /* margin-top: -22vh;
+    margin-left: 10.6vw;  */
+    /* position: relative;
     bottom:147px ;
-    left: 95px;
-  }
+    left: 105px; */
+   }
   .arrow-image2 {
-    width: 80px; /* Adjust the size of the arrow image */
-    height: 185px;
-    position: relative;
+    width: 80px; 
+    height: 160px;
+    margin-right: 1.50vw;
+    /* position: relative;
     bottom:173px ;
-    left: 94px;
+    left: 103px; */
   }
   .arrow-image3 {
-    width: 80px; /* Adjust the size of the arrow image */
-    height: 158px;
-    position: relative;
+    width: 80px; 
+    height: 160px;
+    margin-right: 1.50vw;
+    /* position: relative;
     bottom:147px ;
-    left: 94px;
-  }
+    left: 103px; */
+  } 
   .arrow-image4 {
-    width: 80px; /* Adjust the size of the arrow image */
-    height: 185px;
-    position: relative;
+    width: 80px; 
+    height: 160px;
+    margin-right: 1.50vw;
+    /* position: relative;
     bottom:172px ;
-    left: 93px;
+    left: 103px; */
   }
   .arrow-image5 {
-    width: 180px; /* Adjust the size of the arrow image */
-    height: 490px;
-    position: relative;
-    bottom:323px ;
-    left: 14px;
+    width: 180px; 
+    height: 160px;
+    margin-right: 2.50vw;
+  } 
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .MC-text-container1 {
+    left: -490px;
+    margin-top: 100px;
+    }
+    .MC-heading5 {
+      /* margin-top: 70px; */
+    }
+    .MC-dp-image14 {
+    top: -490px;
+    left: 1000px;
+    }
+    .MC-dp-image {
+      height: 35vh;
+      width: 26vw;
+      right: 330px;
+    }
+    .MC-dp-image13 {
+      bottom: 420px;
+    }
+    .MC-gradient-container {
+      height: 50vh;
+    }
+    .MC-paragraph201 {
+      top: 100px;
+    }
+    .MC-image-container2 {
+      height: 50vh;
+      margin-top: 100px;
+    }
+    .MC-overlay-content1 {
+      left: 70vw;
+    }
+    .MC-heading4 {
+      left: -190px;
+    }
+    .MC-dp-image2 {
+      right:1280px;
+      height: 38vh;
+    }  
+.MC-text-content {
+left: 53vw;
+}
+.MC-heading-part11112 {
+  right: 5.5vh;
+  top: 9vh;
+}
+.MC-heading452 {
+  right: 31vw;
+  top: -150px;
+}
+.MC-heading455 {
+  left: -160px;
+  top: -270px;
+}
+.left-side-content {
+  left: -170px;
+}
+.MC-dp-image11 {
+  top: -310px;
+  left: 1100px;
+}
+.MC-dp-image1 {
+  margin-top: -50px;
+}
+.content-box {
+  width: 10%;
+}
+.inner-container {
+  padding-left: 100px;
+  padding-right: 200px;
+  left: 10vw;
+/* margin: 0 100px; */
+  /* margin-right: 15vw; */
+}
+.step-box {
+  width: 300px;
+  height: 200px;
+}
+.arrow-image1 {
+  width: 90px;
+    height: 400px;
+  left: 230px;
+  bottom: 300px;
+}
+.arrow-image2 {
+  width: 90px;
+    height: 400px;
+  left: 230px;
+  bottom: 300px;
+}
+.arrow-image3 {
+  width: 90px;
+    height: 400px;
+  left: 230px;
+  bottom: 300px;
+}
+.arrow-image4 {
+  width: 90px;
+    height: 400px;
+  left: 230px;
+  bottom: 300px;
+}
+.arrow-image5 {
+  width: 235px;
+    height: 400px;
+  left: 81px;
+  bottom: 300px;
+}
+.outer-container {
+  height: 50vh;
+}
+.content-paragraph {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
+  @media (min-width: 1537px) and (max-width: 1919px) {
+    .MC-overlay-content2{
+      left: 20vw;
+    }
+    .MC-heading4441{
+    margin-left: 5vw;
+    }
+    .arrow-image1 {
+      margin-right: 1.69vw;
+    }
+    .arrow-image2 {
+      height: 183px;
+      margin-right: 1.70vw;
+    }
+    .arrow-image3 {
+      margin-right: 1.65vw;
+    }
+    .arrow-image4 {
+      height: 184px;
+      margin-right: 1.67vw;
+    }
+    .arrow-image5 {
+      height: 184px;
+      margin-right: 3.40vw;
+    }
+ 
+
+  }
+   /* @media (min-width: 1410px) and (max-width: 1910px) {
+    .MC-dp-image14 {
+      top: -53vh;
+    }
+    .MC-dp-image11{
+      right: -48vw;
+      margin-top: -80vh;
+    }  */
+    /* .MC-text-container1 {
+      top: -60px;
+      margin-bottom: -60px;
+    }
+
+    .MC-image-container2 {
+      height: 55vh;
+      margin-bottom: 50px;
+    }
     .MC-dp-image{
-      margin-left: 200px;
+      margin-left: 160px;
+      margin-top: -30px;
+      height: 35vh;
+      width: 30vw;
+    }
+    .MC-gradient-container {
+      height: 55vh;
     }
     .MC-overlay-content1{
-      margin-left: -300px;
+      margin-left: -280px;
     }
     .MC-heading4{
-     margin-right: -80px;
+     margin-right: -100px;
     }
     .MC-text-container13{
       margin-top: 80px;
@@ -643,41 +856,45 @@ word-wrap: break-word
     }
     .MC-dp-image13{
       margin-left: -120px;
+      width: 30vw;
+    height: auto;
     }
     .MC-text-content{
       margin-left: -120px;
     }
     .MC-dp-image2{
-      margin-right: -100px;
+      margin-right: -170px;
+      width: 30vw;
+      height: 38vh;
     }
     .MC-text-container2{
-      margin-left:580px ;
+      margin-left:540px ;
+    }
+    .MC-heading-part11112 {
+      right: 8.5vh;
     }
     .MC-dp-image1{
-      margin-left: -120px;
+      margin-left: -150px;
+      width: 30vw;
+    }
+    .MC-heading452 {
+      top: -100px;
+      left: -390px;
     }
     .three-containers-row{
-      margin-left: 180px;
+      margin-left: 220px;
     }
     .MC-heading455{
       margin-top: 50px;
     }
-    .MC-dp-image11{
-      margin-left: -90px;
+   
+    /* .outer-container {
+      margin-top: -150px;
+      margin-bottom: -50px;
     }
-    .arrow-image1 {
-      left: 120px;
-    }
-    .arrow-image2 {
-      left: 118px;
-    }
-    .arrow-image3 {
-      left: 118px;
-    }
-    .arrow-image4 {
-      left: 118px;
-    }
-    .arrow-image5 {
-      left: 33px;
-    }
-  }
+    .content-box {
+      width: 16%;
+      height: 148px;    
+    } */
+   
+  /* }  */

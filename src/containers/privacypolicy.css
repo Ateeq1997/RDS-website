@@ -1,0 +1,165 @@
+.PP-content {
+    flex: 1;
+    z-index: 1; /* Ensure the content is above the background image */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white; /* White text for readability on the image */
+    position: absolute;
+    top: 22%;
+    left: 17%;
+    transform: translateX(-50%); /* Center the content horizontally */
+  }
+  .PP-container{
+    width: 90%;
+    margin-left: 5vw;
+  }
+  .PP-overlay-content {
+margin-top: 52vh;
+margin-left: 12vw;
+    transform: translate(-10%, -20%);
+    text-align: left;
+    color: #fff;
+    /* margin-bottom: -30vh */
+  }
+  .blue-underline {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .blue-text {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .bold-black {
+    font-weight: bold;
+    color: black;
+  }
+  
+
+  .PP-heading2 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  
+  .PP-heading3 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+
+  
+  }
+  .HR-heading-part11 {
+    color: #070707; /* First color */
+    font-weight: 700;
+  }
+  
+  .HR-heading-part22 {
+    color: #2a4ef0; /* Second color */
+    font-weight: 700;
+  }
+  .PP-heading5 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    font-size: 40px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word;
+  }
+  .HR-heading5 {
+    margin-top: 4vh;
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: left;
+    font-size: 38px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word;
+margin-left: 5vw;
+  }
+  .PP-heading6 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: left;
+    margin-top: 20px;
+    font-size: 32px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
+  }
+  .HR-paragraph2{
+    font-size: 18px; /* Adjust as needed */
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+margin-bottom: 50px;
+    text-align: center;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  .HR-paragraph3{
+    font-size: 18px; /* Adjust as needed */
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    margin: 25px 0;
+font-family: Poppins;
+text-align: justify; /* Optional: Justify the text */
+word-wrap: break-word; /* Prevents long words from overflowing */
+margin: 1em 0; /* Adds spacing between paragraphs */
+  }
+  .HR-paragraph4{
+    font-size: 18px; /* Adjust as needed */
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+    text-align: justify; /* Optional: Justify the text */
+    word-wrap: break-word; /* Prevents long words from overflowing */
+    overflow-wrap: break-word; /* Ensures proper word wrapping */
+    margin: 1em 0; /* Adds spacing between paragraphs */
+    font-family: Poppins;
+    line-height: 1.5; /* Ensures proper line spacing */
+  }
+  
+  .HR-paragraph3 {
+ 
+}
+.HR-paragraph5{
+    font-size: 18px; /* Adjust as needed */
+    color:  rgba(0, 0, 0, 0.60);
+    font-weight: 400;
+margin-bottom:30px ;
+    text-align: justify;
+    margin-left: 80px;
+font-family: Poppins;
+word-wrap: break-word
+  }
+  strong {
+    color: black;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+  
+  @media (min-width: 1410px) and (max-width: 1910px) {
+   
+    .PP-overlay-content {
+        margin-top: 65vh;
+        margin-left: 12vw;
+       
+            margin-bottom: -40vh
+          }
+     
+     } 

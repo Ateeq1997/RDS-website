@@ -27,19 +27,19 @@ const HealthcareDigitalMarketing = () => {
         </h1>
         <div className="HDM-grid-container">
           <div className="HDM-icon-container">
-            <p className="HDM-text">Healthcare <br/>Search Engine <br/>Optimisation</p>
+            <p className="HDM-text">Healthcare Search Engine Optimisation</p>
           </div>
           <div className="HDM-icon-container">
-            <p className="HDM-text">Healthcare<br/> PPC <br/>management</p>
+            <p className="HDM-text">Healthcare  PPC management</p>
           </div>
           <div className="HDM-icon-container">
-            <p className="HDM-text">Healthcare <br/>social media<br/> advertisement</p>
+            <p className="HDM-text">Healthcare social media advertisement</p>
           </div>
           <div className="HDM-icon-container">
-            <p className="HDM-text">Healthcare <br/> conversion rate <br/> optimise</p>
+            <p className="HDM-text">Healthcare conversion rate optimise</p>
           </div>
           <div className="HDM-icon-container">
-            <p className="HDM-text">Healthcare <br/>reputation <br/> management</p>
+            <p className="HDM-text">Healthcare reputation  management</p>
           </div>
         </div>
         <div className="HDM-gradient-container">

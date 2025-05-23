@@ -8,7 +8,7 @@
     color: white;
     position: absolute;
     top: 22%;
-    left: 20%;
+    left: 21vw;
     transform: translateX(-50%);
   }
   
@@ -49,6 +49,7 @@ white-space: nowrap;
     padding-top: 180px; /* Adjust this value to increase the space at the top */
     margin-bottom: 0px;
     margin-left: 35px;
+    text-align: center;
   }
   .AR-my-image1 {
     position: absolute;
@@ -59,7 +60,7 @@ white-space: nowrap;
     object-fit: cover;
     z-index: -1; /* Ensure the image stays in the background */
   }.AR-overlay-content {
-    margin-top: 20px;
+    margin-top: 5vh;
     position: relative;
   padding: 20px;
   z-index: 1; /* Ensures the content is above the background image */
@@ -94,9 +95,33 @@ word-wrap: break-word
     font-weight: 400;
     word-wrap: break-word
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
-    .AR-image-container2{
-      margin-left: 190px;
-      margin-bottom: 30px;
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    
+.AR-image-container2 {
+  height: 50vh;
+
+  width: 100vw;
+}
+/* 
+    .AR-overlay-content{
+ top: -1VH;
+    } */
+  }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+    .AR-image-container2 {
+      height: 60vh;
+      width: 98vw;
+      margin-left: -0.10vw;
+    }
+    .AR-overlay-content {
+      margin-top: vh;
     }
   }
+  /* @media (min-width: 1410px) and (max-width: 1910px) {
+    .AR-image-container2{
+      margin-left: 0px;
+      margin-bottom: -30px;
+      height: 60vh;
+    }
+   
+  } */

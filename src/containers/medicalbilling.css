@@ -10,7 +10,7 @@
     color: white;
     position: absolute;
     top: 22%;
-    left: 20%;
+    left: 21vw;
     transform: translateX(-50%);
   }
   
@@ -54,11 +54,16 @@ font-size: 48px;
 font-family: Outfit;
 font-weight: 700;
 line-height: 55px;
+text-align: center;
 word-wrap: break-word
 
   }
   
   .MB-heading-part111 {
+    color: #070707;
+    font-weight: 700;
+  }
+  .MB-heading-part1114 {
     color: #070707;
     font-weight: 700;
   }
@@ -184,19 +189,46 @@ word-wrap: break-word;
   }
   
   .MB-overlay-content2 {
-    position: absolute;
+    /* position: absolute;
     top: 30%;
-    left: 35%;
+    left: 35%; */
+    margin-top: 25vh;
+    margin-left: 20vw;
     transform: translate(-10%, -20%);
     color: #fff;
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
-
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .MB-heading4 {
+      margin-left: -380px;
+    }
+    .MB-text-container {
+      height: 50vh;
+    }
+    .MB-list{
+      margin-left: 50px;
+    }
+    .MB-overlay-content2{
+      left :40%;
+    }
+    .MB-heading-part1114 {
+      margin-left: 380px;
+    }
+  }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+  .MB-text-container{
+    margin-top: -4.5vh;
+  }
+  }
+  /* @media (min-width: 1410px) and (max-width: 1920px) {
+    .MB-text-container {
+      margin-top: -120px;
+      height: 70vh;
+    }
   .MB-image-container2{
-    margin-top: -85px;
+    margin-top: -90px;
   }
   .MB-text{
     margin-top: 10px;
   }
-    }
+    } */
   

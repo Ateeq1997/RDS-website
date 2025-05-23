@@ -8,7 +8,7 @@
     color: white; /* White text for readability on the image */
     position: absolute;
     top: 10%;
-    left: 18%;
+    left: 21VW;
     transform: translateX(-50%); /* Center the content horizontally */
   }
   
@@ -46,7 +46,7 @@ white-space: nowrap;
     align-items: center; /* Center the heading, grid, and button horizontally */
     justify-content: flex-start;
     padding: 0;
-    margin-top: 30px;
+    margin-top: 20px;
   padding-top: 0;
     /* position: relative; */
     /* bottom: 130vh; */
@@ -151,6 +151,13 @@ word-wrap: break-word
 }
 
   
+  .center-page2 {
+    text-align: center;
+    margin-top: 7vh; /* Ensure consistent spacing for buttons */
+    
+    /* width: 164px; */
+  }
+    
   .center-page {
     text-align: center;
     margin-top: 7vh; /* Ensure consistent spacing for buttons */
@@ -187,7 +194,7 @@ word-wrap: break-word
     /* left: 34%; Adjust positioning as needed */ 
     transform: translate(-10%, -20%);
     margin-top: 12%;
-    margin-left: 30%;
+    margin-left: 33vw;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -219,6 +226,40 @@ word-wrap: break-word;
     font-weight: 400;
     word-wrap: break-word;
   }
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .center-page2 {
+   margin-top: -50px;
+    }
+    .overlay-content2{
+      margin-top: 170px;
+      margin-left: 1000px;
+    }
+    .R-grid-container2 {
+      margin-top: -11.50vh;
+    }
+  }
+  @media (min-width: 1410px) and (max-width: 1920px)
+  {
+    /* .overlay-content2{
+      margin-left: 650px;
+    } */
+    /* .main-container12 {
+      margin-top: -100px;
+    }
+    .center-page2 {
+      margin-top: -3vh;
+      margin-bottom: 50px;
+    } 
+    .RC-grid {
+margin-bottom: -25px;
+    } 
+    .center-page {
+      margin-bottom: 80px;
+    }
+    .image-container2 {
+      margin-top: -120px;
+    } */
+  } 
   @media (max-width: 1024px) { /* Tablet screens */
     .R-grid-container2 {
         grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */

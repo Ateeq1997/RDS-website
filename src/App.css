@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+/* App.css */
+.app-container {
+  max-width: 1920px; /* Fixed width */
+  width: 100%;
+  margin: 0 auto; /* Centers the content */
+  padding: 20px;
+  background-color: transparent; /* Optional: Set background color */
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f8f9fa; /* Optional: Light background color */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

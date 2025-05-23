@@ -39,12 +39,12 @@ white-space: nowrap;
   }
   .HR-overlay-content {
     position: relative;
-    top: 27vh; /* Adjust positioning as needed */
+    top: 30vh; /* Adjust positioning as needed */
      left: 15%; 
     transform: translate(-10%, -20%);
     text-align: left;
     color: #fff;
-    margin-bottom: 7vh;
+    /* margin-bottom: vh */
   }
   .HR-heading2 {
     margin-bottom: 10px; /* Add space between heading and containers */
@@ -88,7 +88,7 @@ word-wrap: break-word;
 margin-left: 60px;
   }
   .HR-heading5 {
-    margin-top: 40px;
+    margin-top: 4vh;
     margin-bottom: 10px; /* Add space between heading and containers */
     text-align: left;
     font-size: 38px;
@@ -96,7 +96,17 @@ font-family: Outfit;
 font-weight: 700;
 line-height: 55px;
 word-wrap: break-word;
-margin-left: 95px;
+margin-left: 5vw;
+  }
+  .HR-heading6 {
+    margin-bottom: 10px; /* Add space between heading and containers */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 48px;
+font-family: Outfit;
+font-weight: 700;
+line-height: 55px;
+word-wrap: break-word
   }
   .HR-paragraph2{
     font-size: 18px; /* Adjust as needed */
@@ -138,21 +148,25 @@ margin: 1em 0; /* Adds spacing between paragraphs */
     font-weight: 400;
 margin-bottom:30px ;
     text-align: justify;
-    margin-left: 100px;
+    margin-left: 80px;
 font-family: Poppins;
 word-wrap: break-word
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
-    .HR-overlay-content{
-     margin-top: 80px;
+  @media (min-width: 1410px) and (max-width: 1910px) {
+    /* .HR-overlay-content{
+     margin-top: -10px;
      margin-bottom: -90px;
-    }
+    } */
     .HR-heading5 {
-        margin-left: 77px;
+        margin-top: -5vh;
+        margin-left: 5vw;
+    }
+    /* .HR-heading2 {
+      margin-top: -80px;
     }
 
     .HR-paragraph5{
 margin-left: 77px;
-    }
+    } */
      
-     }
+     } 

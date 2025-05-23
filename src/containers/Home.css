@@ -14,13 +14,13 @@ html, body {
     color: white; /* White text for readability on the image */
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 57%;
     transform: translateX(-50%); /* Center the content horizontally */
 }
  
   .H-paragraph, .H-nav-heading, .H-paragraph1{
-    width: 100%;
-    max-width: 100%; 
+    width: 100vw;
+    max-width: 100vw; 
     margin: 10px 60px;
     text-align: left;
     align-items: left;
@@ -51,7 +51,7 @@ white-space: nowrap;
   }
 /* Container for the dropdown */
 .dropdown {
-  width: 100%;
+  width: 100vw;
    height: 100%;
     border-radius: 6px;
      border: 1px rgba(255, 255, 255, 0.29);
@@ -103,11 +103,11 @@ transition: color 0.3s ease; /* Smooth transition for color change */
   background-color: #f0f0f0; /* Hover background color */
 }
 .Home1-grid{
-margin-top: -140px;
+margin-top: -20vh;
 }
-.H-main-container1, .main-container2, .H-gradient-container, .Home-grid {
-  max-width: 2000px;
-  width: 100%;
+.H-main-container1, .Home-grid {
+  /* max-width: 2000px; */
+  width: 99vw;
   margin: 0 auto; /* Center container */
   padding: 0 0; /* Add some padding to ensure it doesn't touch edges */
 }
@@ -222,7 +222,8 @@ word-wrap: break-word
     }
   
   .H-heading2{
-    margin-top: 30px;
+    margin-top: 12vh;
+    margin-left: 35vw;
     font-size: 48px;
 font-family: Poppins;
 font-weight: 700;
@@ -230,11 +231,11 @@ line-height: 83px;
 word-wrap: break-word;
   }
   .H-micro-image{
-  max-width: 65%; /* Adjust the width of the image */
+  max-width: 23%; /* Adjust the width of the image */
   height: auto;
   position: absolute;
-  top: 7%; /* Adjust this value as needed */
-  left: 60vw;;
+  top: 6%; /* Adjust this value as needed */
+  left: 67vw;;
   }
   .container12, .main-container1, .image-container1 {
     position: relative; /* Ensure parent containers allow free positioning */
@@ -244,7 +245,7 @@ word-wrap: break-word;
  
   .head-image{
     background: transparent;
-    width: 100%;
+    width: 99vw;
     height: auto;
   }
   .image-container1{
@@ -255,8 +256,8 @@ word-wrap: break-word;
     align-items: center;
   }
   .my-image {
-    width: 100%; /* Make the image fill the container */
-    max-width: 100%; /* Keep the image size within a specific limit */
+    width: 100vw; /* Make the image fill the container */
+    max-width: 99vw; /* Keep the image size within a specific limit */
     height: auto; /* Maintain the aspect ratio */
     border-radius: 10px; /* Apply a border radius */
     position: absolute;
@@ -333,10 +334,13 @@ border: #ffffff 2px solid;
   }
 }
 
-  .center-page {
+  .center-page1 {
     display: flex;
     justify-content: center;
-  
+    align-items: center;
+  }
+  .show-less-btn {
+    margin-left: 45vw;
   }
   .Btn-custom1{
     margin-left: -40px;
@@ -345,60 +349,57 @@ border: #ffffff 2px solid;
   }
   .Home-image-container2 {
     position: relative;
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    left: 60px;
+    width: 99vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     overflow: hidden;
 }
 
 .Home-bg-image {
-  width: 100%;
+  width: 100vw;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the container without distortion */
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1; /* Ensures the background image stays behind other content */
 }
-
 .Home-overlay-content {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1400px;
+  height: 100%;
+  padding: 50px;
+  margin-left: 10px;
 }
 
 .Home-doctor-image {
-    height: auto;
-    position: absolute;
-    top: 75px;
-    left: 180px;
-    width: 37%;
+  width: 50%;
+    /* max-width: 2000px; */
+    height: 73vh;
+    margin-bottom: -50px;
+    /* margin-left: -30px; ; */
 }
 
 .HDM-heading-container {
-    width: 50%;
-    text-align: left;
-    position: relative;
-    transform: translateX(100px); /* Move heading to the right */
-    margin-top: 230px;
+  width: 50%;
+  text-align: left;
+  margin-top: -380px;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: ellipsis; /* Adds "..." if the text is too long */
 }
 
 .HDM-heading3 {
-  display: flex;
-    font-size: 48px;
-    white-space: nowrap;
-    font-family: Poppins, sans-serif;
-    font-weight: 700;
-    color: #000;
-    margin-top: -430px; /* Adds space above the heading */
-    margin-left: 650px; /* Adds space inside the heading on the left */
+  font-size: 3vw;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
 }
 
 .heading-part11 {
@@ -408,14 +409,16 @@ border: #ffffff 2px solid;
 .heading-part223 {
     color: #2a4ef0;
     white-space: nowrap;
- margin-left: -440px;
+ /* margin-left: -440px; */
 }
 
 .HDM-content-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+  width: 100vw;
 }
 
 .HDM-ellipse-line-container {
@@ -424,10 +427,12 @@ border: #ffffff 2px solid;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    left: -630px;
+    margin-top: 120px;
 }
 
 .small-line {
-    height: 400px;
+    height: 270px;
     stroke: #076AFF;
     stroke-width: 3px;
 position: absolute;
@@ -438,7 +443,7 @@ top: -30px;
 .ellipse {
     width: 25px;
     height: 25px;
-    margin: 15px 0px;
+    margin: 12px 0px;
     background-color: #076AFF;
     border-radius: 50%;
     position: relative;
@@ -447,35 +452,37 @@ top: -30px;
 }
 
 .HDM-text-container {
-  margin-left: 30px;
-  padding-top: 10px;
+  width: 50%;
+  margin-left:-600px; 
   text-align: left;
-  margin-bottom: 50px;
+  margin-top: 76px;
+  /* gap: 20px; */
+  /* padding-left: 0px; */
   
 }
 
 .bullet-point {
-    font-size: 18px;
-    font-family: Poppins, sans-serif;
-    margin: 28px 0px;
-    color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2vw;
+  font-family: Poppins, sans-serif;
+  margin: 1vh 0;
+  color: rgba(0, 0, 0, 0.7);
 }
   .H-gradient-container {
     position: relative;
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    /* max-width: 100vw; */
     height: 600px; /* Adjust this to the size you need */
     background: linear-gradient(to right, rgba(0, 47, 108, 1), rgba(8, 89, 149, 0.8), rgba(3, 92, 181, 0.804), rgb(42, 126, 236));
     display: flex;
     overflow: hidden;
-    margin-top: -20px;
-    margin-left: 60px;
+    margin-top: 0px;
+    /* margin-left: 60px; */
   }
   .H-gradient-container img.H-background-image {
     position: absolute;
     top: 0;
     left: 0;
-    max-width: 100%;
+    /* max-width: 100vw; */
     height: 100%;
     object-fit: cover;
     z-index: 0;
@@ -485,14 +492,14 @@ top: -30px;
     position: absolute;
     top: 0;
     left: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background: inherit;
     z-index: 1;
   }
   .H-container-wrapper {
     position: relative;
-    width: 100%;
+    width: 100vw;
     max-width: 1200px; /* Adjust as needed */
     margin: 0 auto;
     text-align: center;
@@ -542,7 +549,7 @@ word-wrap: break-word
   }
   
   .H-text-container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -594,7 +601,7 @@ word-wrap: break-word
     flex-wrap: wrap; /* Ensure responsiveness on smaller screens */
   }
   .main-container2 {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
@@ -602,7 +609,8 @@ word-wrap: break-word
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 90px; /* Adds space below the container */
+    overflow: visible;
+    margin-bottom: 0px; /* Adds space below the container */
     padding-bottom: 90px; /* Adds space inside the bottom of the container */
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   }
@@ -639,7 +647,7 @@ word-wrap: break-word
   }
   
   .logo-item {
-    width: 100%; /* Adjust the size of the boxes */
+    /* width: 100%; Adjust the size of the boxes */
     height: 100px;
     background: rgba(217, 217, 217, 0);
     border: 2px solid #EFF1F3;
@@ -651,173 +659,215 @@ word-wrap: break-word
     border-radius: 5px;
     text-align: center;
   }
-  @media (min-width: 1440px) and (max-width: 1910px)
+  @media (min-width: 1920px) and (max-width: 2565px) {
+    .container-12{
+      height:45vh ;
+    }
+    .H-heading2{
+      /* margin-top: 10px; */
+    }
+    .Home1-grid{
+      margin-top: -17vh;
+      margin-left: 3vw;
+      margin-right: 6vw;
+      /* margin-left: ; */
+      }
+  .Home-image-container2 {
+margin-top: 300px;
+width: 100vw;
+margin-bottom: 350px;
+overflow: visible;
+left: -36px;
+height: 40vh;
+max-width: 100vw;
+overflow: visible;
+margin-bottom: 310px;
+  }
+  .center-page1 {
+    margin-top: -50px;
+    margin-left: -3vw;
+  }
+  .show-less-btn {
+    margin-left: 44vw;
+  }
+  .Home-bg-image{
+height: 52%;
+width: 120%;
+left: -240px;
+margin-top: 20px;
+overflow: visible;
+
+  }
   
-  {
+    .Home-overlay-content{
+      height: 50vh;
+      margin-left: -10vw;
+   /* margin-right: 770px; */
+    } 
+    .HDM-heading3{
+      margin-top: -60px;
+      margin-left: 0px;
+      overflow: visible;
+    }
+   
+    .small-line {
+      height: 405px;
+      top: -25px;
+      stroke-width: 5px;
+  
+    }
+    .ellipse {
+      width: 30px;
+      height: 30px;
+      margin: 14.50px 0px;
+    }
+    .HDM-heading-container {
+      margin-top: -70vh;
+      margin-left: -2vw;
+    }
+    .HDM-content-container{
+      margin-top: -25vh;
+    }
+    .Home-doctor-image{
+      margin-top: -35vh;
+      width: 70%;
+      height: 90vh;
+    }
+    
+.Home-grid-container {
+  margin-left:28.80vw; 
+  /* margin-right: 26.50vw; */
+  gap: 22px;
+  padding-right: 51vw;
+}
+    .H-gradient-container {
+      width: 100vw;
+      left: -160px;
+      margin-top: -10vh;
+    }
+    .H-background-image{
+width: 100vw;
+    }
+    .H-gradient-container::after{
+      width: 100vw;
+      left: -30px;
+      overflow: hidden;
+
+    }
+    .bullet-point {
+
+      margin: 30px 0;
+    }
+    .H-container-wrapper {
+   
+    }
+    .main-container2 {
+      /* width: 128%; */
+      margin-left: -1vw;
+      overflow: visible;
+    }
+    
+  }
+
+  @media (min-width: 1920px) {
     html, body {
       margin: 0;
       padding: 0;
       overflow-x: hidden;
     }
-    .H-micro-image{
-      max-width: 62%; /* Adjust the width of the image */
-      top: 1%; /* Adjust this value as needed */
+    .H-heading2 {
+      margin-top: 20vh;
+  }
+    /* .H-micro-image{
+      max-width: 62%; 
+      top: 5%; 
       left: 65vw;;
-      }
-    .H-main-container1, .main-container2, .H-gradient-container, .Home-grid {
-      max-width: 1600px;
+      } */
+    .main-container2,  .Home-grid {
+      /* max-width: 100vw; */
     
     }
-    .HDM-heading3{
-      margin-left: 600px;
+    .H-main-container1{
+      margin-top: -150px;
     }
-    .HDM-content-container{
-      margin-left: 0px;
+    .H-gradient-container{
+      max-width: 100vw;
+      left: -60px;
+      overflow: visible;
+      margin-top: -12vh;
     }
-    .Home-doctor-image{
-      top: 30px;
-    }
-   
-  }
- 
-/* Smartphone screens (max-width: 480px) */
-/* @media only screen and (max-width: 480px) {
-  .H-content {
-    padding: 10px;
-    top: 35%;
-    left: 45%;
-  }
-  .H-micro-image{
-    width: 127px;
-    height: auto;
-    margin-left: -10px;
-    margin-top: -257px;
-    transition: visibility 0.3s ease, opacity 0.3s ease;  */
-  /* }
- 
-.H-primary-button{
-  width: 130px;
-  height: 25px;
-  white-space: nowrap;
-  margin-left: 10px;
-  position: relative;
-  left: 95px;
-  padding: initial;
-  font-size: 12px;
-  top: -321px;
-
-
-}
-  .H-nav-heading {
-    font-size: 26px;
-    line-height: 30px;
-    position: relative;
-    top: -270px;
-    left: -72px;
-  }
-
-  .H-paragraph1 {
-    font-size: 10px; */
-    /* margin-top: 10px; */
-    /* position: relative;
-    top: -287px;
-    left: -72px;
-  }
-.dropdown .btn{
-  width: 250px;
-  height: 35px;
-  position: relative;
-  top: -295px;
-  left: -85px;
-  font-size: 12px;
-}
-  .dropdown-menu {
-    width: 80px;
-  }
-.H-heading2{
-  font-size: 35px;
-  margin-top: -470px;
-  margin-left: -40px;
-}
-  .H-grid-container {
-    grid-template-columns: 1fr;
-    padding: 10px;
-    margin-top: -120px;
-    margin-left: 490px;
-  }
-
-  .H-icon-container {
-    margin-bottom: 20px;
-  }
-.Home-image-container2{
-  width: 500px;
-  margin-left: 370px;
-}
-  .Home-bg-image{
-    width: 440px;
-    height: 780px;
-  }
-   .Home-doctor-image {
-    width: 300px;
-    height: auto;
-    margin-left: -170px;
-    margin-top: -40px;
-  }
-  .HDM-ellipse-line-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-
-}
-
-.small-line {
-    height: 800px;
-position: absolute;
-top: 79px;
-left: -200px;
-
-}
-
-.ellipse {
-    width: 25px;
-    height: 25px;
-    margin: 15px 0px;
-    background-color: #076AFF;
-    border-radius: 50%;
-    position: relative;
-    top: 100px;
-left: -212px;    
-}
-
-.HDM-text-container {
-  margin-left: 30px;
-  padding-top: 10px;
-  text-align: left;
-  margin-bottom: -70px;
+    .Home-image-container2 {
+      max-width: 100vw;
+      height: 80vh;
+   margin-bottom: 0px;
   
+    }
+    .H-container-wrapper {
+      left: 160px;
+    }
 }
-
-.bullet-point {
-    margin: 34px 0px;
- white-space: nowrap;
- font-size: 14px;
- position: relative;
- left: -230px;
- top: 190px;
-}
-
-.H-primary-button-2 {
-    margin-top: 208px;
-    margin-left: -260px;
-}
-
-  .HDM-heading-container h1 {
-    font-size: 24px;
-    line-height: 30px;
+ /* ✅ Standard Laptops & Desktops */
+ @media (min-width: 1537px) and (max-width: 1919px) {
+  .H-heading2 {
+    margin-top: -6vh;
   }
-  .H-container-wrapper {
- 
+  .H-gradient-container{
+    margin-left: 0;
   }
-} */
+  .HDM-content-container{
+    /* margin-left: 5vw; */
+  }
+  .bullet-point {
+
+    margin: 2.1VH 0;
+  }
+}
+/* ✅ 1366x768 (Standard Laptops) */
+@media (min-width: 1281px) and (max-width: 1366px) {
+  .H-micro-image{
+    top: 6vh;
+  }
+  .HDM-heading-container{
+    margin-top: -50vh;
+  }
+  .HDM-content-container{
+    margin-left: 7vw;
+  }
+  .bullet-point {
+
+    margin: 2px 0;
+  }
+  .H-container-wrapper{  
+    margin-left: 11vw;
+  }
+}
+/* ✅ Small Laptops & Large Tablets */
+@media (min-width: 1024px) and (max-width: 1280px) {
+.H-main-container1{
+  margin-top: -14vh;
+}
+.Home-overlay-content{
+  margin-left: -10vw;
+}
+.HDM-content-container{
+  margin-left: 10vw;
+}
+.H-container-wrapper{
+  margin-left: 10vw;
+}
+}
+
+/* ✅ Tablets (Portrait Mode) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* ✅ Large Mobile Phones & Small Tablets */
+@media (min-width: 425px) and (max-width: 767px) {
+
+}
+
+/* ✅ Small Mobile Devices (Older iPhones, Galaxy S5, etc.) */
+@media (max-width: 424px) {
+
+}

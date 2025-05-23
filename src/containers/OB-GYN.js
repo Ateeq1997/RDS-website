@@ -23,17 +23,17 @@ const Obgyn = () => {
         Comprehensive Revenue Cycle Management (RCM) Services by RDS
         </p>
       </div>
-     
+      <img src={department11} alt="Your Image" className="OB-dp-image" />
         <div className="OB-overlay-content1">
           <h1 className="OB-heading4">
           <span className="OB-heading-part11">Advanced-based RCM services <br/> for</span>
-            <span className="OB-heading-part22"> OB/ GYN practices.</span>
+            <span className="OB-heading-part22"> OB/ GYN practices</span>
           </h1>
           <p className="OB-paragraph201">
           OB/GYN professionals require a partner that understands their unique needs,<br/> offering comprehensive support that spans from advanced reporting and <br/> analytics to efficient billing and precisely timed appointment scheduling._ _ is <br/> dedicated to meeting these needs with a level of sophistication that sets a new <br/> standard in the field.
           </p>
         </div>
-        <img src={department11} alt="Your Image" className="OB-dp-image" />
+        
       
  
        
@@ -49,8 +49,8 @@ const Obgyn = () => {
           <br /> that nearly all claims are processed smoothly right from the outset.
           <br /> Our success rate in resolving denied claims at the first attempt is also
           <br /> impressively close to 99%, highlighting our expertise in navigating the
-          <br /> complexities of claim resolution. We handle both in-network and out-of-network claims with ease,
-          <br /> adapting to your specific billing requirements.
+          <br /> complexities of claim resolution. We handle both in-network and <br /> out-of-network claims with ease,
+           adapting to your specific billing requirements.
         </p>
         
         {/* Conditionally render the rest of the text below */}

@@ -8,7 +8,7 @@
     color: white;
     position: absolute;
     top: 22%;
-    left: 20%;
+    left: 21vw;
     transform: translateX(-50%);
   }
   
@@ -42,8 +42,10 @@ white-space: nowrap;
   .DM-text-container111 {
     max-width: 60%;
     text-align: left;
-    position: relative;
-    top: 23vh;
+    margin-top: 150px;
+    margin-left: -40px;
+    /* position: relative;
+    top: 23vh; */
   }
   
   .DM-heading451 {
@@ -54,14 +56,14 @@ white-space: nowrap;
 font-family: Outfit;
 font-weight: 700;
 word-wrap: break-word;
-left:13vw
+left:15vw
 
   }
   
   .DM-content-paragraph12 {
     position: relative;
     bottom: 80px;
-    left: 255px;
+    left: 15vw;
     color: black;
 font-size: 18px;
 font-family: Poppins;
@@ -101,7 +103,8 @@ font-weight: 600;
     position: relative;
     width: 100vw;
     height: 600px;
-    bottom: 200px;
+    margin-top: -380px;
+    /* bottom: 200px; */
     overflow: hidden;
   }
   
@@ -119,12 +122,14 @@ font-weight: 600;
   
   .DM-overlay-content1 {
     display: flex;
-    position: relative;
+    /* position: relative; */
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 30px;
-    left: 660px;
-    bottom: 90px;
+    margin-bottom: 200px;
+    word-wrap: break-word;
+    margin-left: -3vw;
+    /* left: 0px; */
+    /* bottom: 90px; */
   }
   
   .DM-heading4 {
@@ -148,7 +153,7 @@ word-wrap: break-word
     text-align: left;
     font-weight: 400;
     line-height: 1.5;
-    right: 330px;
+    right: 170px;
     top: 50px;
     position: relative;
     color: black;
@@ -160,10 +165,10 @@ word-wrap: break-word
   
   .DM-dp-image {
     width: 28vw;
-    height: 47vh;
+    height: 50vh;
     position: relative;
-    right: 1950px;
-    top: 110px;
+margin-left: 13vw; ;
+    top: 8vh;
   }
   
   .DM-heading-part111 {
@@ -177,18 +182,16 @@ word-wrap: break-word
   }
   
   .DM-dp-image112 {
-    width: 26vw;
-    height: auto;
+    width: 28vw;
+    height: 50vh;
     position: relative;
-    left: 1200px;
-    bottom: 520px;
+    left: 60vw;
+    bottom: 57vh;
   }
   .arrow-paragraphs {
     list-style: none;
-    padding: 0;
-    margin: 0;
     position: relative;
-    right: 960px;
+    right: 800px;
     top: 180px;
     white-space: nowrap;
   }
@@ -223,19 +226,23 @@ left: 160px;
   
   .DM-overlay-content13 {
     display: flex;
-    position: relative;
+    /* position: relative; */
     align-items: center;
+    margin-top: 12vh;
+    margin-left: 25vw;
     justify-content: space-between;
-    margin-bottom: 30px;
-    left: 700px;
-    bottom: 60px;
+    margin-bottom: 70px;
+    /* left: 700px;
+    bottom: 60px; */
   }
   
   .DM-heading43 {
     margin-bottom: 10px;
     text-align: center;
-    position: relative;
-    bottom: 80px;
+    /* position: relative;
+    bottom: 80px; */
+    margin-top: -19vh;
+    margin-left: 10vw;
     white-space: nowrap;
     font-size: 48px;
 font-family: Outfit;
@@ -249,9 +256,9 @@ word-wrap: break-word
     text-align: center;
     font-weight: 400;
     line-height: 1.5;
-    right: 1340px;
-    top: 50px;
-    position: relative;
+    right: 34vw;
+    top: 50px; 
+     position: relative;
     color: black;
 font-size: 18px;
 font-family: Poppins;
@@ -261,9 +268,9 @@ word-wrap: break-word
   .DM-heading42 {
     margin-bottom: 10px;
     text-align: left;
-    position: absolute;
+    /* position: absolute;
   margin-left: -800px;
-   top: -460px;
+   top: -460px; */
     font-size: 48px;
 font-family: Poppins;
 font-weight: 700;
@@ -283,7 +290,7 @@ word-wrap: break-word
     width: 100vw;
     height: 110vh;
     overflow: hidden;
-  margin-bottom:80px;
+  /* margin-bottom:0px; */
   
   }
   
@@ -311,33 +318,86 @@ word-wrap: break-word
   }
   
   .content {
-    position: relative;
+    margin-top: -95vh;
+    margin-left: -75vw;
     z-index: 3;
     text-align: center;
     color: white; /* Text color */
   }
-  @media (min-width: 1440px) and (max-width: 1910px) {
-    .DM-content-paragraph12{
-      margin-left: -50px
+  @media (min-width: 1921px) and (max-width: 2565px) {
+    .DM-text-container111 {
+left: 210px;
     }
-    .DM-dp-image112{
-      margin-left: -180px;
-      margin-top: 40px;
+    .DM-heading451 {
+      left: 10vw;
     }
-    .DM-overlay-content1{
-      margin-left: -230px;
+    .DM-dp-image112 {
+      margin-top: -50px;
     }
-    .DM-dp-image{
-      margin-left: 180px;
+    .DM-overlay-content1 {
+    left: 1050px;
     }
-    .DM-heading43{
-      margin-left: -170px;
+    .DM-dp-image {
+      left: -84.50vw;
     }
-    .DM-paragraph2013{
-      margin-right: -200px;
+    .DM-heading43 {
+      left: 280px;
     }
-    .DM-heading42{
-      margin-top: 90px;
-      margin-left: -670px;
+    .DM-paragraph2013 {
+      right: 1670px;
+    }
+    .DM-heading42 {
+      top: -550px;
+      left: -260px;
+      font-size: 70px;
+    }
+    .background-container {
+margin-bottom: 0px;
+ 
     }
   }
+  @media (min-width: 1537px) and (max-width: 1919px) {
+    .DM-paragraph2013 {
+      right: 33vw;
+    }
+  }
+   @media (min-width: 1410px) and (max-width: 1910px) {
+    /* .DM-text-container111 {
+      margin-top: -190px;
+      left: -90px;
+    }
+    .DM-content-paragraph12{
+      margin-left: -65px
+    } */
+    .DM-overlay-content13 {
+      margin-left: 30vw;
+    }
+    /* .DM-paragraph2013 {
+      right: 35vw;
+    } */
+    .DM-dp-image112{
+      bottom: 60vh;
+    }
+     .DM-overlay-content1{
+      margin-left: -10vw;
+    }
+    .DM-dp-image{ 
+      margin-left: 13vw;
+      top: 87px;
+    }
+     .DM-heading43{ 
+      margin-left: 1vw;
+    }
+    /* .DM-paragraph2013{ 
+      margin-right: -220px;
+    }
+    .background-container {
+      height: 80vh;
+      margin-bottom: -80px;
+    /* } */
+    /* .DM-heading42{
+      margin-top: 90px;
+      margin-left: -640px;
+    } 
+   */
+  } 

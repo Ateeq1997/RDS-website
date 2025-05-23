@@ -29,11 +29,13 @@ import ConditionalFooterWrapper from './components/common/ConditionalFooterWrapp
 import LoginPage from './containers/LoginPage';  // Import the LoginPage component
 import SignUp from './containers/SignUp';
 import Resetpassword from './containers/Resetpassword';
+import PrivacyPolicy from './containers/PrivacyPolicy';
+
 
 function App() {
   return (
     <Router>
-      <div className="App">
+<div className="app-container"> {/* Centered container with fixed width */}
         {/* Step 1: Add the Login button in a global place */}
   
         <Routes>
@@ -202,6 +204,14 @@ function App() {
               <CustomNavbar />
               <ConditionalFooterWrapper>
                 <Dermatology />
+              </ConditionalFooterWrapper>
+            </>
+          } />
+          <Route path="/privacypolicy" element={
+            <>
+              <CustomNavbar />
+              <ConditionalFooterWrapper>
+                <PrivacyPolicy />
               </ConditionalFooterWrapper>
             </>
           } />

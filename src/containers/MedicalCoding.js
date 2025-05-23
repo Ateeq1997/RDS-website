@@ -25,6 +25,7 @@ const Medicalcoding = () => {
   return (
     <>
       {/* <CustomNavbar /> */}
+      <div className='MC-main'>
       <div className="MC-content">
         <h1 className="MC-nav-heading">Medical <br/> Coding</h1>
         <p className="MC-paragraph1">
@@ -42,24 +43,25 @@ const Medicalcoding = () => {
           <span className="MC-heading-part222">Expertise:</span>
         </h1>
         <p className="MC-paragraph21">
-        Our coders are certified by the American Academy of Professional Coders (AAPC) and the <br/> American Health Information Management Association (AHIMA). They possess extensive experience <br/>across various medical specialties. Accuracy and Compliance: We adhere to the latest coding guidelines<br/> and regulations, including ICD-10-CM/PCS, CPT, and HCPCS codes. Our meticulous approach ensures <br/> your practice remains compliant and reduces the risk of audits.
+        Our coders are certified by the American Academy of Professional Coders (AAPC) and <br/> the  American Health Information Management Association (AHIMA). They possess <br/> extensive experience across various medical specialties. Accuracy and Compliance: <br/> We adhere to the latest coding guidelines and regulations, including ICD-10-CM/PCS, <br/> CPT, and HCPCS codes. Our meticulous approach ensures  your practice remains <br/> compliant and reduces the risk of audits.
         </p>
         <img src={department5} alt="Your Image" className="MC-dp-image14" />
       </div>
 
       <div className="MC-image-container2">
         <img src={bg2} alt="description" className="MC-my-image1" />
+        <img src={department6} alt="Your Image" className="MC-dp-image" />
         <div className="MC-overlay-content1">
           <h1 className="MC-heading4">
             <span className="MC-heading-part111">Payment</span>
-            <span className="MC-heading-part222"> Posting</span>
+            <span className="MC-heading-part222"> -Posting</span>
           </h1>
           <p className="MC-paragraph201">
-            Upon receipt of payments from insurance companies, our payment posting<br /> team ensures accurate posting of payments against the corresponding<br /> claims. Our advanced reconciliation processes help identify discrepancies<br /> and ensure that payments are posted correctly, minimizing revenue leakage.
+            Upon receipt of payments from insurance companies, our payment posting <br/> team ensures accurate posting of  payments against the corresponding claims. <br/> Our advanced reconciliation processes help identify discrepancies and ensure <br/>that payments are posted correctly, minimizing revenue leakage.
           </p>
          
         </div>
-        <img src={department6} alt="Your Image" className="MC-dp-image" />
+       
       </div>
       <div className="MC-text-container13">
         <h1 className="MC-heading5">
@@ -75,6 +77,7 @@ const Medicalcoding = () => {
   <img src={pngwing} alt="Background Image" className="MC-background-image" />
   <div className="MC-overlay"></div> 
   <div className="MC-content-wrapper">
+  <img src={department8} alt="Department Image" className="MC-dp-image2" />
     <div className="MC-text-content">
       <h1 className="MC-heading7">
         <span className="MC-heading-part11112">Specialized Knowledge</span>
@@ -85,7 +88,7 @@ const Medicalcoding = () => {
       ensure that payments are posted correctly, minimizing revenue leakage
       </p>
     </div>
-    <img src={department8} alt="Department Image" className="MC-dp-image2" />
+   
   </div>
 </div>
 <div className="MC-text-container2">
@@ -101,7 +104,7 @@ const Medicalcoding = () => {
       </div>
       <div className="MC-image-container2">
       <img src={bg2} alt="description" className="MC-my-image1" />
-      <div className="MC-overlay-content1">
+      <div className="MC-overlay-content2">
           <h1 className="MC-heading452">
             <span className="MC-heading-part111">Our Medical Coding</span>
             <span className="MC-heading-part222"> Services</span>
@@ -131,31 +134,32 @@ const Medicalcoding = () => {
       <div className="left-side-content">
         <div className="content-block">
           <h2 className="content-heading">Enhanced Reimbursement</h2>
-          <p className="content-paragraph">Accurate coding ensures that your claims are processed efficiently, leading to timely and appropriate reimbursements.</p>
+          <p className="content-paragraph">Accurate coding ensures that your claims are processed efficiently, <br/> leading to timely and appropriate reimbursements.</p>
         </div>
         <div className="content-block">
           <h2 className="content-heading">Accuracy and Compliance</h2>
-          <p className="content-paragraph">We adhere to the latest coding guidelines and regulations, including ICD-10-CM/PCS, CPT, and HCPCS codes.</p>
+          <p className="content-paragraph">We adhere to the latest coding guidelines and regulations,<br/> including ICD-10-CM/PCS, CPT, and HCPCS codes.</p>
         </div>
         
             <div className="content-block">
               <h2 className="content-heading">Improved Efficiency</h2>
-              <p className="content-paragraph">Our services streamline your billing process, allowing your staff to focus on patient care.</p>
+              <p className="content-paragraph">Our services streamline your billing process, allowing <br/> your staff to focus on patient care.</p>
             </div>
             {showFullText && (
           <>
             <div className="content-block">
               <h2 className="content-heading">Compliance Assurance</h2>
-              <p className="content-paragraph">We keep your practice compliant with the ever-changing regulations, safeguarding you from penalties and audits.</p>
+              <p className="content-paragraph">We keep your practice compliant with the ever-changing regulations,<br/> safeguarding you from penalties and audits.</p>
             </div>
             <div className="content-block">
               <h2 className="content-heading">Reimbursement and Reporting</h2>
               <p className="content-paragraph">
-                Finally, Once claims are processed and reimbursed, our system generates detailed reports to track key performance metrics such as reimbursement rates, denial rates, and days in accounts receivable. These reports provide valuable insights into the financial health of the practice and help identify areas for improvement in billing and revenue cycle management.
+                Finally, Once claims are processed and reimbursed, our system generates <br/> detailed reports to track key performance metrics such as reimbursement <br/> rates, denial rates, and days in accounts receivable. These reports provide <br/> valuable insights into the financial health of the practice and help identify <br/> areas for improvement in billing and revenue cycle management.
               </p>
             </div>
           </>
         )}
+        
         <button className="primary-button" onClick={toggleText}>
           {showFullText ? 'Show Less' : 'Read More'}
         </button>
@@ -206,7 +210,7 @@ const Medicalcoding = () => {
     </div>
   </div>
   </div>
-
+  </div>
 
 {/* <Footer /> */}
 

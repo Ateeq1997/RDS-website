@@ -17,6 +17,7 @@ const HealthcareAnalytics = () => {
     };
   return (
     <>
+    <div className='HA-main'>
       <div className="HA-content">
         <h1 className="HA-nav-heading">Healthcare & Analytics</h1>
         <p className="HA-paragraph1">Medical billing streamlines reimbursement by translating healthcare <br/> services into codes, submitting claims to insurers....
@@ -42,6 +43,7 @@ const HealthcareAnalytics = () => {
             </p>
 
           </div>
+      </div>
       </div>
     </>
   );

@@ -112,14 +112,14 @@ const HipaaRules = () => {
                 <p className="HR-paragraph5 ">
                 To maintain compliance across all collaborations, we require all vendors and third-party service providers to sign Business Associate Agreements (BAAs).These agreements set strict guidelines for handling PHI, ensuring partners meet standards.
                     </p> 
-            <h1 className="HR-heading2">
+            <h1 className="HR-heading6">
                     <span className="HR-heading-part11">Our Commitment </span>
                     <span className="HR-heading-part22"> to Compliance</span>
                 </h1>
                 <ul className="HR-paragraph2">
                     <p>At RDS Precision, we place the highest priority on the security, privacy, and integrity of your sensitive data. We have implemented robust systems, streamlined processes, and a dedicated team to ensure that every aspect of our operations is fully aligned with HIPAA requirements. By adhering to these stringent standards, we deliver a medical billing experience that is not only secure and efficient but also reliable and trustworthy. Your confidence in our ability to protect your data is the cornerstone of our commitment to excellence.</p>
                 </ul>
-            <h1 className="HR-heading2">
+            <h1 className="HR-heading6">
                     <span className="HR-heading-part11">Disclaimer</span>
                     {/* <span className="HR-heading-part22"> to Compliance</span> */}
                 </h1>

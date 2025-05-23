@@ -98,7 +98,7 @@ const RevenueCycleManagement = () => {
         </div>
       )}
      {!showContainers && (
-    <div className="center-page">
+    <div className="center-page2">
       <Button className="R-Btn-custom" onClick={handleViewAllClick}>
         View all
       </Button>

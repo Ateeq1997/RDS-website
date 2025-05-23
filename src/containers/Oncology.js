@@ -30,16 +30,17 @@ const Oncology = () => {
           </div>
           <div className="O-image-container2">
         <img src={bg2} alt="description" className="O-my-image1" />
+        <img src={department10} alt="Your Image" className="O-dp-image" />
         <div className="O-overlay-content1">
           <h1 className="O-heading4">
             <span className="O-heading-part11">We are more than a billing </span>
             <span className="O-heading-part22"> service</span>
           </h1>
           <p className="O-paragraph201">
-          We're dedicated to streamlining and enhancing the billing and payment process <br/> in oncology. Our solutions revolve around refining processes and integrating <br/> technologies to boost revenue.<br/> We're truly enthusiastic about the tangible benefits these services offer to our <br/> community oncology partners. They empower practice teams, driving <br/> performance, and Flatiron stands out as a leader in revenue cycle solutions.
+          We're dedicated to streamlining and enhancing the billing and payment process  in oncology.<br/> Our solutions revolve around refining processes and integrating  technologies to boost revenue.<br/> We're truly enthusiastic about the tangible benefits these services offer to our community <br/>oncology partners.They empower practice teams, driving performance, and Flatiron stands out <br/> as a leader in revenue cycle solutions.
           </p>
         </div>
-        <img src={department10} alt="Your Image" className="O-dp-image" />
+        
       </div> 
 
       <div className="O-gradient-container">

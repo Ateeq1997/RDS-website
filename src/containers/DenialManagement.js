@@ -23,7 +23,7 @@ const Denialmanagement = () => {
       <div className="DM-text-container111">
         <h1 className="DM-heading451">
           <span className="DM-heading-part111">What is Denial Management </span>
-          <span className="DM-heading-part222">in <br/> Healthcare?</span>
+          <span className="DM-heading-part222"><br/> in Healthcare?</span>
         </h1>
         <p className="DM-content-paragraph12">
         Denial management is often confused with Rejection Management. Rejected <br/>Claims are claims that have not made it to the payer's adjudication system on <br/> account of errors. The billers must correct and resubmit these claims. Denied <br/> Claims, on the other hand, are claims that a payer has adjudicated and denied <br/>the payment.
@@ -36,10 +36,12 @@ const Denialmanagement = () => {
         
       <div className="DM-image-container2">
         <img src={bg2} alt="description" className="DM-my-image1" />
+        <img src={department6} alt="Your Image" className="DM-dp-image" />
         <div className="DM-overlay-content1">
+        
           <h1 className="DM-heading4">
             <span className="DM-heading-part111">Our Denial Management </span>
-            <span className="DM-heading-part222">Service <br/> Offering</span>
+            <span className="DM-heading-part222"><br/>Service  Offering</span>
           </h1>
           <p className="DM-paragraph201">
           Medical Billing Wholesalers' denial management team has seasoned <br/> professionals who:
@@ -63,7 +65,7 @@ const Denialmanagement = () => {
     <p class="paragraph-text">File appeals where required</p>
   </div>
 </div>
-          <img src={department6} alt="Your Image" className="DM-dp-image" />
+          
         </div>
       </div>
       <div className="DM-overlay-content13">

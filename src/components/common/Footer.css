@@ -21,12 +21,12 @@ body {
     overflow: hidden; /* Prevents internal scrolling */
   z-index: 1; /* Make sure it is higher than any overlay content */
 }
-  .footer-top{
+  /* .footer-top{
     max-width: 1200px; 
     width: 80%; 
     margin: 0 auto; 
     padding: 20px;
-  }
+  } */
   .footer-top, .footer-bottom {
     overflow: visible;
   }
@@ -37,11 +37,11 @@ body {
     justify-content: space-between; 
   }
   
-  footer.footer-content {
+  /* footer.footer-content {
     max-width: 1200px !important;
     width: 100% !important;
     margin: 0 auto !important;
-  }
+  } */
   .footer-bottom {
     min-height: 185px;
   }
@@ -73,12 +73,12 @@ body {
 }
 .footer-main {
   /* background: linear-gradient(to left, #011245 0%, #0085FF 100%); */
-  position: relative;
+  /* position: relative; */
   padding: 20px; /* Adjust padding as needed */
   z-index: 1;
   display: flex;
   justify-content: space-around;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%; /* Ensure the content doesn't overflow */
   margin: 0 auto; /* Center the content */
   height: 320px; /* Adjust this value to your preference */
@@ -154,8 +154,9 @@ body {
 
 .company-info {
   width: 30%;
-  text-align: center; /* Center-align the company info content */
+  text-align: left; /* Center-align the company info content */
   margin-top: 30px;
+  margin-left: 3vw;
 }
 
 .company-logo-heading {
@@ -186,7 +187,7 @@ body {
   /* justify-content: center;
   margin-top: 10px; */
   gap: 10px; /* Add space between social media icons */
-  margin-left: -240px;
+  margin-left: -17vw;
   margin-top: 35px;
 }
 
@@ -225,15 +226,15 @@ z-index: 1; /* Ensure this is higher than z-index of images */
 
 }
 .services{
-  margin-left: 190px;
+  margin-left: 16vw;
 
 }
 .legal-notice{
   margin-top: -415px;
-  margin-left: 500px;
+  margin-left: 40vw;
 }
 .explore{
-  margin-left: 750px;
+  margin-left: 62vw;
   margin-top: -515px;
    
  }
@@ -384,8 +385,23 @@ margin-left: 520px;
   /* line-height: 24.78px; */
   /* margin-top: 10px; */
 }
+/* @media (min-width: 1920px) and (max-width: 2565px) {
+  .footer {
+    width: 120%;
+    left: -12vw;
+  }
+  .company-info {
+margin-left: 0vw;
+  }
+  .social-icons{
+    margin-left: -13vw;
+  }
+  .footer-content {
+    margin-left: 2vw;
+} */
 
-@media (min-width: 1440px) and (max-width: 1910px) {
+/* } */
+@media (min-width: 1537px) and (max-width: 1919px) {
   /* .footer-buttons{
 margin-right: 32px;
   } */
@@ -394,24 +410,103 @@ margin-right: 32px;
     padding: 0;
     overflow-x: hidden;
   }
-  
-  .company-logo{
-    margin-left: 100px;
+  .footer{
+    width: 98vw;
+margin-left: vw;
   }
-  .social-icons {
-  margin-left: -195px;
+  .footer-main{
+    margin-left: 13vw;
+  }
+  .company-logo{
+    margin-left: vw;
+  }
+  .social-icons{
+    margin-left: -14vw;
+  }
+  .back-image1{
+    margin-left: 5vw;
   }
   .back-image2{
-    margin-left: 450px;
+    margin-left: 35vw;
   }
   .back-image3{
-    margin-left: 530px;
+    margin-left: 35vw;
   }
   .back-image5 {
-    position: absolute;
-    margin-top: 325px;
-    margin-left: 545px;
-      filter: contrast(1550%);
+
+    margin-left: 40vw;
+
   }
  
+}
+/* ✅ 1680x1050 Screens */
+@media (min-width: 1537px) and (max-width: 1680px) {
+  .footer-main {
+margin-left: 13vw;
+  }
+  .social-icons{
+    margin-left: -14vw;
+  }
+}
+/* ✅ 1600x900 (Common Laptops) */
+@media (min-width: 1537px) and (max-width: 1600px) {
+
+}
+/* ✅ 1366x768 (Standard Laptops) */
+@media (min-width: 1281px) and (max-width: 1366px) {
+  .footer-main{
+    /* width: 90vw; */
+    margin-left: 16vw;
+  }
+  .social-icons{
+    margin-left: -18vw;
+  }
+  .back-image2{
+    left: 39vw;
+     }
+     .back-image3{
+       left: 32vw;
+     }
+     .back-image5{
+       left: 25vw;
+     }
+     .services{
+       margin-left: 10vw;
+     }
+     .legal-notice{
+       margin-left: 34vw;
+     }
+     .explore{
+       margin-left: 55vw;
+     }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .footer{
+    width: 100vw;
+    /* margin-left: 0vw; */
+  }
+  .company-info{
+    margin-left: 12vw;
+  }
+  .social-icons{
+    margin-left: -20vw;
+  }
+ .back-image2{
+ left: 39vw;
+  }
+  .back-image3{
+    left: 32vw;
+  }
+  .back-image5{
+    left: 25vw;
+  }
+  .services{
+    margin-left: 20vw;
+  }
+  .legal-notice{
+    margin-left: 44vw;
+  }
+  .explore{
+    margin-left: 65vw;
+  }
 }
