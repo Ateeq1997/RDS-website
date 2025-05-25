@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# RDS Precision Billing Website
+
+A responsive and modern website developed in **React.js**, using **HTML**, **CSS**, and **JavaScript**, for **RDS Precision Billing** — a company specializing in Revenue Cycle Management (RCM) services.
+
+🔗 **Live Demo:** [https://rdsprecisionbilling.com/](https://rdsprecisionbilling.com/)
+
+## 🚀 Features
+
+- Fully responsive layout across devices
+- Clean and professional UI/UX design
+- Modular and reusable React components
+- Optimized build for fast performance
+
+## 🛠 Tech Stack
+
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+## 📦 Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+1. Clone the repository:
 
-### `npm start`
+```bash
+git clone https://github.com/your-username/rdsprecisionbilling.git
+cd rdsprecisionbilling
+Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy
+Edit
+npm start
+Visit http://localhost:3000 in your browser.
 
-### `npm test`
+Build for Production
+bash
+Copy
+Edit
+npm run build
+This builds the app for production to the build/ folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👤 Author
+Ateeq ur Rehman
+GitHub Profile
+Email: ateeqhizb97@gmail.com
 
-### `npm run build`
+📸 Screenshots![Screenshot 2025-05-25 135917](https://github.com/user-attachments/assets/ec3961f5-cbe7-4c43-af30-0242c6b5249f)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2025-05-25 135850](https://github.com/user-attachments/assets/eebceb0e-f868-49ee-8c00-77e606ab6fa9)
+![Screenshot 2025-05-25 135905](https://github.com/user-attachments/assets/7c7aa21f-9094-412d-a338-9daef3182a97)
+![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/8c8720f8-d6ed-4c91-9428-9c7f864413df)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
