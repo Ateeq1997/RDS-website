@@ -57,12 +57,9 @@ Email: ateeqhizb97@gmail.com
 
 📸 Screenshots
 
-![Screenshot 2025-05-25 135850](https://github.com/user-attachments/assets/a8e2f29e-5b5d-4531-9e68-eae586f1325a)
-
-![Screenshot 2025-05-25 135917](https://github.com/user-attachments/assets/c465c6f9-f44e-48e1-b593-241b471184db)
-
-![Screenshot 2025-05-25 135905](https://github.com/user-attachments/assets/583a12f6-0cd3-4431-8249-b4bcc63c498e)
-
-![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/d5b64cd5-3169-4bda-af83-0884f71756d3)
+![Screenshot 2025-05-25 135850](https://github.com/user-attachments/assets/cd0e9c0c-65ff-4329-81aa-3815cc850a89)
+![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/0c9b4b45-7ca7-487f-bc13-878c2dd49023)
+![Screenshot 2025-05-25 135917](https://github.com/user-attachments/assets/f4bbf47e-10f9-4fd1-84a8-8a298cba97ef)
+![Screenshot 2025-05-25 135905](https://github.com/user-attachments/assets/77fc9845-2db8-4fde-beed-a59bb5add347)
 
 
