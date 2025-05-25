@@ -55,10 +55,14 @@ Ateeq ur Rehman
 GitHub Profile
 Email: ateeqhizb97@gmail.com
 
-📸 Screenshots![Screenshot 2025-05-25 135917](https://github.com/user-attachments/assets/ec3961f5-cbe7-4c43-af30-0242c6b5249f)
+📸 Screenshots
 
-![Screenshot 2025-05-25 135850](https://github.com/user-attachments/assets/eebceb0e-f868-49ee-8c00-77e606ab6fa9)
-![Screenshot 2025-05-25 135905](https://github.com/user-attachments/assets/7c7aa21f-9094-412d-a338-9daef3182a97)
-![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/8c8720f8-d6ed-4c91-9428-9c7f864413df)
+![Screenshot 2025-05-25 135850](https://github.com/user-attachments/assets/a8e2f29e-5b5d-4531-9e68-eae586f1325a)
+
+![Screenshot 2025-05-25 135917](https://github.com/user-attachments/assets/c465c6f9-f44e-48e1-b593-241b471184db)
+
+![Screenshot 2025-05-25 135905](https://github.com/user-attachments/assets/583a12f6-0cd3-4431-8249-b4bcc63c498e)
+
+![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/d5b64cd5-3169-4bda-af83-0884f71756d3)
 
 
