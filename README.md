@@ -56,7 +56,8 @@ GitHub Profile
 Email: ateeqhizb97@gmail.com
 
 📸 Screenshots
-![Screenshot 2025-05-04 142443](https://github.com/user-attachments/assets/1a7f9eeb-354b-415a-b6e6-1120af7da732)
+
+![Screenshot 2025-05-25 135932](https://github.com/user-attachments/assets/03b966f5-f00d-45a5-9874-d9250173fff0)
 
 
 
