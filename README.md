@@ -2,7 +2,7 @@
 
 A responsive and modern website developed in **React.js**, using **HTML**, **CSS**, and **JavaScript**, for **RDS Precision Billing** — a company specializing in Revenue Cycle Management (RCM) services.
 
-🔗 **Live Demo:** [https://rdsprecisionbilling.com/](https://rdsprecisionbilling.com/)
+🔗 **Live Demo:** [https://rds-website-opal.vercel.app/)
 
 ## 🚀 Features
 
